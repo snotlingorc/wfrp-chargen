@@ -1,0 +1,11 @@
+#summary Main page - Includes images
+
+Here is an example of the application when you launch it:
+
+[http://groups.google.com/group/wfrp-pcgen/web/main_screen.png]
+
+and the front and back of a character in it's second carrer:
+
+[http://groups.google.com/group/wfrp-pcgen/web/front.png]
+
+[http://groups.google.com/group/wfrp-pcgen/web/back.png]
