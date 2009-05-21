@@ -1,0 +1,34 @@
+#summary Conversation on trappings.
+
+= Introduction =
+
+Please use this page to discuses trappings and how they will work in the generator
+
+
+= Details =
+
+Currently, in the xml files, trappings are listed with:
+{{{
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>One set of Good Craftsmanship Clothes</Trappings>
+  <Trappings>2d10 leaflets for various causes</Trappings>
+}}}
+
+While this is fine for the first run, it would be nice to be able to handle things differently.  Something like:
+{{{
+<Trappings type= "Armour">Light Armour (Leather Jack)</Trappings>
+}}}
+or
+{{{
+<Trappings type="Currency">2d6 Gold Crowns</Trappings>
+}}}
+
+What other ways do you think this could be done, and what all categories should their be?
+
+  * Currency
+  * Armour
+  * Melee Weapon
+  * Missile Weapon
+  * Specialist  Weapon
+  * General Equipment
+  * Special Equipment
