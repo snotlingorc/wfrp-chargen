@@ -1,0 +1,12 @@
+= Known Issues =
+
+    * Shallya's Mercy is not implemented
+    * Skills need to be sorted and organized for easier reading
+    * When checking if a skill/talent exists the "OR" skills in the next career are not parsed
+    * Save/Load - XMl in save needs to be revisited
+    * Print - not implemented
+    * ANY - an "ANY" in a skill is not working 
+
+== Fixed Issues ==
+
+    * Wounds/Fate are not caculated - Issue number 3 - Fixed Checkin 17 on 5/5/2009 
