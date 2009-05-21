@@ -1,0 +1,182 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+== XML Information ==
+{{{
+<?xml version="1.0" ?>
+
+<Race>
+  <Description>Elf</Description>
+
+  <Career>Apprentice Wizard</Career>
+  <Career>Entertainer</Career>
+  <Career>Envoy</Career>
+  <Career>Hunter</Career>
+  <Career>Kithband Warrior</Career>
+  <Career>Mercenary</Career>
+  <Career>Messenger</Career>
+  <Career>Outlaw</Career>
+  <Career>Outrider</Career>
+  <Career>Rogue</Career>
+  <Career>Scribe</Career>
+  <Career>Seaman</Career>
+  <Career>Student</Career>
+  <Career>Thief</Career>
+  <Career>Tradesman</Career>
+  <Career>Vagabond</Career>
+
+  <Name>Firstname</Name>
+  <Name>Lastname</Name>
+
+  <Profile>
+    <WS>2d10:20</WS>
+    <BS>2d10:30</BS>
+    <S>2d10:20</S>
+    <T>2d10:30</T>
+    <Ag>2d10:30</Ag>
+    <Int>2d10:20</Int>
+    <WP>2d10:20</WP>
+    <Fel>2d10:20</Fel>
+    <A>0d10:1</A>
+    <W>0d10:0</W>
+    <SB>0d10:0</SB>
+    <TB>0d10:0</TB>
+    <M>0d10:5</M>
+    <Mag>0d10:0</Mag>
+    <IP>0d10:0</IP>
+    <Fate>0d10:0</Fate>
+
+    <Wounds name="30" value="9" />
+    <Wounds name="60" value="10" />
+    <Wounds name="90" value="11" />
+    <Wounds name="100" value="12" />
+
+    <Fate name="40" value="1" />
+    <Fate name="70" value="2" />
+    <Fate name="100" value="2" />
+  </Profile>
+
+  <Characteristics>
+     <Age name="5" value="30" />
+     <Age name="10" value="35" />
+     <Age name="15" value="40" />
+     <Age name="20" value="45" />
+     <Age name="25" value="50" />
+     <Age name="30" value="55" />
+     <Age name="35" value="60" />
+     <Age name="40" value="65" />
+     <Age name="45" value="70" />
+     <Age name="50" value="75" />
+     <Age name="55" value="80" />
+     <Age name="60" value="85" />
+     <Age name="65" value="90" />
+     <Age name="70" value="95" />
+     <Age name="75" value="100" />
+     <Age name="80" value="105" />
+     <Age name="85" value="110" />
+     <Age name="90" value="115" />
+     <Age name="95" value="120" />
+     <Age name="100" value="125" />
+
+     <Height name="Male" value="1d10:66" />
+     <Height name="Female" value="1d10:64" />
+
+     <Weight name="1" value="80" />
+     <Weight name="3" value="85" />
+     <Weight name="5" value="90" />
+     <Weight name="8" value="95" />
+     <Weight name="12" value="100" />
+     <Weight name="17" value="105" />
+     <Weight name="22" value="110" />
+     <Weight name="29" value="115" />
+     <Weight name="37" value="120" />
+     <Weight name="49" value="125" />
+     <Weight name="64" value="130" />
+     <Weight name="71" value="135" />
+     <Weight name="78" value="140" />
+     <Weight name="83" value="145" />
+     <Weight name="88" value="150" />
+     <Weight name="92" value="155" />
+     <Weight name="95" value="160" />
+     <Weight name="97" value="165" />
+     <Weight name="99" value="170" />
+     <Weight name="100" value="175" />
+
+     <Eyecolor name="10" value="Grey Blue" />
+     <Eyecolor name="20" value="Blue" />
+     <Eyecolor name="30" value="Green" />
+     <Eyecolor name="40" value="Copper" />
+     <Eyecolor name="50" value="L. Brown" />
+     <Eyecolor name="60" value="Brown" />
+     <Eyecolor name="70" value="Dk. Brown" />
+     <Eyecolor name="80" value="Silver" />
+     <Eyecolor name="90" value="Purple" />
+     <Eyecolor name="100" value="Black" />
+     
+     <Haircolor name="10" value="Silver" />
+     <Haircolor name="20" value="Ash Blond" />
+     <Haircolor name="30" value="Corn" />
+     <Haircolor name="40" value="Yellow" />
+     <Haircolor name="50" value="Copper" />
+     <Haircolor name="60" value="L. Brown" />
+     <Haircolor name="70" value="L. Brown" />
+     <Haircolor name="80" value="Brown" />
+     <Haircolor name="90" value="Dk. Brown" />
+     <Haircolor name="100" value="Black" />
+
+     <Hairstyle name="50" value="Long (mid back)" />
+     <Hairstyle name="100" value="Short (neck)" />
+
+     <Siblings name="10" value="0" />
+     <Siblings name="30" value="1" />
+     <Siblings name="50" value="1" />
+     <Siblings name="70" value="2" />
+     <Siblings name="90" value="2" />
+     <Siblings name="100" value="3" />
+
+     <Birthplace name="20" value="City of Altdorf" />
+     <Birthplace name="40" value="City of Marienburg Norn" />
+     <Birthplace name="70" value="Laurelon Forest" />
+     <Birthplace name="80" value="The Great Forest" />
+     <Birthplace name="100" value="Reikwald Forest" />
+     
+  </Characteristics>
+  
+  <Talents>Aethyric Attunement OR Specialist Weapon Group (Longbow)</Talents>
+  <Talents>Coolheaded OR Savvy</Talents>
+  <Talents>Excellent Vision</Talents>
+  <Talents>Night Vision</Talents>
+  
+  <Skills>Common Knowledge (Elves)</Skills>
+  <Skills>Speak Language (Eltharin)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+  
+  <Trappings>Shirt</Trappings>
+  <Trappings>Breeches</Trappings>
+  <Trappings>Worn Boots</Trappings>
+  <Trappings>Dagger</Trappings>
+  <Trappings>Slingbag OR Backpack</Trappings>
+  <Trappings>Blanket</Trappings>
+  <Trappings>Wooden Tankard</Trappings>
+  <Trappings>Wooden Cutlery Set</Trappings>
+  <Trappings>Hand Weapon</Trappings>
+  <Trappings>2d10 Gold Crowns</Trappings>
+
+</Race>
+}}}
+
+== Details ==
+Most of the Characteristics are based on a name value pair:
+{{{
+   <Weight name="17" value="105" />
+   <Weight name="22" value="110" />
+}}}
+in this case, if you where to roll a d100 and got between 17 and 23, the weight of your character would be 110 pounds.
+
+== A New Race ==
+To add a new race, simple use the file above and change to match your race.  Save the file
+in dataFiles under the name profileRace.xml  (repace the word "Race" with yours, example for an Orc character; profileOrc.xml).  The generator will look for it and list it as one of the races on the dropdown list.
