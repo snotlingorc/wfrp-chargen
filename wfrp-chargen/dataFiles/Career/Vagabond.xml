@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Vagabond</Name>
+  <WS>5</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>0</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (Bretonnia) OR Common Knowledge (Estalia) OR Common Knowledge (Kislev) OR Common Knowledge (Tilea)</Skills>
+  <Skills>Gossip OR Secret Language (Ranger Tongue) OR Secret Language (Thieves' Tongue)</Skills>
+  <Skills>Haggle OR Swim</Skills>
+  <Skills>Heal OR Perception</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Performer (Dancer) OR Performer (Singer) OR Performer (Storyteller) OR Secret Sign (Ranger) OR Secret Sign (Thief)</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Fleet Footed OR Rover</Talents>
+  <Talents>Marksman OR Orientation</Talents>
+  <Talents>Seasoned Traveler</Talents>
+
+  <Trappings>Back Pack</Trappings>
+  <Trappings>Rations (1 week)</Trappings>
+  <Trappings>Tent</Trappings>
+  <Trappings>Water Skin</Trappings>
+
+  <Exits>Bone Picker</Exits>
+  <Exits>Entertainer</Exits>
+  <Exits>Friar</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Thief</Exits>
+  <Exits>Woodsman</Exits>
+</Career>

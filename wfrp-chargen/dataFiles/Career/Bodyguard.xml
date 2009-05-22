@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Bodyguard</Name>
+  <WS>10</WS>
+  <BS>0</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>5</Ag>
+  <Int>0</Int>
+  <WP>0</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>3</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Dodge Blow</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+
+  <Talents>Disarm OR Quick Draw</Talents>
+  <Talents>Specialist Weapon Group (Parrying)</Talents>
+  <Talents>Specialist Weapon Group (Throwing)</Talents>
+  <Talents>Street Fighting</Talents>
+  <Talents>Strike to Stun</Talents>
+  <Talents>Very Strong OR Very Resilient</Talents>
+
+  <Trappings>Buckler</Trappings>
+  <Trappings>Knuckle-dusters</Trappings>
+  <Trappings>A pair of Throwing Axes OR A pair of Throwing Knives</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+
+  <Exits>Bailiff</Exits>
+  <Exits>Bounty Hunter</Exits>
+  <Exits>Interrogator</Exits>
+  <Exits>Jailer</Exits>
+  <Exits>Mercenary</Exits>
+  <Exits>Protagonist</Exits>
+  <Exits>Racketeer</Exits>
+</Career>

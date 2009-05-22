@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Messenger</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Common Knowledge (the Empire) OR Common Knowledge (the Wasteland) OR Gossip</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Secret Signs (Scout)</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+  <Skills>Swim</Skills>
+
+  <Talents>Orienation</Talents>
+  <Talents>Seasoned Traveler</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Map Case</Trappings>
+  <Trappings>Riding Horse with Saddle/Harness</Trappings>
+  <Trappings>Shield</Trappings>
+
+  <Exits>Coachman</Exits>
+  <Exits>Herald</Exits>
+  <Exits>Kithband Warrior</Exits>
+  <Exits>Outrider</Exits>
+  <Exits>Roadwarden</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Soldier</Exits>
+</Career>

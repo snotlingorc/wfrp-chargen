@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Flagellant</Name>
+  <WS>15</WS>
+  <BS>0</BS>
+  <S>10</S>
+  <T>15</T>
+  <Ag>5</Ag>
+  <Int>0</Int>
+  <WP>20</WP>
+  <Fel>10</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Acadmeic Knowledge (Theology)</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+
+  <Talents>Fearless</Talents>
+  <Talents>Specialist Weapon Group (Flail) OR Specialist Weapon Group (Two-handed)</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+
+  <Trappings>Flail OR Great Weapon</Trappings>
+  <Trappings>Bottle of Good Craftsmenship Spirits</Trappings>
+  <Trappings>Religious Symbol</Trappings>
+  <Trappings>Religious Relic</Trappings>
+
+  <Exits>Demagogue</Exits>
+  <Exits>Interrogator</Exits>
+  <Exits>Priest</Exits>
+  <Exits>Soldier</Exits>
+  <Exits>Veteran</Exits>
+</Career>

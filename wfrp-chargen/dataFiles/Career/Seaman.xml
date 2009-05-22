@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Seaman</Name>
+  <WS>10</WS>
+  <BS>5</BS>
+  <S>10</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>0</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (Bretonnia) OR Common Knowledge (Norsca) OR Common Knowledge (Tilea) OR Common Knowledge (the Wasteland)</Skills>
+  <Skills>Consume Alcohol OR Perception</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Row</Skills>
+  <Skills>Sail</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Norse) OR Speak Language (Tilean)</Skills>
+  <Skills>Swim</Skills>
+
+  <Talents>Hardy OR Street Fighting</Talents>
+  <Talents>Seasoned Traveler</Talents>
+  <Talents>Strike Mighty Blow OR Swashbuckler</Talents>
+
+  <Trappings>Leather Jerkin</Trappings>
+  <Trappings>Bottle of Poor Craftsmanship Spirits</Trappings>
+
+  <Exits>Marine</Exits>
+  <Exits>Mate</Exits>
+  <Exits>Navigator</Exits>
+  <Exits>Rogue</Exits>
+  <Exits>Smuggler</Exits>
+</Career>

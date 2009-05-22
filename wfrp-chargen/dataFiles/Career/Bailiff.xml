@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Bailiff</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>0</T>
+  <Ag>0</Ag>
+  <Int>10</Int>
+  <WP>5</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Law)</Skills>
+  <Skills>Animal Care OR Gossip</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command OR Navigation</Skills>
+  <Skills>Intimidate OR Common Knowledge (the Empire)</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride</Skills>
+
+  <Talents>Ettiquette OR Super Numerate</Talents>
+  <Talents>Public Speaking</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Leather Skullcap</Trappings>
+  <Trappings>Riding Horse w/Saddle and Harness</Trappings>
+  <Trappings>One Set of Good Craftmenship Clothing</Trappings>
+
+  <Exits>Militiaman</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Protagonist</Exits>
+  <Exits>Racketeer</Exits>
+  <Exits>Smuggler</Exits>
+  <Exits>Toll Keeper</Exits>
+</Career>

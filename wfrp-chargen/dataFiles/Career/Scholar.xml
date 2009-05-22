@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+]<Name>Scholar</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>30</Int>
+  <WP>15</WP>
+  <Fel>15</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Evaluate OR Trade (Cartographer)</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+
+  <Talents>Linguistics</Talents>
+
+  <Trappings>Writing Kit</Trappings>
+
+  <Exits>Apprentice Wizard</Exits>
+  <Exits>Explorer</Exits>
+  <Exits>Friar</Exits>
+  <Exits>Merchant</Exits>
+  <Exits>Physician</Exits>
+  <Exits>Steward</Exits>
+</Career>

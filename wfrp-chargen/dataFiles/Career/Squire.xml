@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Squire</Name>
+  <WS>10</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>5</Ag>
+  <Int>0</Int>
+  <WP>0</WP>
+  <Fel>5</Fel>
+  <A>1</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Genealogy/Heraldry) OR Common Knowledge (Bretonnia)</Skills>
+  <Skills>Animal Care</Skills>
+  <Skills>Animal Training</Skills>
+  <Skills>Charm OR Gossip</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Reikspiel)</Skills>
+
+  <Talents>Etiquette</Talents>
+  <Talents>Specialist Weapon Group (Cavalry)</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+
+  <Trappings>Demilance</Trappings>
+  <Trappings>Medium Armour (Mail Shirt)</Trappings>
+  <Trappings>Mail Coif</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>Horse with Saddle and Harness</Trappings>
+
+  <Exits>Knight</Exits>
+  <Exits>Noble</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Veteran</Exits>
+</Career>

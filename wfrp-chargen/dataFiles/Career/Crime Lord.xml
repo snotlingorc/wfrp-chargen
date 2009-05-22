@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Crime Lord</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>15</S>
+  <T>15</T>
+  <Ag>20</Ag>
+  <Int>25</Int>
+  <WP>20</WP>
+  <Fel>30</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Secret Language (Thieves' Tongue)</Skills>
+  <Skills>Secret Signs (Thief)</Skills>
+  <Skills>Torture</Skills>
+
+  <Talents>Dealmaker OR Schemer</Talents>
+  <Talents>Menacing</Talents>
+  <Talents>Public Speaking</Talents>
+  <Talents>Resistance to Poison</Talents>
+  <Talents>Sixth Sense</Talents>
+  <Talents>Specialist Weapon Group (Crossbow) OR Specialist Weapon Group (Parrying)</Talents>
+  <Talents>Streetwise</Talents>
+
+  <Trappings>Crossbow Pistol with 10 bolts OR Sword-breaker</Trappings>
+  <Trappings>One Set of Best Crafsmenship Cloths</Trappings>
+  <Trappings>Antitoxin Kit</Trappings>
+  <Trappings>100 gc</Trappings>
+  <Trappings>Criminal Organization</Trappings>
+
+  <Exits>Demagogue</Exits>
+  <Exits>Master Thief</Exits>
+  <Exits>Outlaw Chief</Exits>
+  <Exits>Politician</Exits>
+</Career>

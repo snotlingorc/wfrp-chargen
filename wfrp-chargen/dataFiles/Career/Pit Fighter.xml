@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Pit Fighter</Name>
+  <WS>15</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>10</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Dodge Blow</Skills>
+  <Skills>Intimidate</Skills>
+
+  <Talents>Disarm OR Wrestling</Talents>
+  <Talents>Quick Draw OR Strike to Injure</Talents>
+  <Talents>Specialist Weapon Group (Flail)</Talents>
+  <Talents>Specialist Weapon Group (Parrying)</Talents>
+  <Talents>Specialist Weapon Group (Two-handed)</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+  <Talents>Very Strong OR Strong-minded</Talents>
+
+  <Trappings>Flail OR Great Weapon</Trappings>
+  <Trappings>Knuckle-duster</Trappings>
+  <Trappings>Shield OR Buckler</Trappings>
+  <Trappings>Medium Armour (Mail Shirt)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+
+  <Exits>Bounty Hunter</Exits>
+  <Exits>Mercenary</Exits>
+  <Exits>Protagonist</Exits>
+  <Exits>Troll Slayer</Exits>
+  <Exits>Veteran</Exits>
+</Career>

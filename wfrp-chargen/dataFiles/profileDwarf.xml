@@ -1,0 +1,181 @@
+<?xml version="1.0" ?>
+
+<Race>
+  <Description>Dwarf</Description>
+
+  <Career>Agitator</Career>
+  <Career>Bodyguard</Career>
+  <Career>Burgher</Career>
+  <Career>Coachman</Career>
+  <Career>Entertainer</Career>
+  <Career>Hunter</Career>
+  <Career>Jailer</Career>
+  <Career>Marine</Career>
+  <Career>Mercenary</Career>
+  <Career>Militiaman</Career>
+  <Career>Miner</Career>
+  <Career>Noble</Career>
+  <Career>Outlaw</Career>
+  <Career>Pit Fighter</Career>
+  <Career>Protagonist</Career>
+  <Career>Rat Catcher</Career>
+  <Career>Runebearer</Career>
+  <Career>Scribe</Career>
+  <Career>Seaman</Career>
+  <Career>Servant</Career>
+  <Career>Shieldbreaker</Career>
+  <Career>Smuggler</Career>
+  <Career>Soldier</Career>
+  <Career>Student</Career>
+  <Career>Thief</Career>
+  <Career>Toll Keeper</Career>
+  <Career>Tomb Robber</Career>
+  <Career>Tradesman</Career>
+  <Career>Troll Slayer</Career>
+  <Career>Watchman</Career>
+
+  <Name>Firstname</Name>
+  <Name>Lastname</Name>
+
+  <Profile>
+    <WS>2d10:30</WS>
+    <BS>2d10:20</BS>
+    <S>2d10:20</S>
+    <T>2d10:30</T>
+    <Ag>2d10:10</Ag>
+    <Int>2d10:20</Int>
+    <WP>2d10:20</WP>
+    <Fel>2d10:10</Fel>
+    <A>0d10:1</A>
+    <W>0d10:0</W>
+    <SB>0d10:0</SB>
+    <TB>0d10:0</TB>
+    <M>0d10:3</M>
+    <Mag>0d10:0</Mag>
+    <IP>0d10:0</IP>
+    <Fate>0d10:0</Fate>
+
+    <Wounds name="30" value="11" />
+    <Wounds name="60" value="12" />
+    <Wounds name="90" value="13" />
+    <Wounds name="100" value="14" />
+
+    <Fate name="40" value="1" />
+    <Fate name="70" value="2" />
+    <Fate name="100" value="3" />
+  </Profile>
+
+  <Characteristics>
+     <Age name="5" value="20" />
+     <Age name="10" value="25" />
+     <Age name="15" value="30" />
+     <Age name="20" value="35" />
+     <Age name="25" value="40" />
+     <Age name="30" value="45" />
+     <Age name="35" value="50" />
+     <Age name="40" value="55" />
+     <Age name="45" value="60" />
+     <Age name="50" value="65" />
+     <Age name="55" value="70" />
+     <Age name="60" value="75" />
+     <Age name="65" value="80" />
+     <Age name="70" value="85" />
+     <Age name="75" value="90" />
+     <Age name="80" value="95" />
+     <Age name="85" value="100" />
+     <Age name="90" value="105" />
+     <Age name="95" value="110" />
+     <Age name="100" value="115" />
+
+     <Height name="Male" value="1d10:52" />
+     <Height name="Female" value="1d10:50" />
+
+     <Weight name="1" value="90" />
+     <Weight name="3" value="95" />
+     <Weight name="5" value="100" />
+     <Weight name="8" value="105" />
+     <Weight name="12" value="110" />
+     <Weight name="17" value="115" />
+     <Weight name="22" value="120" />
+     <Weight name="29" value="125" />
+     <Weight name="37" value="130" />
+     <Weight name="49" value="135" />
+     <Weight name="64" value="140" />
+     <Weight name="71" value="145" />
+     <Weight name="78" value="150" />
+     <Weight name="83" value="155" />
+     <Weight name="88" value="160" />
+     <Weight name="92" value="165" />
+     <Weight name="95" value="170" />
+     <Weight name="97" value="175" />
+     <Weight name="99" value="180" />
+     <Weight name="100" value="185" />
+
+     <Eyecolor name="10" value="Pale Grey" />
+     <Eyecolor name="20" value="Blue" />
+     <Eyecolor name="30" value="Copper" />
+     <Eyecolor name="40" value="L. Brown" />
+     <Eyecolor name="50" value="L. Brown" />
+     <Eyecolor name="60" value="Brown" />
+     <Eyecolor name="70" value="Brown" />
+     <Eyecolor name="80" value="Dk. Brown" />
+     <Eyecolor name="90" value="Dk. Brown" />
+     <Eyecolor name="100" value="Purple" />
+
+     <Haircolor name="10" value="Ash Blond" />
+     <Haircolor name="20" value="Yellow" />
+     <Haircolor name="30" value="Red" />
+     <Haircolor name="40" value="Copper" />
+     <Haircolor name="50" value="L. Brown" />
+     <Haircolor name="60" value="Brown" />
+     <Haircolor name="70" value="Brown" />
+     <Haircolor name="80" value="Dk. Brown" />
+     <Haircolor name="90" value="Blue Black" />
+     <Haircolor name="100" value="Black" />
+     
+     <Hairstyle name="25" value="Long (mid back)" />
+     <Hairstyle name="50" value="Short (neck)" />
+     <Hairstyle name="75" value="Spiked" />
+     <Hairstyle name="100" value="Long and in ponytail" />
+
+     <Siblings name="10" value="0" />
+     <Siblings name="30" value="0" />
+     <Siblings name="50" value="1" />
+     <Siblings name="70" value="1" />
+     <Siblings name="90" value="2" />
+     <Siblings name="100" value="3" />
+
+     <Birthplace name="30" value="HUMAN" />
+     <Birthplace name="40" value="Karak Norn" />
+     <Birthplace name="50" value="Karak Izor" />
+     <Birthplace name="60" value="Karak Hirn" />
+     <Birthplace name="70" value="Karak Kadrin" />
+     <Birthplace name="80" value="Karaz-A-Karak" />
+     <Birthplace name="90" value="Zhufbar" />
+     <Birthplace name="100" value="Barak Varr" />
+  </Characteristics>
+
+  <Talents>Dwarfcraft</Talents>
+  <Talents>Grudge-born Fury</Talents>
+  <Talents>Night Vision</Talents>
+  <Talents>Resistance to Magic</Talents>
+  <Talents>Stout-hearted</Talents>
+  <Talents>Sturdy</Talents>
+
+  <Skills>Common Knowledge (Dwarfs)</Skills>
+  <Skills>Speak Language (Khazalid)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+  <Skills>Trade (Miner) OR Trade (Smith) OR Trade (Stoneworker)</Skills>
+
+ <Trappings>Shirt</Trappings>
+<Trappings>Breeches</Trappings>
+<Trappings>Worn Boots</Trappings>
+<Trappings>Dagger</Trappings>
+<Trappings>Slingbag OR Backpack</Trappings>
+<Trappings>Blanket</Trappings>
+<Trappings>Wooden Tankard</Trappings>
+<Trappings>Wooden Cutlery Set</Trappings>
+<Trappings>Hand Weapon</Trappings>
+<Trappings>2d10 Gold Crowns</Trappings>
+  
+</Race>

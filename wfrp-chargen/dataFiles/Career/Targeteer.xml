@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Targeteer</Name>
+  <WS>0</WS>
+  <BS>35</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>25</Ag>
+  <Int>10</Int>
+  <WP>20</WP>
+  <Fel>15</Fel>
+  <A>1</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+  <Skills>Slight of Hand</Skills>
+
+  <Talents>Mighty Shot</Talents>
+  <Talents>Rapid Reload</Talents>
+  <Talents>Sharpshooter</Talents>
+  <Talents>Specialist Weapon Group (Longbow)</Talents>
+  <Talents>Specialist Weapon Group (Crossbow) OR Specialist Weapon Group (Throwing)</Talents>
+  <Talents>Sure Shot</Talents>
+
+  <Trappings>Longbow with 10 Arrows OR Crossbow with 10 Bolts</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>  
+
+  <Exits>Assassin</Exits>
+  <Exits>Champion</Exits>
+  <Exits>Duellist</Exits>
+  <Exits>Sergeant</Exits>
+</Career>

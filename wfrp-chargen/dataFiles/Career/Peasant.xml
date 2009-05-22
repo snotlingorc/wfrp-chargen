@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Peasant</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>5</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care OR Charm</Skills>
+  <Skills>Animal Training OR Swim</Skills>
+  <Skills>Charm Animal OR Trade (Cook)</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Drive OR Trade (Bowyer)</Skills>
+  <Skills>Gamble OR Performer (Dancer) OR Performer (Singer)</Skills>
+  <Skills>Outdoor Survival OR Trade (Farmer)</Skills>
+  <Skills>Row OR Set Trap</Skills>
+  <Skills>Scale Sheer Surface OR Silent Move</Skills>
+
+  <Talents>Hardy OR Rover</Talents>
+  <Talents>Flee! OR Specialist Weapon Group (Sling)</Talents>
+
+  <Trappings>Sling OR Quarter Staff</Trappings>
+  <Trappings>Leather Flask</Trappings>
+
+  <Exits>Bone Picker</Exits>
+  <Exits>Charcoal-Burner</Exits>
+  <Exits>Fisherman</Exits>
+  <Exits>Militiaman</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Servant</Exits>
+  <Exits>Tradesman</Exits>
+  <Exits>Zealot</Exits>
+</Career>

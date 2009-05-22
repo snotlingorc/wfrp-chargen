@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Noble Lord</Name>
+  <WS>25</WS>
+  <BS>15</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>10</Ag>
+  <Int>20</Int>
+  <WP>20</WP>
+  <Fel>30</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (History) OR Academic Knowledge (Strategy/Tactics)</Skills>
+  <Skills>Academic Knowledge (Genealogy/Heraldry)</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Master Orator</Talents>
+  <Talents>Public Speaking</Talents>
+  <Talents>Specialist Weapon Group (Fencing)</Talents>
+
+  <Trappings>Best Craftsmenship Rapier OR Best Craftsmenship Foil</Trappings>
+  <Trappings>Best Craftsmenship noble's Garb</Trappings>
+  <Trappings>500 gc</Trappings>
+  <Trappings>Jewelry Worth 500 gc</Trappings>
+  <Trappings>Destrier with saddle and harness</Trappings>
+
+  <Exits>Captain</Exits>
+  <Exits>Knight</Exits>
+  <Exits>Scholar</Exits>
+  <Exits>Sea Captain</Exits>
+</Career>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Agitator</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>5</Ag>
+  <Int>10</Int>
+  <WP>0</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (History) OR Gossip</Skills>
+  <Skills>Academic Knowledge (Law) OR Common Knowledge (the Empire)</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Tilean)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Coolheaded OR Street Fighting</Talents>
+  <Talents>Flee!</Talents>
+  <Talents>Public Speaking</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>One set of Good Craftmenship Clothes</Trappings>
+  <Trappings>2d10 leaflets for various causes</Trappings>
+  
+  <Exits>Charlatan</Exits>
+  <Exits>Demagogue</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Rogue</Exits>
+  <Exits>Zealot</Exits>
+  
+</Career>

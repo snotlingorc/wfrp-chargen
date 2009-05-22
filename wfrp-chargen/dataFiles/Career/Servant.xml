@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Servant</Name>
+  <WS>5</WS>
+  <BS>0</BS>
+  <S>5</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>10</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care OR Trade (Cook)</Skills>
+  <Skills>Blather </Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Drive OR Search</Skills>
+  <Skills>Haggle OR Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write OR Slight of Hand</Skills>
+
+  <Talents>Acute Hearing OR Flee!</Talents>
+  <Talents>Etiquette OR Hardy</Talents>
+  <Talents>Lightning Reflexes OR Very Resilient</Talents>
+
+  <Trappings>One set of Good Craftsmanship Clothing</Trappings>
+  <Trappings>Pewter Tankard</Trappings>
+  <Trappings>Tinderbox</Trappings>
+  <Trappings>Storm Lantern</Trappings>
+  <Trappings>Lamp Oil</Trappings>
+
+  <Exits>Agitator</Exits>
+  <Exits>Burgher</Exits>
+  <Exits>Camp Follower</Exits>
+  <Exits>InnKeeper</Exits>
+  <Exits>Messenger</Exits>
+  <Exits>Spy</Exits>
+  <Exits>Thief</Exits>
+  <Exits>Valet</Exits>
+</Career>

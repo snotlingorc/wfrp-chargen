@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Physician</Name>
+  <WS>0</WS>
+  <BS>0</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>15</Ag>
+  <Int>30</Int>
+  <WP>20</WP>
+  <Fel>15</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Science)</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Prepare Poison</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+  <Skills>Trade (Apothecary)</Skills>
+
+  <Talents>Resistance to Disease</Talents>
+  <Talents>Strike to Stun</Talents>
+  <Talents>Surgery</Talents>
+
+  <Trappings>4 Healing Draughts</Trappings>
+  <Trappings>Trade Tool (Medical Instruments)</Trappings>
+
+  <Exits>Friar</Exits>
+  <Exits>Guild Master</Exits>
+  <Exits>Scholar</Exits>
+  <Exits>Spy</Exits>
+</Career>

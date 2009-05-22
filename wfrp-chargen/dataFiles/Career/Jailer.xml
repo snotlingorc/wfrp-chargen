@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Jailer</Name>
+  <WS>10</WS>
+  <BS>0</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>0</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>3</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Command</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Heal OR Slight of Hand</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+
+  <Talents>Resistance to Disease</Talents>
+  <Talents>Resistance to Poison</Talents>
+  <Talents>Specialist Weapon Group (Entangling)</Talents>
+  <Talents>Wrestling</Talents>
+
+  <Trappings>Bottle of Common Wine</Trappings>
+  <Trappings>Tankard</Trappings>
+  <Trappings>Bola OR Lasso OR Net</Trappings>
+
+  <Exits>Bailiff</Exits>
+  <Exits>Bodyguard</Exits>
+  <Exits>Interrogator</Exits>
+  <Exits>Rat Catcher</Exits>
+  <Exits>Watchman</Exits>
+</Career>

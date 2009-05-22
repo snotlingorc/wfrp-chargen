@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Guild Master</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>10</T>
+  <Ag>15</Ag>
+  <Int>30</Int>
+  <WP>20</WP>
+  <Fel>35</Fel>
+  <A>1</A>
+  <W>5</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (History)</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Secret Language (Guild Tongue)</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Estalian) OR Speak Language (Kislevian) OR Speak Language (Norse)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+  <Skills>Trade (ANY)</Skills>
+  <Skills>Trade (ANY)</Skills>
+
+  <Talents>Dealmaker</Talents>
+  <Talents>Etiquette</Talents>
+  <Talents>Linguistics</Talents>
+
+  <Trappings>Writing Kit</Trappings>
+  <Trappings>100 gc</Trappings>
+  <Trappings>Guild</Trappings>
+
+  <Exits>Crime Lord</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Racketeer</Exits>
+</Career>

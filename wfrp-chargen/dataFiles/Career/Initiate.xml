@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Initiate</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>5</T>
+  <Ag>0</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Astronomy) OR Academic Knowledge (History)</Skills>
+  <Skills>Academic Knowledge (Theology)</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Lightning Reflexes OR Very Strong</Talents>
+  <Talents>Public Speaking</Talents>
+  <Talents>Suave OR Warrior Born</Talents>
+
+  <Trappings>Religious Symbol</Trappings>
+  <Trappings>Robes</Trappings>
+
+  <Exits>Barber-Surgeon</Exits>
+  <Exits>Demagogue</Exits>
+  <Exits>Friar</Exits>
+  <Exits>Priest</Exits>
+  <Exits>Scribe</Exits>
+  <Exits>Zealot</Exits>
+</Career>

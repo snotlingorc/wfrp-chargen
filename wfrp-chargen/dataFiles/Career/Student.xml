@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Student</Name>
+  <WS>0</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>5</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY) OR Gossip</Skills>
+  <Skills>Charm OR Consume Alcohol</Skills>
+  <Skills>Heal OR Search</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Etiquette OR Linguistics</Talents>
+  <Talents>Savvy OR Suave</Talents>
+  <Talents>Seasoned Traveler OR Super Numerate</Talents>
+
+  <Trappings>2 Textbooks corresponding to Knowledge Skill</Trappings>
+  <Trappings>Writing Kit</Trappings>
+
+  <Exits>Agitator</Exits>
+  <Exits>Apprentice Wizard</Exits>
+  <Exits>Barber-Surgeon</Exits>
+  <Exits>Engineer</Exits>
+  <Exits>Envoy</Exits>
+  <Exits>Initiate</Exits>
+  <Exits>Physician</Exits>
+  <Exits>Scholar</Exits>
+</Career>

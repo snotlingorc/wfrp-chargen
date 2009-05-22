@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Steward</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>0</Ag>
+  <Int>30</Int>
+  <WP>20</WP>
+  <Fel>25</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Law)</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Search</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+  <Skills>Trade (Merchant)</Skills>
+
+  <Talents>Public Speaking</Talents>
+  <Talents>Super Numerate</Talents>
+
+  <Trappings>2 sets of Best Craftsmenship Noble's Garb</Trappings>
+  <Trappings>Writing Kit</Trappings>
+
+  <Exits>Crime Lord</Exits>
+  <Exits>Fence</Exits>
+  <Exits>Merchant</Exits>
+  <Exits>Noble</Exits>
+</Career>

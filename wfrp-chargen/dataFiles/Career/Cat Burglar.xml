@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Cat Burglar</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>25</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Concealment</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Pick Lock</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Search</Skills>
+  <Skills>Secret Language (Thieves' Tongue)</Skills>
+  <Skills>Secret Signs (Thief)</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Alley Cat</Talents>
+  <Talents>Street Fighting</Talents>
+  <Talents>Streetwise</Talents>
+  <Talents>Trapfinder</Talents>
+
+  <Trappings>Grapping Hook</Trappings>
+  <Trappings>Lock Picks</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+
+  <Exits>Crime Lord</Exits>
+  <Exits>Fence</Exits>
+  <Exits>Master Thief</Exits>
+  <Exits>Racketeer</Exits>
+  <Exits>Vagabond</Exits>
+</Career>

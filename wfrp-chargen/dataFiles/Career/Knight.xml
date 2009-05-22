@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Knight</Name>
+  <WS>25</WS>
+  <BS>0</BS>
+  <S>15</S>
+  <T>15</T>
+  <Ag>15</Ag>
+  <Int>5</Int>
+  <WP>15</WP>
+  <Fel>5</Fel>
+  <A>1</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Genealogy/Heraldry) OR Academic Knowledge (Religion)</Skills>
+  <Skills>Academic Knowledge (Strategy/Tactics)</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Secret Language (Battle Tongue)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Specialist Weapon Group (Cavalry)</Talents>
+  <Talents>Specialist Weapon Group (Flail)</Talents>
+  <Talents>Specialist Weapon Group (Two-handed)</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+
+  <Trappings>Flail OR Morning Star</Trappings>
+  <Trappings>Lance</Trappings>
+  <Trappings>Heavy Armour (Full Plate Armour)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>Religious Symbol</Trappings>
+  <Trappings>25 gc</Trappings>
+  <Trappings>Destrier with Saddle and Harness</Trappings>
+
+  <Exits>Captain</Exits>
+  <Exits>Initiate</Exits>
+  <Exits>Knight of the Inner Circle</Exits>
+  <Exits>Noble Lord</Exits>
+  <Exits>Vampire Hunter</Exits>
+</Career>

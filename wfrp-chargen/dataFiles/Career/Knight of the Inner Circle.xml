@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Knight of the Inner Circle</Name>
+  <WS>35</WS>
+  <BS>10</BS>
+  <S>20</S>
+  <T>20</T>
+  <Ag>20</Ag>
+  <Int>15</Int>
+  <WP>25</WP>
+  <Fel>15</Fel>
+  <A>2</A>
+  <W>8</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Genealogy/Heraldry) OR Academic Knowledge (Religion)</Skills>
+  <Skills>Academic Knowledge (Strategy/Tactics)</Skills>
+  <Skills>Animal Training</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Secret Language (Battle Tongue)</Skills>
+  <Skills>Secret Signs (Scout) OR Secert Signs (Templar)</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Estalian) OR Speak Language (Kislevian) OR Speak Language (Tilean)</Skills>
+
+  <Talents>Etiquette</Talents>
+  <Talents>Lightning Parry</Talents>
+  <Talents>Seasoned Traveler</Talents>
+  <Talents>Specialist Weapon Group (Fencing)</Talents>
+  <Talents>Specialist Weapon Group (Parrying)</Talents>
+  <Talents>Stout-hearted</Talents>
+  <Talents>Strike to Injure</Talents>
+  <Talents>Strike to Stun</Talents>
+
+  <Trappings>Buckler OR Main Gauche</Trappings>
+  <Trappings>Rapier OR Foil</Trappings>
+  <Trappings>Heavy Armour (Best Craftsmenship Full Plate Armour)</Trappings>
+  <Trappings>Religious Symbol</Trappings>
+  <Trappings>50 gc</Trappings>
+
+  <Exits>Captain</Exits>
+  <Exits>Champion</Exits>
+  <Exits>Noble Lord</Exits>
+  <Exits>Witch Hunter</Exits>
+</Career>

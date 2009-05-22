@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Valet</Name>
+  <WS>0</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>5</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Genealogy/Heraldry)</Skills>
+  <Skills>Blather </Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip OR Speak Language (Breton) OR Speak Language (Reikspiel)</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Search</Skills>
+
+  <Talents>Coolheaded OR Suave</Talents>
+  <Talents>Dealmaker OR Seasoned Traveler</Talents>
+  <Talents>Etiquette</Talents>
+
+  <Trappings>Cologne</Trappings>
+  <Trappings>Purse</Trappings>
+  <Trappings>Two sets of Best Craftmanship Clothing</Trappings>
+  <Trappings>Uniform</Trappings>
+
+  <Exits>Herald</Exits>
+  <Exits>Rogue</Exits>
+  <Exits>Squire</Exits>
+  <Exits>Steward</Exits>
+  <Exits>Student</Exits>
+</Career>

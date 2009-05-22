@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Minstrel</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>15</Ag>
+  <Int>10</Int>
+  <WP>5</WP>
+  <Fel>25</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Performer (Musician)</Skills>
+  <Skills>Performer (Singer)</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Eltharin) OR Speak Language(Tilean)</Skills>
+
+  <Talents>Etiquette</Talents>
+  <Talents>Pubic Speaking</Talents>
+
+  <Trappings>Entertainer's Garb</Trappings>
+  <Trappings>Musical Instrument (Lute) OR Musical Instrument (Mandolin)</Trappings>
+
+  <Exits>Charlatan</Exits>
+  <Exits>Demagogue</Exits>
+  <Exits>Highwayman</Exits>
+  <Exits>Spy</Exits>
+  <Exits>Student</Exits>
+</Career>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Apprentice Wizard</Name>
+  <WS>0</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>5</Ag>
+  <Int>10</Int>
+  <WP>15</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>1</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Magic)</Skills>
+  <Skills>Channeling</Skills>
+  <Skills>Magical Sense</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Search</Skills>
+  <Skills>Speak Arcane Language (Magick)</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+
+  <Talents>Aethyric Attunement OR Fast Hands</Talents>
+  <Talents>Petty Magic (Arcane)</Talents>
+  <Talents>Savvy OR Very Resilient</Talents>
+
+  <Trappings>Quarter Staff</Trappings>
+  <Trappings>Backpack</Trappings>
+  <Trappings>Printed Book</Trappings>
+
+  <Exits>Journeyman Wizard</Exits>
+  <Exits>Scholar</Exits>
+  <Exits>Scribe</Exits>
+</Career>

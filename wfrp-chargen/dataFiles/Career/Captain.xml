@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Captain</Name>
+  <WS>30</WS>
+  <BS>20</BS>
+  <S>20</S>
+  <T>20</T>
+  <Ag>20</Ag>
+  <Int>15</Int>
+  <WP>15</WP>
+  <Fel>25</Fel>
+  <A>2</A>
+  <W>7</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Strategy/Tactics)</Skills>
+  <Skills>Animal Care</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Secret Language (Battle Tongue)</Skills>
+  <Skills>Speak Language (Kislevian) OR Speak Language (Tilean)</Skills>
+
+  <Talents>Disarm OR Quick Draw</Talents>
+  <Talents>Lightning Parry</Talents>
+  <Talents>Specialist Weapon Group (Cavalry) OR Specialist Weapon Group (Two-handed)</Talents>
+  <Talents>Specialist Weapon Group (Flail) OR Specialist Weapon Group (Parrying)</Talents>
+
+  <Trappings>Flail OR Sword-breaker</Trappings>
+  <Trappings>Lance OR Great Weapon</Trappings>
+  <Trappings>Medium Armour (Full Mail Armour)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>Destrier with Saddle and Harness</Trappings>
+  <Trappings>Unit of Troops</Trappings>
+
+  <Exits>Agitator</Exits>
+  <Exits>Explorer</Exits>
+  <Exits>Merchant</Exits>
+  <Exits>Outlaw Chief</Exits>
+  <Exits>Politician</Exits>
+</Career>

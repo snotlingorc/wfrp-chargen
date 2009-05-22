@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Scout</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>15</Ag>
+  <Int>20</Int>
+  <WP>15</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Secret Language (Ranger Tongue)</Skills>
+  <Skills>Secret Signs (Scout)</Skills>
+  <Skills>Silent Move</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Charm Animal</Talents>
+  <Talents>Mighty Shot OR Sure Short</Talents>
+  <Talents>Orientation</Talents>
+  <Talents>Rapid Reload</Talents>
+  <Talents>Specialist Weapon (Crossbow) OR Specialist Weapon (Longbow)</Talents>
+
+  <Trappings>Medium Armour (Mail Shirt)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+  <Trappings>Horse with Saddle and Harness</Trappings>
+
+  <Exits>Explorer</Exits>
+  <Exits>Ghost Strider</Exits>
+  <Exits>Outlaw Chief</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Vampire Hunter</Exits>
+</Career>

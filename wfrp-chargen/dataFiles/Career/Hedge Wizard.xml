@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Hedge Wizard</Name>
+  <WS>0</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>5</T>
+  <Ag>5</Ag>
+  <Int>5</Int>
+  <WP>10</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>1</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care OR Haggle</Skills>
+  <Skills>Charm OR Intimidate</Skills>
+  <Skills>Channeling</Skills>
+  <Skills>Charm Animal OR Trade (Apothecary)</Skills>
+  <Skills>Heal Wounds OR Hypnotism</Skills>
+  <Skills>Magical Sense</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+
+  <Talents>Hedge Magic</Talents>
+  <Talents>Petty Magic (Hedge)</Talents>
+
+  <Trappings>Healing Draught</Trappings>
+  <Trappings>Hood</Trappings>
+
+  <Exits>Apprentice Wizard</Exits>
+  <Exits>Charlatan</Exits>
+  <Exits>Initiate</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Vagabond</Exits>
+</Career>

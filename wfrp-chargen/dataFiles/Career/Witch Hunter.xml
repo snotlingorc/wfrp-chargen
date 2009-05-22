@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Witch Hunter</Name>
+  <WS>30</WS>
+  <BS>30</BS>
+  <S>15</S>
+  <T>15</T>
+  <Ag>15</Ag>
+  <Int>15</Int>
+  <WP>35</WP>
+  <Fel>20</Fel>
+  <A>2</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Magic)</Skills>
+  <Skills>Academic Knowledge (Necromancy)</Skills>
+  <Skills>Academic Knowledge (Theology)</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Search</Skills>
+  <Skills>Silent Move</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Lightning Parry</Talents>
+  <Talents>Lightning Reflexes OR Marksman</Talents>
+  <Talents>Menacing</Talents>
+  <Talents>Public Speaking</Talents>
+  <Talents>Sixth Sense</Talents>
+  <Talents>Specialist Weapon Group (Crossbow)</Talents>
+  <Talents>Specialist Weapon Group (Entangling)</Talents>
+  <Talents>Specialist Weapon Group (Throwing)</Talents>
+  <Talents>Stout-hearted</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+
+  <Trappings>Crossbow Pistol with 10 Bolts</Trappings>
+  <Trappings>Best Craftsmenship Hand Weapon</Trappings>
+  <Trappings>4 Thowing Knives OR 4 Throwing Stars</Trappings>
+  <Trappings>Heavy Armour (Full Plate Armour)</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+
+  <Exits>Captain</Exits>
+  <Exits>Champion</Exits>
+  <Exits>Demagogue</Exits>
+  <Exits>Initiate</Exits>
+  <Exits>Knight of the Inner Circle</Exits>
+</Career>

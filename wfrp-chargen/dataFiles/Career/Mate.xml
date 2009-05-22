@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Mate</Name>
+  <WS>15</WS>
+  <BS>15</BS>
+  <S>10</S>
+  <T>15</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>10</Fel>
+  <A>1</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Gamble</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Row</Skills>
+  <Skills>Sail</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Kislevian) OR Speak Language (Norse)</Skills>
+  <Skills>Swim</Skills>
+  <Skills>Trade (Shipwright)</Skills>
+
+  <Talents>Resistance to Disease</Talents>
+  <Talents>Seasoned Traveler</Talents>
+  <Talents>Street Fighting</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+
+  <Exits>Explorer</Exits>
+  <Exits>Merchant</Exits>
+  <Exits>Navigator</Exits>
+  <Exits>Sea Captain</Exits>
+</Career>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Roadwarden</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>5</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Common Knowledge (the Empire) OR Gossip</Skills>
+  <Skills>Drive</Skills>
+  <Skills>Follow Trail OR Secret Signs (Scout)</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Search</Skills>
+
+  <Talents>Quick Draw OR Rapid Reload</Talents>
+  <Talents>Specialist Weapon Group (Gunpowder)</Talents>
+
+  <Trappings>Pistol with 10 Shots</Trappings>
+  <Trappings>Medium Armour (Mail Shirt)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+  <Trappings>Light Warhorse with Saddle and Harness</Trappings>
+
+  <Exits>Highwayman</Exits>
+  <Exits>Messenger</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Outrider</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Toll Keeper</Exits>
+</Career>

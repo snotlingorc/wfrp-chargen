@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Fieldwarden</Name>
+  <WS>5</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Necromancy) OR Common Knowledge (the Empire)</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Fleet Footed OR Savvy</Talents>
+  <Talents>Might Shot OR Rapid Reload</Talents>
+  <Talents>Rover OR Quick Draw</Talents>
+
+  <Trappings>Sling with Ammunition</Trappings>
+  <Trappings>Lantern</Trappings>
+  <Trappings>Lamp Oil</Trappings>
+  <Trappings>Spade</Trappings>
+  <Trappings>Pony with Saddle and Harness</Trappings>
+
+  <Exits>Bounty Hunter</Exits>
+  <Exits>Mercenary</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Vagabond</Exits>
+  <Exits>Vampire Hunter</Exits>
+</Career>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Kislevite Kossar</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>10</T>
+  <Ag>0</Ag>
+  <Int>0</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (Kislev)</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Gamble OR Gossip</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+  <Skills>Speak Language (Kislevian)</Skills>
+
+  <Talents>Specialist Weapon Group (Two-handed)</Talents>
+  <Talents>Strike to Injure</Talents>
+
+  <Trappings>Bow with 10 arrows</Trappings>
+  <Trappings>Great Weapon (Two-handed Axe)</Trappings>
+  <Trappings>Medium Armour (Mail Coat)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Light Armour (Leather Leggings)</Trappings>
+
+  <Exits>Bounty Hunter</Exits>
+  <Exits>Mercenary</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Shieldbreaker</Exits>
+  <Exits>Veteran</Exits>
+</Career>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Outlaw</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>0</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care OR Common Knowledge (the Empire)</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Drive OR Ride</Skills>
+  <Skills>Gossip OR Secret Signs (Thief)</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Set Trap OR Swim</Skills>
+  <Skills> Move</Skills>
+
+  <Talents>Rover OR Streetwise</Talents>
+  <Talents>Sharpshooter OR Strike to Stun</Talents>
+
+  <Trappings>Bow with 10 Arrows</Trappings>
+  <Trappings>Light Armour (Leather Jerkin)</Trappings>
+  <Trappings>Shield</Trappings>
+
+  <Exits>Demagogue</Exits>
+  <Exits>Highwayman</Exits>
+  <Exits>Thief</Exits>
+  <Exits>Vagabond</Exits>
+  <Exits>Veteran</Exits>
+</Career>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Giant Slayer</Name>
+  <WS>25</WS>
+  <BS>0</BS>
+  <S>15</S>
+  <T>15</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>20</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+
+  <Talents>Fearless</Talents>
+  <Talents>Resistance to Poison</Talents>
+  <Talents>Specialist Weapon Group (Flail)</Talents>
+  <Talents>Strike to Injure</Talents>
+
+  <Trappings>Great Weapon</Trappings>
+
+  <Exits>Daemon Slayer</Exits>
+</Career>

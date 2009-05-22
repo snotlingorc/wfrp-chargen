@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Explorer</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>10</S>
+  <T>15</T>
+  <Ag>15</Ag>
+  <Int>25</Int>
+  <WP>20</WP>
+  <Fel>15</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (History) OR Academic Knowledge (Law)</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Drive</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Secret Language (Ranger Tongue)</Skills>
+  <Skills>Secret Signs (Scout)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Swim</Skills>
+  <Skills>Trade (Cartographer)</Skills>
+
+  <Talents>Orientation OR Linguistics</Talents>
+  <Talents>Seasoned Traveler</Talents>
+
+  <Trappings>Bow with 10 Arrows OR Crossbow with 10 Bolts</Trappings>
+  <Trappings>Hand Weapon</Trappings>
+  <Trappings>Medium Armour (Mail Shirt)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>6 Maps</Trappings>
+  <Trappings>1,000 gc in coin and trade goods</Trappings>
+  <Trappings>Riding Horse with Saddle and Harness</Trappings>
+
+  <Exits>Captain</Exits>
+  <Exits>Merchant</Exits>
+  <Exits>Sea Captain</Exits>
+  <Exits>Spy</Exits>
+</Career>
