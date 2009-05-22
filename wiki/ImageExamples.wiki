@@ -2,10 +2,10 @@
 
 Here is an example of the application when you launch it:
 
-[http://groups.google.com/group/wfrp-pcgen/web/main_screen.png]
+[http://groups.google.com/group/wfrp-chargen/web/main_screen.png]
 
-and the front and back of a character in it's second carrer:
+and the front and back of a character in it's second career:
 
-[http://groups.google.com/group/wfrp-pcgen/web/front.png]
+[http://groups.google.com/group/wfrp-chargen/web/front.png]
 
-[http://groups.google.com/group/wfrp-pcgen/web/back.png]
+[http://groups.google.com/group/wfrp-chargen/web/back.png]
