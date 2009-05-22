@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Racketeer</Name>
+  <WS>20</WS>
+  <BS>15</BS>
+  <S>15</S>
+  <T>10</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>15</WP>
+  <Fel>10</Fel>
+  <A>1</A>
+  <W>5</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Command</Skills>
+  <Skills>Common Knowldge (the Empire)</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Shadowing</Skills>
+
+  <Talents>Menacing</Talents>
+  <Talents>Street Fighting</Talents>
+  <Talents>Streetwise</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+  <Talents>Strike to Stun</Talents>
+
+  <Trappings>Hand Weapon</Trappings>
+  <Trappings>Knuckle-dusters</Trappings>
+  <Trappings>Good Quality Clothing</Trappings>
+  <Trappings>Hat</Trappings>
+
+  <Exits>Fence</Exits>
+  <Exits>Master Thief</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Outlaw Chief</Exits>
+</Career>

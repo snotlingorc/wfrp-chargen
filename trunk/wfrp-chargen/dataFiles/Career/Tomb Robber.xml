@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Tomb Robber</Name>
+  <WS>10</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (the Empire) OR Secret Signs (Thief)</Skills>
+  <Skills>Concealment OR Outdoor Survival</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Pick Lock OR Silent Move</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Search</Skills>
+  <Skills>Speak Language (Classical) OR Speak Language (Khazalid) OR Speak Language (Eltharin)</Skills>
+
+  <Talents>Luck OR Sixth Sense</Talents>
+  <Talents>Trapfinder OR Tunnel Rat</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Crowbar</Trappings>
+  <Trappings>Lantern</Trappings>
+  <Trappings>Lamp Oil</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+  <Trappings>2 Sacks</Trappings>
+
+  <Exits>Fence</Exits>
+  <Exits>Rat Catcher</Exits>
+  <Exits>Shieldbreaker</Exits>
+  <Exits>Thief</Exits>
+  <Exits>Vampire Hunter</Exits>
+</Career>

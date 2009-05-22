@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Rogue</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>5</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Blather</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gamble OR Secret Signs (Thief)</Skills>
+  <Skills>Gossip OR Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Performer (Actor) OR Performer (Storyteller)</Skills>
+  <Skills>Search OR Secret Language (Thieves' Tongue)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Flee! OR Streetwise</Talents>
+  <Talents>Luck OR Sixth Sense</Talents>
+  <Talents>Public Speaking</Talents>
+
+  <Trappings>One set of Best Craftsmenship Clothing OR Dice OR Deck of Cards</Trappings>
+  <Trappings>1d10 gc</Trappings>
+
+  <Exits>Charlatan</Exits>
+  <Exits>Demagogue</Exits>
+  <Exits>Entertainer</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Servant</Exits>
+  <Exits>Thief</Exits>
+</Career>

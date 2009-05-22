@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Scribe</Name>
+  <WS>0</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (the Empire) OR Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Secret Language (Guild Tongue)</Skills>
+  <Skills>Speak Language (Breton)</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+  <Skills>Speak Language (Reikspiel) OR Speak Language (Tilean)</Skills>
+  <Skills>Trade (Calligrapher)</Skills>
+
+  <Talents>Linguistics</Talents>
+
+  <Trappings>Knife</Trappings>
+  <Trappings>A Pair of Candles</Trappings>
+  <Trappings>Wax</Trappings>
+  <Trappings>5 Matches</Trappings>
+  <Trappings>Illuminated Book</Trappings>
+  <Trappings>Writing Kit</Trappings>
+
+  <Exits>Agitator</Exits>
+  <Exits>Apprentice Wizard</Exits>
+  <Exits>Initiate</Exits>
+  <Exits>Navigator</Exits>
+  <Exits>Scholar</Exits>
+</Career>

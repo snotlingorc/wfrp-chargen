@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Entertainer</Name>
+  <WS>5</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care OR Swim</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Evaluate OR Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Performer (ANY)</Skills>
+  <Skills>Performer (ANY)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+  <Skills>Animal Training OR Blather OR Charm Animal OR Hypnotism OR Ride OR Scale Sheer Surface OR Sleight of Hand OR Ventriloquism</Skills>
+
+  <Talents>Lightning Reflexes OR Mimic OR Public Speaking OR Quick Draw OR Sparpshooter OR Specialist Weapon Group (Throwing) OR Trick Riding OR Very Strong OR Wrestling</Talents>
+  <Talents>Lightning Reflexes OR Mimic OR Public Speaking OR Quick Draw OR Sparpshooter OR Specialist Weapon Group (Throwing) OR Trick Riding OR Very Strong OR Wrestling</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Instrument (ANY) OR Trade Tools (Performer) OR 3 Throwing Knives OR 2 Throwing Axes</Trappings>
+  <Trappings>Costume OR One Set of Good Craftmanship Clothes</Trappings>
+
+  <Exits>Charlatan</Exits>
+  <Exits>Minstrel</Exits>
+  <Exits>Rogue</Exits>
+  <Exits>Thief</Exits>
+  <Exits>Vagabond</Exits>
+</Career>

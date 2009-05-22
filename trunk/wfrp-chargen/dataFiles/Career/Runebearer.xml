@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Runebearer</Name>
+  <WS>10</WS>
+  <BS>0</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>1</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Dodge Blow</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Secret Signs (Scout)</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Swim</Skills>
+
+  <Talents>Flee!</Talents>
+  <Talents>Fleet Footed OR Sixth Sense</Talents>
+  <Talents>Orientation</Talents>
+  <Talents>Rapid Reload</Talents>
+  <Talents>Very Resilient OR Very Strong</Talents>
+
+  <Trappings>Crossbow and 10 Bolts</Trappings>
+  <Trappings>Light Armour (Leather Jerkin)</Trappings>
+  <Trappings>Healing Draught</Trappings>
+  <Trappings>Lucky Charm</Trappings>
+
+  <Exits>Rat Catcher</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Shieldbreaker</Exits>
+  <Exits>Tomb Robber</Exits>
+  <Exits>Veteran</Exits>
+</Career>

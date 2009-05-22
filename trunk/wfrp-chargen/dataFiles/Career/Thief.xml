@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Thief</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>0</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm OR Scale Sheer Surface</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Evaluate OR Disguise</Skills>
+  <Skills>Gamble OR Pick Lock</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write OR Slight of Hand</Skills>
+  <Skills>Search</Skills>
+  <Skills>Secret Language (Thieves' Tongue) OR Secret Signs (Thief)</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Alley Cat OR Streetwise</Talents>
+  <Talents>Super Numerate OR Trapfinder</Talents>
+
+  <Trappings>Light Armour (Leather Jerkin)</Trappings>
+  <Trappings>Sack</Trappings>
+  <Trappings>Lock picks</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+
+  <Exits>Cat Burglar</Exits>
+  <Exits>Charlatan</Exits>
+  <Exits>Entertainer</Exits>
+  <Exits>Fence</Exits>
+  <Exits>Rogue</Exits>
+  <Exits>Tomb Robber</Exits>
+</Career>

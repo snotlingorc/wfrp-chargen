@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Damagogue</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>10</T>
+  <Ag>15</Ag>
+  <Int>20</Int>
+  <WP>15</WP>
+  <Fel>30</Fel>
+  <A>1</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Acadmic Knowledge (History)</Skills>
+  <Skills>Acadmic Knowledge (Law)</Skills>
+  <Skills>Blather</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Disguise</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Etiquette OR Streetwise</Talents>
+  <Talents>Master Orator</Talents>
+  <Talents>Public Speaking</Talents>
+  <Talents>Street Fighting</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Leather Skillcap</Trappings>
+
+  <Exits>Crime Lord</Exits>
+  <Exits>Friar</Exits>
+  <Exits>Mercenary</Exits>
+  <Exits>Outlaw Chief</Exits>
+  <Exits>Politician</Exits>
+</Career>

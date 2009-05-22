@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Outrider</Name>
+  <WS>5</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Search</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Coolheaded OR Very Strong</Talents>
+  <Talents>Orientation</Talents>
+  <Talents>Specialist Weapon Group (Entangling)</Talents>
+
+  <Trappings>Bow with 10 Arrows OR Crossbow with 10 Bolts</Trappings>
+  <Trappings>Net </Trappings>
+  <Trappings>Whip OR Lasso</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+  <Trappings>Riding Horse with Saddle and Harness</Trappings>
+
+  <Exits>Coachman</Exits>
+  <Exits>Highwayman</Exits>
+  <Exits>Mercenary</Exits>
+  <Exits>Roadwarden</Exits>
+  <Exits>Scout</Exits>
+</Career>

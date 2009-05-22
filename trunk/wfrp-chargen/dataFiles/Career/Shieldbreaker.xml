@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Shieldbreaker</Name>
+  <WS>10</WS>
+  <BS>0</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Dodge Blow</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Shadowing</Skills>
+
+  <Talents>Acute Hearing OR Coolheaded</Talents>
+  <Talents>Orientation</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+  <Talents>Strike to Injure</Talents>
+  <Talents>Strike to Stun</Talents>
+
+  <Trappings>Crossbow with 10 Bolts</Trappings>
+  <Trappings>Medium Armour (Mail Coat)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Leather Leggings</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>Grapping Hook</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+  <Trappings>Water Skin</Trappings>
+
+  <Exits>Pit Fighter</Exits>
+  <Exits>Runebearer</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Smuggler</Exits>
+  <Exits>Tomb Robber</Exits>
+  <Exits>Veteran</Exits>
+</Career>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Camp Follower</Name>
+  <WS>0</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>5</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care OR Drive</Skills>
+  <Skills>Charm OR Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+  <Skills>Trade (Armourer) OR Trade (Bowyer) OR Trade (Cartographer) OR Trade (Cook) OR Trade (Gunsmith) OR Trade (Herbalist) OR Trade (Merchant) OR Trade (Smith) OR Trade (Tailor) OR Trade (Weaponsmith)</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Kislevian) OR Speak Language (Tilean)</Skills>
+  <Skills>Slight of Hand</Skills>
+
+  <Talents>Dealmaker OR Steet Fighter</Talents>
+  <Talents>Flee!</Talents>
+  <Talents>Hardy OR Suave</Talents>
+  <Talents>Resistance to Disease OR Seasoned Traveler</Talents>
+
+  <Trappings>Lucky Charm OR Trade Tools</Trappings>
+  <Trappings>Pouch</Trappings>
+  <Trappings>Tent</Trappings>
+
+  <Exits>Charcoal-Burner</Exits>
+  <Exits>Charlatan</Exits>
+  <Exits>Servant</Exits>
+  <Exits>Smuggler</Exits>
+  <Exits>Spy</Exits>
+  <Exits>Tradesman</Exits>
+  <Exits>Vagabond</Exits>
+</Career>

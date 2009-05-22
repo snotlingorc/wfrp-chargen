@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Outlaw Chief</Name>
+  <WS>20</WS>
+  <BS>30</BS>
+  <S>10</S>
+  <T>20</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>20</Fel>
+  <A>2</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Strategy/Tactics)</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Secret Language (Battle Tongue)</Skills>
+  <Skills>Secret Language (Thieves' Tongue)</Skills>
+  <Skills>Secret Signs (Scout) OR Secret Signs (Thief)</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Lightning Parry</Talents>
+  <Talents>Mighty Shot</Talents>
+  <Talents>Quick Draw</Talents>
+  <Talents>Rapid Reload</Talents>
+  <Talents>Sure Shot</Talents>
+
+  <Trappings>Bow with 10 Arrows OR Crossbow with 10 Bolts</Trappings>
+  <Trappings>Medium Armour (Sleeved Mail Shirt)</Trappings>
+  <Trappings>Light Armounr (Leather Jack)</Trappings>
+  <Trappings>Horse with Saddle and Harness</Trappings>
+  <Trappings>Band of Outlaws</Trappings>
+  
+  <Exits>Assassin</Exits>
+  <Exits>Captain</Exits>
+  <Exits>Crime Lord</Exits>
+  <Exits>Demagogue</Exits>
+</Career>

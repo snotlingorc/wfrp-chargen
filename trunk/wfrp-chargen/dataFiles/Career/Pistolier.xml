@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Pistolier</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>15</Ag>
+  <Int>0</Int>
+  <WP>15</WP>
+  <Fel>15</Fel>
+  <A>1</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Evaluate OR Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Secret Signs (Scout)</Skills>
+
+  <Talents>Master Gunner</Talents>
+  <Talents>Quick Draw</Talents>
+  <Talents>Rapid Reload</Talents>
+  <Talents>Sharpshooter</Talents>
+  <Talents>Specialist Weapon Group (Gunpowder)</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+  <Talents>Sure Shot</Talents>
+
+  <Talents>Pair of pistols with 20 shots</Talents>
+  <Talents>Best Craftsmenship Clothing</Talents>
+  <Talents>Light Warhorse</Talents>
+
+  <Exits>Courtier</Exits>
+  <Exits>Duellist</Exits>
+  <Exits>Knight</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Veteran</Exits>
+</Career>

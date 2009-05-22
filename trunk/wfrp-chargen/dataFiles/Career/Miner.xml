@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Miner</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>10</S>
+  <T>5</T>
+  <Ag>0</Ag>
+  <Int>5</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Concealment OR Drive</Skills>
+  <Skills>Evaluate OR Outdoor Survival</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Trade (Miner) OR Trade (Prospector)</Skills>
+
+  <Talents>Orientation</Talents>
+  <Talents>Specialist Weapon Group (Two-handed)</Talents>
+  <Talents>Very Resilient OR Warrior Born</Talents>
+
+  <Trappings>Great Weapon (Two-handed Pick)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Pick</Trappings>
+  <Trappings>Spade</Trappings>
+  <Trappings>Storm Lantern</Trappings>
+  <Trappings>Lamp Oil</Trappings>
+
+  <Exits>Charcoal-Burner</Exits>
+  <Exits>Engineer</Exits>
+  <Exits>Mercenary</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Shieldbreaker</Exits>
+  <Exits>Smuggler</Exits>
+</Career>

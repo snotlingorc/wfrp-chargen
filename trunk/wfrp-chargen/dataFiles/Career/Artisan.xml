@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Artisan</Name>
+  <WS>0</WS>
+  <BS>0</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>20</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>3</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Drive</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Secret Language (Guild Tongue)</Skills>
+  <Skills>Speak Language (Khazalid) OR Speak Language (Breton) OR Speak Language (Tilean)</Skills>
+  <Skills>Trade (ANY)</Skills>
+  <Skills>Trade (ANY)</Skills>
+  <Skills>Trade (ANY)</Skills>
+
+  <Talents>Artistic OR Etiquette</Talents>
+
+  <Trappings>Trade Tools</Trappings>
+  <Trappings>15 gc</Trappings>
+
+  <Exits>Demagogue</Exits>
+  <Exits>Engineer</Exits>
+  <Exits>Guild Master</Exits>
+  <Exits>Merchant</Exits>
+  <Exits>Militiaman</Exits>
+</Career>

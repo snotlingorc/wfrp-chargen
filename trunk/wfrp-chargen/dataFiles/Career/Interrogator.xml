@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Interrogator</Name>
+  <WS>15</WS>
+  <BS>0</BS>
+  <S>20</S>
+  <T>10</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>20</WP>
+  <Fel>15</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Torture</Skills>
+
+  <Talents>Menacing</Talents>
+  <Talents>Specialist Weapon Group (Flail)</Talents>
+  <Talents>Wrestling</Talents>
+
+  <Trappings>5 Knives</Trappings>
+  <Trappings>Flail</Trappings>
+  <Trappings>3 Sets of Manacles</Trappings>
+
+  <Exits>Physician</Exits>
+  <Exits>Racketeer</Exits>
+  <Exits>Thief</Exits>
+</Career>

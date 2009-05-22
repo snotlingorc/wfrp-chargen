@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Enovy</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>5</Ag>
+  <Int>10</Int>
+  <WP>5</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (the Empire) OR Common Knowledge (the Wasteland)</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Secret Language (Guild Tongue)</Skills>
+  <Skills>Swim</Skills>
+  <Skills>Trade (Merchant)</Skills>
+
+  <Talents>Dealmaker OR Seasoned Traveller</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>2 sets of Good Craftsmenship Clothes</Trappings>
+  <Trappings>Writing Kit</Trappings>
+
+  <Exits>Charlatan</Exits>
+  <Exits>Merchant</Exits>
+  <Exits>Rogue</Exits>
+  <Exits>Seaman</Exits>
+  <Exits>Student</Exits>
+  <Exits>Vagabond</Exits>
+</Career>

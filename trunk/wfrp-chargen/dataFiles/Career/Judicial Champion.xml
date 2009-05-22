@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Judicial Champion</Name>
+  <WS>35</WS>
+  <BS>0</BS>
+  <S>15</S>
+  <T>15</T>
+  <Ag>20</Ag>
+  <Int>10</Int>
+  <WP>15</WP>
+  <Fel>0</Fel>
+  <A>2</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Dodge Blow</Skills>
+  <Skills>Perception</Skills>
+
+  <Talents>Lightning Parry</Talents>
+  <Talents>Specialist Weapon Group (Fencing)</Talents>
+  <Talents>Specialist Weapon Group (Flail)</Talents>
+  <Talents>Specialist Weapon Group (Parrying)</Talents>
+  <Talents>Specialist Weapon Group (Two-handed)</Talents>
+
+  <Trappings>Great Weapon</Trappings>
+  <Trappings>Flail OR Morning Star</Trappings>
+  <Trappings>Rapier OR Foil</Trappings>
+  <Trappings>Buckler OR Main Gauche</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+
+  <Exits>Assassin</Exits>
+  <Exits>Champion</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Witch Hunter</Exits>
+  <Exits>Zealot</Exits>
+</Career>

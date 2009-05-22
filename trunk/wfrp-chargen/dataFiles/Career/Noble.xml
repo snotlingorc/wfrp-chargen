@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Noble</Name>
+  <WS>10</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>5</Ag>
+  <Int>5</Int>
+  <WP>5</WP>
+  <Fel>10</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Blather OR Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Consume Alcohol OR Performer (Musician)</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Gamble OR Gossip</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Etiquette</Talents>
+  <Talents>Luck OR Public Speaking</Talents>
+  <Talents>Savvy OR Specialist Weapon Group (Fencing)</Talents>
+  <Talents>Schmer OR Specialist Weapon Group (Parrying)</Talents>
+
+  <Trappings>Foil</Trappings>
+  <Trappings>Main Gauche</Trappings>
+  <Trappings>Noble's Garb</Trappings>
+  <Trappings>Riding Horse with Saddle and Harness</Trappings>
+  <Trappings>1d10 Gold Crowns</Trappings>
+  <Trappings>Jewelry worth 6d10 gc</Trappings>
+
+  <Exits>Courtier</Exits>
+  <Exits>Pistolier</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Rogue</Exits>
+  <Exits>Squire</Exits>
+  <Exits>Student</Exits>
+</Career>

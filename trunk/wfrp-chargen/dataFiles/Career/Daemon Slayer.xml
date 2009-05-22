@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Daemon Slayer</Name>
+  <WS>40</WS>
+  <BS>0</BS>
+  <S>30,</S>
+  <T>30</T>
+  <Ag>20</Ag>
+  <Int>0</Int>
+  <WP>30</WP>
+  <Fel>0</Fel>
+  <A>2</A>
+  <W>8</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (ANY></Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+
+  <Talents>Lightning Parry</Talents>
+  <Talents>Unsettling</Talents>
+
+  <Trappings>Great Weapon</Trappings>
+
+  <Exits>Glorious death</Exits>
+</Career>

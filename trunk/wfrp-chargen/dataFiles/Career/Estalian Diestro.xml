@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Estalian Diestro</Name>
+  <WS>15</WS>
+  <BS>0</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>0</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Science)</Skills>
+  <Skills>Common Knowledge (Estalia)</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (Estalian)</Skills>
+
+  <Talents>Lightning Reflexes OR Swashbuckler</Talents>
+  <Talents>Quick Draw OR Strike to Injure</Talents>
+  <Talents>Specialist Weapon Group (Fencing)</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+
+  <Trappings>Foil OR Rapier</Trappings>
+  <Trappings>One set of Best Craftsmenship Clothes</Trappings>
+  <Trappings>Perfume OR Cologne</Trappings>
+  <Trappings>Healing Draught</Trappings>
+
+  <Exits>Bodyguard</Exits>
+  <Exits>Duellist</Exits>
+  <Exits>Highwayman</Exits>
+  <Exits>Protagonist</Exits>
+  <Exits>Rogue</Exits>
+</Career>

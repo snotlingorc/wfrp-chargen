@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Soldier</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care OR Heal</Skills>
+  <Skills>Common Knowledge (the Empire) OR Perception</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Drive OR Ride</Skills>
+  <Skills>Gamble OR Gossip</Skills>
+  <Skills>Intimidate</Skills>
+
+  <Talents>Disarm OR Quick Draw</Talents>
+  <Talents>Sharpshooter OR Strike Mighty Blow</Talents>
+  <Talents>Specialist Weapon Group (Gunpowder) OR Specialist Weapon Group (Two-handed)</Talents>
+  <Talents>Strike to Injure OR Rapid Reload</Talents>
+  <Talents>Strike to Stun OR Mighty Shot</Talents>
+
+  <Trappings>Great Weapon (Halberd) OR Firearm with 10 shots</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>Light Armour (Full Leather Armour)</Trappings>
+  <Trappings>Uniform</Trappings>
+
+  <Exits>Mercenary</Exits>
+  <Exits>Outrider</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Vagabond</Exits>
+  <Exits>Veteran</Exits>
+  <Exits>Watchman</Exits>
+</Career>

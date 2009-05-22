@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Rat Catcher</Name>
+  <WS>5</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Animal Trainer</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+  <Skills>Set Trap</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Resistance to Disease</Talents>
+  <Talents>Resistance to Poison</Talents>
+  <Talents>Specialist Weapon Group (Sling)</Talents>
+  <Talents>Tunnel Rat</Talents>
+
+  <Trappings>Sling with Ammunition</Trappings>
+  <Trappings>4 Animal Traps</Trappings>
+  <Trappings>Pole with 1d10 dead rats</Trappings>
+  <Trappings>Small but Vicious Dog</Trappings>
+
+  <Exits>Bone Picker</Exits>
+  <Exits>Cat Burglar</Exits>
+  <Exits>Grave Robber</Exits>
+  <Exits>Jailer</Exits>
+  <Exits>Shieldbreaker</Exits>
+  <Exits>Thief</Exits>
+</Career>

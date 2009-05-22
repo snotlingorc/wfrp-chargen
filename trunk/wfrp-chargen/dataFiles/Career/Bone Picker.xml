@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Bone Picker</Name>
+  <WS>5</WS>
+  <BS>0</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>5</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Charm OR Gossip</Skills>
+  <Skills>Drive</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+
+  <Talents>Coolheaded OR Streetwise</Talents>
+  <Talents>Hardy OR Resistance to Disease</Talents>
+
+  <Trappings>Cart</Trappings>
+  <Trappings>3 Sacks</Trappings>
+
+  <Exits>Camp Follower</Exits>
+  <Exits>Cat Burglar</Exits>
+  <Exits>Fence</Exits>
+  <Exits>Grace Robber</Exits>
+  <Exits>Smuggler</Exits>
+</Career>

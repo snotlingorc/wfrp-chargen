@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Toll Keeper</Name>
+  <WS>10</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>5</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Dodge Blow</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip OR Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Search</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Kislevian) OR Speak Language (Tilean)</Skills>
+
+  <Talents>Lightning Reflexes OR Marksman</Talents>
+
+  <Trappings>Chest</Trappings>
+  <Trappings>Crossbow with 10 Bolts</Trappings>
+  <Trappings>Medium Armour (Mail Shirt)</Trappings>
+  <Trappings>Light Armour (Leather Jerkin)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>1d10 gc</Trappings>
+
+  <Exits>Ferryman</Exits>
+  <Exits>Fieldwarden</Exits>
+  <Exits>Highwayman</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Soldier</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Thief</Exits>
+</Career>

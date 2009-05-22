@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Priest</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>5</Ag>
+  <Int>10</Int>
+  <WP>20</WP>
+  <Fel>15</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>1</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (Theology)</Skills>
+  <Skills>Channeling</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Magical Sense</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride OR Swim</Skills>
+  <Skills>Speak Arcane Language (Magick)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Armored Caster OR Master Orator</Talents>
+  <Talents>Petty Magic (Divine)</Talents>
+  <Talents>Strike to Injure OR Strike to Stun</Talents>
+
+  <Trappings>Prayer Book</Trappings>
+  <Trappings>Writing Kit</Trappings>
+
+  <Exits>Anointed Priest</Exits>
+  <Exits>Flagellant</Exits>
+  <Exits>Scholar</Exits>
+  <Exits>Steward</Exits>
+</Career>

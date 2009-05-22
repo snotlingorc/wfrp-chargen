@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Duellist</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>10</S>
+  <T>20</T>
+  <Ag>20</Ag>
+  <Int>15</Int>
+  <WP>15</WP>
+  <Fel>10</Fel>
+  <A>1</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Gamble</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Sleight of Hand</Skills>
+
+  <Talents>Ambidextrous OR Disarm</Talents>
+  <Talents>Etiquette</Talents>
+  <Talents>Master Gunner</Talents>
+  <Talents>Mighty Shot</Talents>
+  <Talents>Quick Draw</Talents>
+  <Talents>Sharpshooter</Talents>
+  <Talents>Specialist Weapon Group (Fencing)</Talents>
+  <Talents>Specialist Weapon Group (Gunpowder)</Talents>
+  <Talents>Specialist Weapon Group (Parrying)</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+  <Talents>Strike to Injure</Talents>
+  <Talents>Swashbuckler</Talents>
+
+  <Trappings>Main Gauche</Trappings>
+  <Trappings>Pistol with 10 Shots</Trappings>
+  <Trappings>Rapier</Trappings>
+
+  <Exits>Assassin</Exits>
+  <Exits>Champion</Exits>
+  <Exits>Highwayman</Exits>
+  <Exits>Rogue</Exits>
+  <Exits>Sergeant</Exits>
+</Career>

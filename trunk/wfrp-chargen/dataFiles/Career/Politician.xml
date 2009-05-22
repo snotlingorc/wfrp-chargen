@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Politician</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>0</Ag>
+  <Int>20</Int>
+  <WP>10</WP>
+  <Fel>20</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (History) OR Academic Knowledge (Genealogy/Heraldry)</Skills>
+  <Skills>Academic Knowledge (Law)</Skills>
+  <Skills>Blather</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Performer (Actor)</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Dealmaker OR Schemer</Talents>
+  <Talents>Etiquette OR Streetwise</Talents>
+  <Talents>Master Orator</Talents>
+  <Talents>Public Speaking</Talents>
+
+  <Trappings>Best Craftsmenship Hand Weapon</Trappings>
+  <Trappings>Best Craftsmenship Leather Jack</Trappings>
+  <Trappings>Pamphlets</Trappings>
+
+  <Exits>Courtier</Exits>
+  <Exits>Crime Lord</Exits>
+  <Exits>Demagogue</Exits>
+  <Exits>Noble Lord</Exits>
+  <Exits>Racketeer</Exits>
+  <Exits>Steward</Exits>
+</Career>

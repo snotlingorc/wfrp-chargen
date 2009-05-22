@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Barber-Surgeon</Name>
+  <WS>5</WS>
+  <BS>0</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm</Skills>
+  <Skills>Drive OR Swim</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Reikspiel) OR Speak Language (Tilean)</Skills>
+  <Skills>Trade (Apothecary)</Skills>
+
+  <Talents>Resistance to Disease OR Savvy</Talents>
+  <Talents>Suave OR Very Resilient</Talents>
+  <Talents>Surgery</Talents>
+
+  <Trappings>Trade Tools (Barber-Surgeon)</Trappings>
+
+  <Exits>Interrogator</Exits>
+  <Exits>Grave Robber</Exits>
+  <Exits>Physician</Exits>
+  <Exits>Tradesman</Exits>
+  <Exits>Vagabond</Exits>
+</Career>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Engineer</Name>
+  <WS>10</WS>
+  <BS>15</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>20</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Engineering)</Skills>
+  <Skills>Academic Knowledge (Science)</Skills>
+  <Skills>Common Knowledge (Dwarfs) OR Common Knowledge (Tilea)</Skills>
+  <Skills>Drive OR Ride</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak (Khazalid) OR Speak (Tilean)</Skills>
+  <Skills>Trade (Gunsmith)</Skills>
+
+  <Talents>Master Gunner</Talents>
+  <Talents>Specialist Weapon Group (Engineer) OR Specialist Weapon Group (Gunpowder)</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Engineer's Kit</Trappings>
+  <Trappings>6 Spikes</Trappings>
+
+  <Exits>Artisan</Exits>
+  <Exits>Explorer</Exits>
+  <Exits>Guild Master</Exits>
+  <Exits>Pistolier</Exits>
+  <Exits>Smuggler</Exits>
+</Career>

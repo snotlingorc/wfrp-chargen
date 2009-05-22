@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Ghost Strider</Name>
+  <WS>20</WS>
+  <BS>30</BS>
+  <S>15</S>
+  <T>15</T>
+  <Ag>25</Ag>
+  <Int>20</Int>
+  <WP>20</WP>
+  <Fel>0</Fel>
+  <A>2</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Concealment</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Lip Reading</Skills>
+  <Skills>Navigation</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Secret Language (Ranger Tongue)</Skills>
+  <Skills>Secret Signs (Ranger)</Skills>
+  <Skills>Set Trap</Skills>
+  <Skills>Shadowing</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Hardy OR Fleet Footed</Talents>
+  <Talents>Lightning Parry</Talents>
+  <Talents>Mighty Shot</Talents>
+  <Talents>Quick Draw</Talents>
+  <Talents>Rapid Reload</Talents>
+  <Talents>Sure Shot</Talents>
+
+  <Trappings>Elfbow with 10 Arrows</Trappings>
+  <Trappings>Light Armour (Best Craftsmenship Full Leather Armour)</Trappings>
+
+  <Exits>Captain</Exits>
+  <Exits>Outlaw Chief</Exits>
+  <Exits>Targeteer</Exits>
+  <Exits>Vampire Hunter</Exits>
+</Career>

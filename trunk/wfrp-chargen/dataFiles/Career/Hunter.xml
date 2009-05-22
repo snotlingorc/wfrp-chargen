@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Hunter</Name>
+  <WS>0</WS>
+  <BS>15</BS>
+  <S>0</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>5</Int>
+  <WP>0</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>3</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Concealment</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search OR Swim</Skills>
+  <Skills>Secret Signs (Ranger)</Skills>
+  <Skills>Silent Move OR Set Trap</Skills>
+
+  <Talents>Hardy OR Specialist Weapon Group (Longbow)</Talents>
+  <Talents>Lightning Reflexes OR Very Resilient</Talents>
+  <Talents>Marksman OR Rover</Talents>
+  <Talents>Rapid Reload</Talents>
+
+  <Trappings>Longbow with 10 Arrows</Trappings>
+  <Trappings>2 Animal Traps</Trappings>
+  <Trappings>Antitoxin Kit</Trappings>
+
+  <Exits>Bounty Hunter</Exits>
+  <Exits>Charcoal-Burner</Exits>
+  <Exits>Fieldwarden</Exits>
+  <Exits>Kithband Warrior</Exits>
+  <Exits>Miner</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Soldier</Exits>
+  <Exits>Targeteer</Exits>
+</Career>

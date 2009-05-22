@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Courtier</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>20</Int>
+  <WP>20</WP>
+  <Fel>20</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (the Arts) OR Academic Knowledge (History) OR Gamble</Skills>
+  <Skills>Blather </Skills>
+  <Skills>Charm</Skills>
+  <Skills>Command OR Performer (ANY)</Skills>
+  <Skills>Common Knowledge (Bretonnia) OR Common Knowledge (Tilea)</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Tilean)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Dealmaker OR Etiquette</Talents>
+  <Talents>Public Speaking</Talents>
+  <Talents>Savvy OR Suave</Talents>
+  <Talents>Schemer OR Specialist Weapon Group (Fencing)</Talents>
+
+  <Trappings>4 Sets of Noble's Garb</Trappings>
+  <Trappings>100 gc</Trappings>
+  <Trappings>Valet</Trappings>
+
+  <Exits>Charlatan</Exits>
+  <Exits>Duellist</Exits>
+  <Exits>Noble Lord</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Steward</Exits>
+  <Exits>Spy</Exits>
+</Career>

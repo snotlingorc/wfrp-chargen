@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Career>
+<Name>Woodsman</Name>
+  <WS>10</WS>
+  <BS>0</BS>
+  <S>10</S>
+  <T>0</T>
+  <Ag>5</Ag>
+  <Int>0</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>3</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Concealment</Skills>
+  <Skills>Follow Trail OR Set Trap</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Secret Language (Ranger Tongue)</Skills>
+  <Skills>Secret Signs (Ranger)</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Fleet Footed OR Very Resilient</Talents>
+  <Talents>Rover</Talents>
+  <Talents>Specialist Weapon Group (Two-handed)</Talents>
+
+  <Trappings>Great Weapon (Two-handed Axe)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Antitoxin Kit</Trappings>
+
+  <Exits>Hunter</Exits>
+  <Exits>Militiaman</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Vagabond</Exits>
+</Career>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Master Wizard</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>0</S>
+  <T>10</T>
+  <Ag>15</Ag>
+  <Int>30</Int>
+  <WP>35</WP>
+  <Fel>15</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>3</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Magic)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Channelling</Skills>
+  <Skills>Charm OR Intimidate</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Gossip OR Ride</Skills>
+  <Skills>Magical Sense</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Arcane Language (Magick)</Skills>
+  <Skills>Speak Arcane Language (Daemonic) OR Speak Arcane Language (Arcane Elf)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Aetyric Attunement OR Meditation</Talents>
+  <Talents>Dark Magic OR Strong-minded</Talents>
+  <Talents>Fast Hands OR Mighty Missle</Talents>
+  <Talents>Lesser Magic (ANY)</Talents>
+  <Talents>Lesser Magic (ANY)</Talents>
+
+  <Trappings>Trade Tools (Apothecary)</Trappings>
+  <Trappings>Two magic items</Trappings>
+
+  <Exits>Explorer</Exits>
+  <Exits>Scholar</Exits>
+  <Exits>Wizard Lord</Exits>
+</Career>

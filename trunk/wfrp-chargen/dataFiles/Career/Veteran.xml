@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Veteran</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>15</Ag>
+  <Int>0</Int>
+  <WP>15</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Gamble</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Secret Language (Battle Tongue)</Skills>
+
+  <Talents>Mighty Shot OR Strike Mighty Blow</Talents>
+  <Talents>Rapid Reload OR Strike to Injure</Talents>
+  <Talents>Specialist Weapon Group (ANY)</Talents>
+  <Talents>Specialist Weapon Group (ANY)</Talents>
+  <Talents>Very Resilient OR Very Strong</Talents>
+
+  <Trappings>Any Weapon</Trappings>
+  <Trappings>Any Weapon</Trappings>
+  <Trappings>Medium Armour (Full Mail Armour)</Trappings>
+  <Trappings>Bottle of Craftsmenship Spirits</Trappings>
+
+  <Exits>Champion</Exits>
+  <Exits>Judicial Champion</Exits>
+  <Exits>Outlaw Chief</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Targeteer</Exits>
+</Career>

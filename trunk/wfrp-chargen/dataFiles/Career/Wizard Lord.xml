@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Career>
+<Name>Wizard Lord</Name>
+  <WS>15</WS>
+  <BS>15</BS>
+  <S>5</S>
+  <T>15</T>
+  <Ag>20</Ag>
+  <Int>35</Int>
+  <WP>40</WP>
+  <Fel>20</Fel>
+  <A>0</A>
+  <W>5</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>4</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Magic)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Channeling</Skills>
+  <Skills>Charm OR Intimidate</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Magical Sense</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Speak Arcane Language (Magick)</Skills>
+  <Skills>Speak Arcane Language (Daemonic) OR Speak Arcane Language (Arcane Elf)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Aethyric Attunement OR Mighty Missile</Talents>
+  <Talents>Dark Magic OR Medaitation</Talents>
+  <Talents>Fast Hands OR Hardy</Talents>
+  <Talents>Lesser Magic (ANY)</Talents>
+  <Talents>Lesser Magic (ANY)</Talents>
+
+  <Trappings>Three magic items</Trappings>
+  <Trappings>12 Grimoires</Trappings>
+
+  <Exits>Explorer</Exits>
+  <Exits>Guild Master</Exits>
+</Career>

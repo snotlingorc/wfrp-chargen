@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Bounty Hunter</Name>
+  <WS>5</WS>
+  <BS>10</BS>
+  <S>5</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Follow Trail</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+  <Skills>Shadowing</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Marksman OR Strike to Stun</Talents>
+  <Talents>Rover</Talents>
+  <Talents>Specialist Weapon Group (Entangling)</Talents>
+  <Talents>Sharpshooter OR Strike Mighty Blow</Talents>
+
+  <Trappings>Crossbow with 10 bolts</Trappings>
+  <Trappings>Net</Trappings>
+  <Trappings>Light Armour (Leather Jerkin)</Trappings>
+  <Trappings>Leather Skullcap</Trappings>
+  <Trappings>Manacles</Trappings>
+  <Trappings>10 Yards of Rope</Trappings>
+
+  <Exits>Mercenary</Exits>
+  <Exits>Protagonist</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Targeteer</Exits>
+  <Exits>Vampire Hunter</Exits>
+</Career>

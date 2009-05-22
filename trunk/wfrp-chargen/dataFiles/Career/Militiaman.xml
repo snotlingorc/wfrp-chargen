@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Militiaman</Name>
+  <WS>10</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>0</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Drive OR Swim</Skills>
+  <Skills>Gamble OR Gossip</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+  <Skills>Trade (ANY)</Skills>
+
+  <Talents>Specialist Weapon Group (Two-handed) OR Rapid Reload</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+
+  <Trappings>Halberd OR Bow with 10 Arrows</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Leather Skullcap</Trappings>
+  <Trappings>Uniform</Trappings>
+
+  <Exits>Artisan</Exits>
+  <Exits>Fieldwarden</Exits>
+  <Exits>Mercenary</Exits>
+  <Exits>Messenger</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Thief</Exits>
+</Career>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Kithband Warrior</Name>
+  <WS>5</WS>
+  <BS>5</BS>
+  <S>0</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>10</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Concealment</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Heal OR Search</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Marksman OR Rover</Talents>
+  <Talents>Rapid Reload OR Warrior Born</Talents>
+
+  <Trappings>Elfbow with 10 Arrows</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+
+  <Exits>Hunter</Exits>
+  <Exits>Outrider</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Vagabond</Exits>
+  <Exits>Veteran</Exits>
+</Career>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Innkeeper</Name>
+  <WS>10</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>20</Ag>
+  <Int>10</Int>
+  <WP>10</WP>
+  <Fel>20</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Blather OR Lip Reading</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Read/Write OR Slight of Hand</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Kislevian) OR Speak Language (Reikspiel) OR Speak Language (Tilean)</Skills>
+  <Skills>Trade (Cook)</Skills>
+
+  <Talents>Etiquette OR Streetwise</Talents>
+  <Talents>Dealmaker OR Street Fighting</Talents>
+  <Talents>Strike to Stun</Talents>
+
+  <Trappings>Inn</Trappings>
+  <Trappings>1 or more Servants</Trappings>
+
+  <Exits>Burgher</Exits>
+  <Exits>Fence</Exits>
+  <Exits>Merchant</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Smuggler</Exits>
+</Career>

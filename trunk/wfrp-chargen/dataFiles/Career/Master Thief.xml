@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Master Thief</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>40</Ag>
+  <Int>25</Int>
+  <WP>20</WP>
+  <Fel>25</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Disguise</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gamble OR Lip Reading</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Pick Lock</Skills>
+  <Skills>Read/Write</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Secret Language (Thieves' Tongue)</Skills>
+  <Skills>Secret Signs (Thief)</Skills>
+  <Skills>Search</Skills>
+  <Skills>Silent Move</Skills>
+  <Skills>Sleight of Hand</Skills>
+  <Skills>Swim</Skills>
+
+  <Talents>Specialist Weapon Group (Crossbow)</Talents>
+  <Talents>Specialist Weapon Group (Throwing)</Talents>
+  <Talents>Street Fighting OR Swashbuckler</Talents>
+  <Talents>Streetwise</Talents>
+  <Talents>Trapfinder</Talents>
+
+  <Trappings>Crossbow Pistol with 10 bolts</Trappings>
+  <Trappings>2 Throwing Axes OR 2 Throwing Hammers OR 3 Throwing Daggers OR 3 Throwing Stars </Trappings>
+  <Trappings>Best Craftsmenship Lock Picks </Trappings>
+  <Trappings>Cloak</Trappings>
+  <Trappings>Sack</Trappings>
+  <Trappings>Best Craftsmenship 10 Yards Rope</Trappings>
+
+  <Exits>Crime Lord</Exits>
+  <Exits>Explorer</Exits>
+  <Exits>Outlaw Chief</Exits>
+  <Exits>Targeteer</Exits>
+</Career>

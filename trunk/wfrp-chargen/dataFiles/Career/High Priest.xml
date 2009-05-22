@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>High Priest</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>15</S>
+  <T>15</T>
+  <Ag>15</Ag>
+  <Int>20</Int>
+  <WP>30</WP>
+  <Fel>25</Fel>
+  <A>1</A>
+  <W>6</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>3</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (Theology)</Skills>
+  <Skills>Channeling</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Magical Sense</Skills>
+  <Skills>Ride OR Swim</Skills>
+  <Skills>Speak Arcane Language (Magick)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Aethyric Attunement OR Meditation</Talents>
+  <Talents>Armored Casting OR Mighty Missle</Talents>
+  <Talents>Etiquette</Talents>
+  <Talents>Fast Hands OR Strong-minded</Talents>
+  <Talents>Lesser Magic (ANY)</Talents>
+  <Talents>Lesser Magic (ANY)</Talents>
+
+  <Trappings>Religious Relic</Trappings>
+
+  <Exits>Politician</Exits>
+  <Exits>Scholar</Exits>
+  <Exits>Witch Hunter</Exits>
+</Career>

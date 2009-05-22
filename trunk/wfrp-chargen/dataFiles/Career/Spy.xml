@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Spy</Name>
+  <WS>15</WS>
+  <BS>15</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>20</Ag>
+  <Int>20</Int>
+  <WP>35</WP>
+  <Fel>20</Fel>
+  <A>1</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Concealment</Skills>
+  <Skills>Disguise</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Lip Reading</Skills>
+  <Skills>Performer (Actor)</Skills>
+  <Skills>Pick Lock</Skills>
+  <Skills>Shadowing</Skills>
+  <Skills>Slight of Hand</Skills>
+  <Skills>Secret Language (ANY)</Skills>
+  <Skills>Silent Move</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Flee!</Talents>
+  <Talents>Linguistics</Talents>
+  <Talents>Schemer</Talents>
+  <Talents>Suave OR Sixth Sense</Talents>
+
+  <Trappings>Disguise Kit</Trappings>
+  <Trappings>4 Homing Pigeons</Trappings>
+
+  <Exits>Assassin</Exits>
+  <Exits>Explorer</Exits>
+  <Exits>Master Thief</Exits>
+  <Exits>Racketeer</Exits>
+</Career>

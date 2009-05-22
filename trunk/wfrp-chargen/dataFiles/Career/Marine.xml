@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Marine</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>10</S>
+  <T>0</T>
+  <Ag>5</Ag>
+  <Int>0</Int>
+  <WP>5</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>3</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (the Wasteland) OR Gamble</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Gossip OR Secret Language (Battle Tongue)</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Row</Skills>
+  <Skills>Swim</Skills>
+
+  <Talents>Disarm OR Quick Draw</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+  <Talents>Strike to Stun</Talents>
+
+  <Trappings>Bow with 10 Arrows OR Crossbow with 10 Bolts</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>Grappling Hook</Trappings>
+  <Trappings>10 yards of rope</Trappings>
+
+  <Exits>Mate</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Smuggler</Exits>
+  <Exits>Thug</Exits>
+</Career>

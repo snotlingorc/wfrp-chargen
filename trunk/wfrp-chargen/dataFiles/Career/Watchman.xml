@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Watchman</Name>
+  <WS>10</WS>
+  <BS>5</BS>
+  <S>5</S>
+  <T>0</T>
+  <Ag>5</Ag>
+  <Int>10</Int>
+  <WP>0</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Law)</Skills>
+  <Skills>Dodge Blow</Skills>
+  <Skills>Follow Trail</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Search</Skills>
+
+  <Talents>Coolheaded OR Savvy</Talents>
+  <Talents>Disarm OR Street Fighting</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+  <Talents>Strike to Stun</Talents>
+
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Lantern and Pole</Trappings>
+  <Trappings>Lamp Oil</Trappings>
+  <Trappings>Uniform</Trappings>
+
+  <Exits>Mercenary</Exits>
+  <Exits>Racketeer</Exits>
+  <Exits>Roadwarden</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Soldier</Exits>
+  <Exits>Tradesman</Exits>
+</Career>

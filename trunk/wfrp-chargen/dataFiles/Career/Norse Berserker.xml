@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Norse Berserker</Name>
+  <WS>15</WS>
+  <BS>0</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>0</Ag>
+  <Int>0</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (Norsca)</Skills>
+  <Skills>Consume Alcohol</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Performer (Storyteller)</Skills>
+  <Skills>Speak Language (Norse)</Skills>
+  <Skills>Swim</Skills>
+
+  <Talents>Frenzy</Talents>
+  <Talents>Menacing</Talents>
+  <Talents>Quick Draw</Talents>
+  <Talents>Specialist Weapon Group (Two-handed)</Talents>
+
+  <Trappings>Light Armour (Leather Jerkin)</Trappings>
+  <Trappings>Bottle of Spirits</Trappings>
+  <Trappings>Great Weapon OR Shield</Trappings>
+
+  <Exits>Mercenary</Exits>
+  <Exits>Pit Fighter</Exits>
+  <Exits>Seaman</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Veteran</Exits>
+</Career>

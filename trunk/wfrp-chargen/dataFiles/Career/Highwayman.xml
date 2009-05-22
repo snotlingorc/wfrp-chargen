@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Highwayman</Name>
+  <WS>20</WS>
+  <BS>20</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>30</Ag>
+  <Int>20</Int>
+  <WP>15</WP>
+  <Fel>25</Fel>
+  <A>1</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Animal Care</Skills>
+  <Skills>Animal Training</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (the Empire)</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Ride</Skills>
+  <Skills>Silent Move</Skills>
+
+  <Talents>Ambidextrous</Talents>
+  <Talents>Etiquette</Talents>
+  <Talents>Master Gunner</Talents>
+  <Talents>Mighty Shot</Talents>
+  <Talents>Sharpshooter</Talents>
+  <Talents>Specialist Weapon Group (Fencing)</Talents>
+  <Talents>Specialist Weapon Group (Gunpowder)</Talents>
+  <Talents>Trick Riding</Talents>
+
+  <Trappings>Pair of Pistols with 20 Shots</Trappings>
+  <Trappings>Noble's Garb</Trappings>
+  <Trappings>Hood OR Mask</Trappings>
+  <Trappings>Riding Hourse with Saddle and Harness</Trappings>
+
+  <Exits>Agitator</Exits>
+  <Exits>Duellist</Exits>
+  <Exits>Master Thief</Exits>
+  <Exits>Outlaw Chief</Exits>
+  <Exits>Sergeant</Exits>
+</Career>

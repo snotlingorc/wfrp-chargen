@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+<Name>Protagonist</Name>
+  <WS>10</WS>
+  <BS>0</BS>
+  <S>10</S>
+  <T>0</T>
+  <Ag>10</Ag>
+  <Int>0</Int>
+  <WP>10</WP>
+  <Fel>0</Fel>
+  <A>1</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Dodge Blow</Skills>
+  <Skills>Gossip OR Haggle</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Ride</Skills>
+
+  <Talents>Disarm OR Quick Draw</Talents>
+  <Talents>Menacing OR Suave</Talents>
+  <Talents>Street Fighting</Talents>
+  <Talents>Strike Mighty Blow</Talents>
+  <Talents>Strike to Injure</Talents>
+  <Talents>Strike to Stun</Talents>
+
+  <Trappings>Medium Armour (Mail Shirt)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+  <Trappings>Shield</Trappings>
+  <Trappings>Riding Horse with Saddle and Harness</Trappings>
+
+  <Exits>Duellist</Exits>
+  <Exits>Pit Fighter</Exits>
+  <Exits>Racketeer</Exits>
+  <Exits>Thief</Exits>
+  <Exits>Thug</Exits>
+</Career>

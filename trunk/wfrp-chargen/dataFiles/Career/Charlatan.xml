@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Charlatan</Name>
+  <WS>10</WS>
+  <BS>10</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>15</Ag>
+  <Int>15</Int>
+  <WP>15</WP>
+  <Fel>25</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Blather</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (Bretonnia) OR Common Knowledge (Tilea)</Skills>
+  <Skills>Disguise</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Gamble</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Secret Language (Thieves' Tongue)</Skills>
+  <Skills>Sleight of Hand</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Tilean)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Flee!</Talents>
+  <Talents>Mimic</Talents>
+  <Talents>Public Speaking</Talents>
+  <Talents>Schemer OR Streetwise</Talents>
+  <Talents>Seasoned Traveler</Talents>
+
+  <Trappings>6 Sets of Common Cloths</Trappings>
+  <Trappings>4 Sets of Best Craftsmanship Cloths</Trappings>
+  <Trappings>Forged Document</Trappings>
+  <Trappings>4 Bottles of variously colored water</Trappings>
+  <Trappings>4 Bottles of variously colored powder</Trappings>
+
+  <Exits>Cat Burglar</Exits>
+  <Exits>Demagogue</Exits>
+  <Exits>Outlaw</Exits>
+  <Exits>Politician</Exits>
+  <Exits>Spy</Exits>
+</Career>

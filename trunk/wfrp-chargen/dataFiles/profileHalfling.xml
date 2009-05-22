@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+
+<Race>
+  <Description>Halfling</Description>
+  
+  <Career>Agitator</Career>
+  <Career>Barber-Surgeon</Career>
+  <Career>Bone Picker</Career>
+  <Career>Bounty Hunter</Career>
+  <Career>Burgher</Career>
+  <Career>Camp Follower</Career>
+  <Career>Charcoal-Burner</Career>
+  <Career>Entertainer</Career>
+  <Career>Ferryman</Career>
+  <Career>Fieldwarden</Career>
+  <Career>Fisherman</Career>
+  <Career>Grave Robber</Career>
+  <Career>Hunter</Career>
+  <Career>Mercenary</Career>
+  <Career>Messenger</Career>
+  <Career>Militiaman</Career>
+  <Career>Outlaw</Career>
+  <Career>Peasant</Career>
+  <Career>Rat Catcher</Career>
+  <Career>Rogue</Career>
+  <Career>Servant</Career>
+  <Career>Smuggler</Career>
+  <Career>Soldier</Career>
+  <Career>Student</Career>
+  <Career>Thief</Career>
+  <Career>Toll Keeper</Career>
+  <Career>Tomb Robber</Career>
+  <Career>Tradesman</Career>
+  <Career>Vagabond</Career>
+  <Career>Valet</Career>
+  <Career>Watchman</Career>
+ 
+  <Name>Firstname</Name>
+  <Name>Lastname</Name>
+
+  <Profile>
+    <WS>2d10:10</WS>
+    <BS>2d10:30</BS>
+    <S>2d10:10</S>
+    <T>2d10:10</T>
+    <Ag>2d10:30</Ag>
+    <Int>2d10:20</Int>
+    <WP>2d10:20</WP>
+    <Fel>2d10:30</Fel>
+    <A>0d10:1</A>
+    <W>0d10:0</W>
+    <SB>0d10:0</SB>
+    <TB>0d10:0</TB>
+    <M>0d10:4</M>
+    <Mag>0d10:0</Mag>
+    <IP>0d10:0</IP>
+    <Fate>0d10:0</Fate>
+
+    <Wounds name="30" value="8" />
+    <Wounds name="60" value="9" />
+    <Wounds name="90" value="10" />
+    <Wounds name="100" value="11" />
+
+    <Fate name="40" value="2" />
+    <Fate name="70" value="2" />
+    <Fate name="100" value="3" />
+  </Profile>
+
+  <Characteristics>
+     <Age name="5" value="20" />
+     <Age name="10" value="22" />
+     <Age name="15" value="24" />
+     <Age name="20" value="26" />
+     <Age name="25" value="28" />
+     <Age name="30" value="30" />
+     <Age name="35" value="32" />
+     <Age name="40" value="34" />
+     <Age name="45" value="36" />
+     <Age name="50" value="38" />
+     <Age name="55" value="40" />
+     <Age name="60" value="42" />
+     <Age name="65" value="44" />
+     <Age name="70" value="46" />
+     <Age name="75" value="50" />
+     <Age name="80" value="52" />
+     <Age name="85" value="54" />
+     <Age name="90" value="56" />
+     <Age name="95" value="58" />
+     <Age name="100" value="60" />
+
+     <Height name="Male" value="1d10:40" />
+     <Height name="Female" value="1d10:38" />
+
+     <Weight name="1" value="75" />
+     <Weight name="3" value="75" />
+     <Weight name="5" value="80" />
+     <Weight name="8" value="80" />
+     <Weight name="12" value="85" />
+     <Weight name="17" value="85" />
+     <Weight name="22" value="90" />
+     <Weight name="29" value="90" />
+     <Weight name="37" value="95" />
+     <Weight name="49" value="100" />
+     <Weight name="64" value="100" />
+     <Weight name="71" value="105" />
+     <Weight name="78" value="110" />
+     <Weight name="83" value="115" />
+     <Weight name="88" value="120" />
+     <Weight name="92" value="125" />
+     <Weight name="95" value="130" />
+     <Weight name="97" value="135" />
+     <Weight name="99" value="140" />
+     <Weight name="100" value="145" />
+
+     <Eyecolor name="10" value="Blue" />
+     <Eyecolor name="20" value="Hazel" />
+     <Eyecolor name="30" value="Hazel" />
+     <Eyecolor name="40" value="L. Brown" />
+     <Eyecolor name="50" value="L. Brown" />
+     <Eyecolor name="60" value="Brown" />
+     <Eyecolor name="70" value="Brown" />
+     <Eyecolor name="80" value="Dk. Brown" />
+     <Eyecolor name="90" value="Dk. Brown" />
+     <Eyecolor name="100" value="Dk. Brown" />
+
+     <Haircolor name="10" value="Ash Blond" />
+     <Haircolor name="20" value="Corn" />
+     <Haircolor name="30" value="Yelow" />
+     <Haircolor name="40" value="Yellow" />
+     <Haircolor name="50" value="Copper" />
+     <Haircolor name="60" value="Red" />
+     <Haircolor name="70" value="L. Brown" />
+     <Haircolor name="80" value="Brown" />
+     <Haircolor name="90" value="Dk. Black" />
+     <Haircolor name="100" value="Black" />
+
+     <Hairstyle name="50" value="Long (mid back)" />
+     <Hairstyle name="100" value="Short (neck)" />
+
+     <Siblings name="10" value="1" />
+     <Siblings name="30" value="2" />
+     <Siblings name="50" value="3" />
+     <Siblings name="70" value="4" />
+     <Siblings name="90" value="5" />
+     <Siblings name="100" value="6" />
+
+     <Birthplace name="50" value="The Moot" />
+     <Birthplace name="100" value="HUMAN" />
+  </Characteristics>
+
+  <Talents>Night Vision</Talents>
+  <Talents>Resistance to Chaos</Talents>
+  <Talents>Specialist Weapon Group (Sling)</Talents>
+  <Talents>RANDOM</Talents>
+  
+<RandomTalents name="5" value="Acute Hearing" />
+<RandomTalents name="10" value="Ambidextrous" />
+<RandomTalents name="15" value="Coolheaded" />
+<RandomTalents name="20" value="Excellent Vision" />
+<RandomTalents name="25" value="Fleet Footed" />
+<RandomTalents name="29" value="Hardy" />
+<RandomTalents name="33" value="Lightning Reflexes" />
+<RandomTalents name="38" value="Luck" />
+<RandomTalents name="42" value="Marksman" />
+<RandomTalents name="47" value="Mimic" />
+<RandomTalents name="51" value="Resistance to Disease" />
+<RandomTalents name="53" value="Resistance to Magic" />
+<RandomTalents name="57" value="Resistance to Poison" />
+<RandomTalents name="62" value="Savvy" />
+<RandomTalents name="67" value="Sixth Sense" />
+<RandomTalents name="72" value="Strong-minded" />
+<RandomTalents name="77" value="Sturdy" />
+<RandomTalents name="82" value="Suave" />
+<RandomTalents name="87" value="Super Numerate" />
+<RandomTalents name="91" value="Very Resilient" />
+<RandomTalents name="95" value="Very Strong" />
+<RandomTalents name="100" value="Warrior Born" />
+ 
+  <Skills>Academic Knowledge (Genealogy/Heraldry)</Skills>
+  <Skills>Common Knowledge (Halflings)</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Speak Language (Halfling)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+  <Skills>Trade (Cook) OR Trade (Farmer)</Skills>
+  
+<Trappings>Shirt</Trappings>
+<Trappings>Breeches</Trappings>
+<Trappings>Worn Boots</Trappings>
+<Trappings>Dagger</Trappings>
+<Trappings>Slingbag OR Backpack</Trappings>
+<Trappings>Blanket</Trappings>
+<Trappings>Wooden Tankard</Trappings>
+<Trappings>Wooden Cutlery Set</Trappings>
+<Trappings>Hand Weapon</Trappings>
+<Trappings>2d10 Gold Crowns</Trappings>
+  
+</Race>

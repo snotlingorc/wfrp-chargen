@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Friar</Name>
+  <WS>10</WS>
+  <BS>0</BS>
+  <S>5</S>
+  <T>10</T>
+  <Ag>0</Ag>
+  <Int>15</Int>
+  <WP>15</WP>
+  <Fel>15</Fel>
+  <A>0</A>
+  <W>4</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Academic Knowledge (Theology)</Skills>
+  <Skills>Animal Care</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Speak Language (Breton) OR Speak Language (Estalian) OR Speak Language (Kislevian) OR Speak Language (Tilean)</Skills>
+  <Skills>Speak Language (Classical)</Skills>
+  <Skills>Speak Language (Reikspiel)</Skills>
+
+  <Talents>Seasoned Traveler</Talents>
+
+  <Trappings>Healing Draught</Trappings>
+  <Trappings>Religious Symbol</Trappings>
+  <Trappings>Religious Relic</Trappings>
+  <Trappings>Robes</Trappings>
+
+  <Exits>Demagogue</Exits>
+  <Exits>Flagellant</Exits>
+  <Exits>Priest</Exits>
+  <Exits>Scholar</Exits>
+</Career>

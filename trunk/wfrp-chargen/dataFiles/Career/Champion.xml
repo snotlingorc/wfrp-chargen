@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Champion</Name>
+  <WS>40</WS>
+  <BS>40</BS>
+  <S>25</S>
+  <T>25</T>
+  <Ag>30</Ag>
+  <Int>0</Int>
+  <WP>20</WP>
+  <Fel>0</Fel>
+  <A>2</A>
+  <W>8</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Dodge Blow</Skills>
+  <Skills>Evaluate</Skills>
+  <Skills>Intimidate</Skills>
+  <Skills>Perception</Skills>
+
+  <Talents>Fleet Footed OR Lightning Reflexes</Talents>
+  <Talents>Lightning Parry</Talents>
+  <Talents>Master Gunner</Talents>
+  <Talents>Mighty Shot</Talents>
+  <Talents>Quick Draw</Talents>
+  <Talents>Rapid Reload</Talents>
+  <Talents>Specialist Weapon Group (ANY)</Talents>
+  <Talents>Specialist Weapon Group (ANY)</Talents>
+  <Talents>Specialist Weapon Group (ANY)</Talents>
+  <Talents>Wrestling</Talents>
+
+  <Trappings>Any Six Weapons (Best Craftsmanship)</Trappings>
+  <Trappings>Medium Armour (Mail Shirt)</Trappings>
+  <Trappings>Light Armour (Leather Jack)</Trappings>
+
+  <Exits>Assassin</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Sergeant</Exits>
+  <Exits>Witch Hunter</Exits>
+</Career>

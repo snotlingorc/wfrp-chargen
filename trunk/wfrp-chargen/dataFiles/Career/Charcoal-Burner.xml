@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Charcoal-Burner</Name>
+  <WS>5</WS>
+  <BS>0</BS>
+  <S>5</S>
+  <T>5</T>
+  <Ag>5</Ag>
+  <Int>5</Int>
+  <WP>5</WP>
+  <Fel>5</Fel>
+  <A>0</A>
+  <W>2</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>0</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+
+  <Skills>Common Knowledge (the Empire) OR Concealment</Skills>
+  <Skills>Drive OR Gossip</Skills>
+  <Skills>Haggle</Skills>
+  <Skills>Outdoor Survival</Skills>
+  <Skills>Perception</Skills>
+  <Skills>Scale Sheer Surface</Skills>
+  <Skills>Search</Skills>
+  <Skills>Secret Signs (Ranger)</Skills>
+  
+  <Talents>Flee!</Talents>
+  <Talents>Savvy OR Very Strong</Talents>
+
+  <Trappings>3 Torches</Trappings>
+  <Trappings>Tinderbox</Trappings>
+  <Trappings>Hand Weapon (Hatchet)</Trappings>
+
+  <Exits>Hunter</Exits>
+  <Exits>Miner</Exits>
+  <Exits>Scout</Exits>
+  <Exits>Vagabond</Exits>
+  <Exits>Woodsman</Exits>
+</Career>

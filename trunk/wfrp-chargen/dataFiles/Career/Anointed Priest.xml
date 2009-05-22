@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Career>
+  <Name>Anointed Priest</Name>
+  <WS>15</WS>
+  <BS>15</BS>
+  <S>10</S>
+  <T>10</T>
+  <Ag>10</Ag>
+  <Int>15</Int>
+  <WP>25</WP>
+  <Fel>20</Fel>
+  <A>1</A>
+  <W>5</W>
+  <SB>0</SB>
+  <TB>0</TB>
+  <M>0</M>
+  <Mag>2</Mag>
+  <IP>0</IP>
+  <FP>0</FP>
+  
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (ANY)</Skills>
+  <Skills>Academic Knowledge (Theology)</Skills>
+  <Skills>Channeling</Skills>
+  <Skills>Charm</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Common Knowledge (ANY)</Skills>
+  <Skills>Gossip</Skills>
+  <Skills>Heal</Skills>
+  <Skills>Magical Sense</Skills>
+  <Skills>Ride OR Swim</Skills>
+  <Skills>Speak Arcane Language (Magick)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+  <Skills>Speak Language (ANY)</Skills>
+
+  <Talents>Aethyric Attunement OR Meditation</Talents>
+  <Talents>Armoured Casting OR Fast Hands</Talents>
+  <Talents>Divine Lore (ANY)</Talents>
+  <Talents>Lesser Magic (ANY)</Talents>
+  <Talents>Lesser Magic (ANY)</Talents>
+  <Talents>Seasoned Traveller OR Strike Mighty Blow</Talents>
+
+  <Trappings>Noble's Garb</Trappings>
+
+  <Exits>Demagogue</Exits>
+  <Exits>Flagellant</Exits>
+  <Exits>High Priest</Exits>
+  <Exits>Scholar</Exits>
+  <Exits>Witch Hunter</Exits>
+</Career>
