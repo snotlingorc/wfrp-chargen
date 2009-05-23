@@ -42,10 +42,8 @@ public class load {
 		character.siblings = intsStrings.toInt(XMLCharacter.getValue("/Character/Siblings"));
 				
 		int tTotal = XMLCharacter.getNodes("/Character/talents");
-		System.out.println("total talents "+ tTotal);
 		for (int i=1; i < tTotal+1; i++) {
 			try {
-				System.out.println("found: "+XMLCharacter.getValue("/Character/talents["+i+"]"));
 				character.talents.add(XMLCharacter.getValue("/Character/talents["+i+"]"));
 			} catch (Exception e16) {
 				// TODO Auto-generated catch block
@@ -74,6 +72,28 @@ public class load {
 		for (int i=1; i < cTotal+1; i++) {
 			try {
 				character.career_path.add(XMLCharacter.getValue("/Character/career_path["+i+"]"));
+			} catch (Exception e16) {
+				// TODO Auto-generated catch block
+				e16.printStackTrace();
+			}
+		}
+		
+		// the next few advances
+		int asTotal = XMLCharacter.getNodes("/Character/available_skills");
+		for (int i=1; i < asTotal+1; i++) {
+			try {
+				System.out.println("found: "+XMLCharacter.getValue("/Character/available_skills["+i+"]"));
+
+				character.available_skills.add(XMLCharacter.getValue("/Character/available_skills["+i+"]"));
+			} catch (Exception e16) {
+				// TODO Auto-generated catch block
+				e16.printStackTrace();
+			}
+		}
+		int atTotal = XMLCharacter.getNodes("/Character/available_talents");
+		for (int i=1; i < atTotal+1; i++) {
+			try {
+				character.available_talents.add(XMLCharacter.getValue("/Character/available_talents["+i+"]"));
 			} catch (Exception e16) {
 				// TODO Auto-generated catch block
 				e16.printStackTrace();
