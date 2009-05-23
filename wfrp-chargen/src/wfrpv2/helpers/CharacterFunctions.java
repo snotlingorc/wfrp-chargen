@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Random;
 
 import rpg.dieRoller.dieRoller;
-import wfrpv2.dataTypes.CareerList;
+import wfrpv2.dataTypes.Character;
 import wfrpv2.dataTypes.Race;
 
 
@@ -286,6 +286,17 @@ public class CharacterFunctions {
 			System.out.print("\n File Exception: "+filename+"\n");
 		}
 		return Data;
+	}
+
+
+	public static Character ShallyaMercy(Character character) {
+		// Prompt if they want to use Shallya's Mercy
+		// if they do
+		//    Prompt the user for which skill to replace
+		// otherwise return unchanged
+		//
+		// TODO
+		return character;
 	}
 	
 }

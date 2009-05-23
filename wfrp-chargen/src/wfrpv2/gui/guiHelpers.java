@@ -21,6 +21,7 @@ import misc.intsStrings;
 import wfrpv2.dataTypes.Career;
 import wfrpv2.dataTypes.Character;
 import wfrpv2.helpers.GeneralFunctions;
+import wfrpv2.helpers.IOFunctions;
 
 public class guiHelpers {
 	static JComponent characterFrontPanel;
@@ -326,6 +327,37 @@ public class guiHelpers {
        	character.advance_scheme[lookupAttrib(s)] = character.advance_scheme[lookupAttrib(s)] - Modifier;
      
 		return character;
+	}
+
+	public static Object promptForAny(Object value, String type) {
+		Icon icon = null;
+		JFrame frame = null;
+		//get a list from the dataFile/any section
+		// pull out the (ANY) from the string and look up that file
+		String myANY = ((String) value).replace(" (ANY)","");
+		
+		Object[] possibilities = IOFunctions.getAnyList(myANY);
+		
+		// TODO
+		// one thing to do is look and make sure the right number are include.
+        // no more then 3 for a skill, and a talent only once.
+		
+		String s = (String)JOptionPane.showInputDialog(
+		                    frame,
+		                    "Select a "+type+" :\n",
+		                    "Customized Dialog",
+		                    JOptionPane.PLAIN_MESSAGE,
+		                    icon,
+		                    possibilities,
+		                    possibilities[0]);
+
+		//If a string was returned, say so.
+		if ((s != null) && (s.length() > 0)) {
+		    //setLabel("Green eggs and... " + s + "!");
+		    return s;
+		}
+
+		return null;
 	}
 
 	

@@ -8,6 +8,8 @@ import java.io.FileInputStream;
 import java.io.FilenameFilter;
 import java.io.FilterInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import wfrpv2.dataTypes.Race;
@@ -111,6 +113,37 @@ public class IOFunctions {
 			System.out.print("\n File Exception: "+filename+"\n");
 		}
 		return Data;
+	}
+
+	public static Object[] getAnyList(String string) {
+		System.out.println("Found ANY -"+string);
+		String filename = System.getProperty("user.dir");
+		filename = filename.concat("/dataFiles/any/");
+		filename = filename.concat(string);
+		System.out.println("Filename: "+filename);
+		List myList = new ArrayList();
+		int counter=0;
+		if ((filename == null) || (filename.length() == 0)) { 
+			System.out.println("Bad File in Any: "+filename);
+		}
+		try {
+			FileInputStream fstream = new FileInputStream(filename);
+			DataInputStream in = new DataInputStream(fstream);
+			//Read in the file and get how many lines
+			while (((FilterInputStream) in).available() !=0)  {
+				myList.add(((DataInput) in).readLine());
+				counter++;
+			}
+			in.close();
+		}
+		catch (IOException e) {
+			System.out.print("\n File Exception: "+filename+"\n");
+		}
+		Object[] anyList = new Object[counter];
+		for (int i=0; i<counter; i++) {
+			anyList[i] = myList.get(i);
+		}
+		return anyList;
 	}
 	
 }

@@ -83,22 +83,12 @@ public class CreateCharacter {
 		tempList = GeneralFunctions.checkForOR(myCharacter.trappings);
 		myCharacter.trappings = tempList;
 	    
-		//TODO
-		//Need to check for "RANDOM" in talents
 		//tempList = GeneralFunctions.checkForRandom(myCharacter.skills, "Skills", myCharacter.race);
 		//myCharacter.skills = tempList;
 		tempList = GeneralFunctions.checkForRandom(myCharacter.talents, "Talents", myCharacter.race);
 		myCharacter.talents = tempList;
 		tempList = GeneralFunctions.checkForRandom(myCharacter.trappings, "Trappings", myCharacter.race);
 		myCharacter.trappings = tempList;
-		
-		
-		//TODO
-		//Need to check for "ANY" 
-		
-		
-		// TODO
-		// add talent bonuses 
 		
 		return(myCharacter);	
 	}

@@ -17,6 +17,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
@@ -33,9 +34,12 @@ import javax.swing.SwingConstants;
 
 import wfrpv2.dataTypes.Career;
 import wfrpv2.dataTypes.Character;
+import wfrpv2.helpers.CharacterFunctions;
 import wfrpv2.helpers.CreateCharacter;
+import wfrpv2.helpers.GeneralFunctions;
 import wfrpv2.helpers.IOFunctions;
 import wfrpv2.helpers.load;
+import wfrpv2.helpers.print;
 import wfrpv2.helpers.save;
 
 /**
@@ -556,6 +560,7 @@ public class frontend extends JPanel implements ActionListener {
     	loadCharacter = new JButton("Load");
     	loadCharacter.addActionListener(this);
     	printCharacter = new JButton("Print");
+    	printCharacter.addActionListener(this);
     	about = new JButton("About");
     	//
     	generatedCharacter = "Test Character goes in this panel.";
@@ -575,17 +580,17 @@ public class frontend extends JPanel implements ActionListener {
     	System.out.print("\n 2 "+event.getSource());
     	System.out.print("\n 3 "+event.getClass());
     	
-    	// TODO - revisit in new  version
+    	// Saving a Character
     	if (event.getSource() == saveCharacter) {
     		try {
-				save.main(character, "teststring");
+				save.main(character);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
     	}
     	
-    	// TODO - revisit in new  version
+    	// Loading a Character
     	if (event.getSource() == loadCharacter) {
     		final JFileChooser fc = new JFileChooser();
     		int returnVal = fc.showOpenDialog(frontend.this);
@@ -599,9 +604,21 @@ public class frontend extends JPanel implements ActionListener {
 				}
 				//now that we have the character, we need to 
 				//build the panels
-////				displaySheet(character);
+				displaySheet(character);
             }
     	}
+    	
+    	// Printing a Character
+    	// TODO - revisit in new  version
+    	if (event.getSource() == printCharacter) {
+    		try {
+				print.main(character);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+    	}
+    	
     	// TODO - revisit in new version
        if ("comboBoxChanged".equals(event.getActionCommand())) {
   
@@ -626,7 +643,6 @@ public class frontend extends JPanel implements ActionListener {
         	mainFrame.pack();
         } 
        
-       // TODO - revisit in new version
         if (event.getSource() == generateCharacter) {
         	//let us create the character
         	String gender = sexes[sexChoices.getSelectedIndex()];
@@ -635,6 +651,7 @@ public class frontend extends JPanel implements ActionListener {
     	   
         	// Create a Character
         	character = CreateCharacter.main(race, gender);
+        	character = CharacterFunctions.ShallyaMercy(character);
         	character.AddCareer(myCareer, true);
         	
         	//load the current career profile
@@ -662,8 +679,15 @@ public class frontend extends JPanel implements ActionListener {
                 // prompt and add only that one
                 character.available_skills.remove(value);
                 String Type = "Skill";
-                character.skills.add(guiHelpers.promptForOr(value, Type));
-                //TODO sort out the skills
+                Object mySkill = guiHelpers.promptForOr(value, Type);
+                boolean any = GeneralFunctions.checkForANY((String) mySkill);
+                if (any) { 
+                	character.skills.add(guiHelpers.promptForAny(mySkill, Type));
+                } else {
+                	character.skills.add(mySkill);
+                }
+                
+                character = wfrpv2.helpers.GeneralFunctions.sortSkills(character);
                 displaySheet(character);
 		}
      };
@@ -676,10 +700,19 @@ public class frontend extends JPanel implements ActionListener {
                  String Type = "Talent";
                  character.available_talents.remove(value);
                  Object myTalent = guiHelpers.promptForOr(value, Type);
-                 character.talents.add(myTalent);
-                 // Check for bonus and apply
-                 character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, myTalent);
-               //TODO sort out the talents
+                 boolean any = GeneralFunctions.checkForANY((String) myTalent);
+                 if (any) { 
+                	 Object thisTalent = guiHelpers.promptForAny(myTalent, Type);
+                 	character.talents.add(thisTalent);
+                     // Check for bonus and apply
+                 	character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, thisTalent);
+                 } else {
+                	 character.talents.add(myTalent);
+                	 // Check for bonus and apply
+                	 character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, myTalent);
+                 }
+
+                 character = wfrpv2.helpers.GeneralFunctions.sortTalents(character);
                  displaySheet(character);
         }
       };
@@ -689,6 +722,7 @@ public class frontend extends JPanel implements ActionListener {
                 String value = (String)cb.getSelectedItem();
                 System.out.println("a trapping was selected "+ value);
                 // TODO  need to do something with the trappings
+                character = wfrpv2.helpers.GeneralFunctions.sortTrappings(character);
         }
       }; 
   	ActionListener pCareerExitsAction = new ActionListener() {
@@ -696,7 +730,11 @@ public class frontend extends JPanel implements ActionListener {
 			JComboBox cb = (JComboBox) e.getSource();
 			String value = (String) cb.getSelectedItem();
 			System.out.println("a Carrer exit was selected " + value);
+			// remove current skills/talents/attributes
+			character.available_skills = new ArrayList();
+			character.available_talents = new ArrayList();
 			character.AddCareer(value);
+			
 			displaySheet(character);
 		}
 	};
