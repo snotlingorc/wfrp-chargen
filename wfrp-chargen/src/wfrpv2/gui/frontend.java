@@ -593,6 +593,9 @@ public class frontend extends JPanel implements ActionListener {
     	// Loading a Character
     	if (event.getSource() == loadCharacter) {
     		final JFileChooser fc = new JFileChooser();
+    		String curDir = System.getProperty("user.dir");
+    		File startingDir = new File(curDir+"/dataFiles/Characters/");
+    		fc.setSelectedFile(startingDir) ;
     		int returnVal = fc.showOpenDialog(frontend.this);
             if (returnVal == JFileChooser.APPROVE_OPTION) {
                 File file = fc.getSelectedFile();
@@ -603,7 +606,8 @@ public class frontend extends JPanel implements ActionListener {
 					e.printStackTrace();
 				}
 				//now that we have the character, we need to 
-				//build the panels
+				//build the panels	
+				// display the sheet
 				displaySheet(character);
             }
     	}
@@ -731,8 +735,6 @@ public class frontend extends JPanel implements ActionListener {
 			String value = (String) cb.getSelectedItem();
 			System.out.println("a Carrer exit was selected " + value);
 			// remove current skills/talents/attributes
-			character.available_skills = new ArrayList();
-			character.available_talents = new ArrayList();
 			character.AddCareer(value);
 			
 			displaySheet(character);
