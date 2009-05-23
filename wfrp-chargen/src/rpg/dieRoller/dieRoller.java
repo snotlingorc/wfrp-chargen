@@ -70,5 +70,23 @@ public class dieRoller {
 		return number;
 	}
 	
+	/**
+	 * Returns the addtion of a die string,example 1d10 + 20 - returns 20
+	 * 
+	 * @param value (String) in format <x>d<y>:<z>  Example:  1d10:20
+	 * @return <z> of the string
+	 */
+	public static int DRString(String value) {
+		// Look at string and see if it is in that the format
+		// looking for (number of dice)d(sides of dice):(value to add)
+		//   the :(value to add) may be optional
+		String[] tempString = null;
+		
+		tempString = value.split(":");
+		//tempString2 = tempString[0].split("d");
+
+		return Integer.parseInt(tempString[1]);
+	}
+	
 	
 }

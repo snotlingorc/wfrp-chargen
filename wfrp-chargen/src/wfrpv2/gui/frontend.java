@@ -476,7 +476,10 @@ public class frontend extends JPanel implements ActionListener {
     	pTalents.removeAllItems();
     	
     	Career career = new Career();
-    	career = Career.initilizeCareer(character.career);
+    	if (character.career.equals("Peeon")) {
+    	} else {
+    		career = Career.initilizeCareer(character.career);
+    	}
 
 		if (career.exits.size() == 0) {
 			pCareerExits.addItem("None");
@@ -576,9 +579,9 @@ public class frontend extends JPanel implements ActionListener {
     }
     
     public void actionPerformed(ActionEvent event) {
-    	System.out.print("\n 1 "+event.getActionCommand());
-    	System.out.print("\n 2 "+event.getSource());
-    	System.out.print("\n 3 "+event.getClass());
+    	System.out.println(" 1 "+event.getActionCommand());
+    	System.out.println(" 2 "+event.getSource());
+    	System.out.println(" 3 "+event.getClass());
     	
     	// Saving a Character
     	if (event.getSource() == saveCharacter) {
@@ -647,6 +650,8 @@ public class frontend extends JPanel implements ActionListener {
         	mainFrame.pack();
         } 
        
+	   	// Generating a Character
+
         if (event.getSource() == generateCharacter) {
         	//let us create the character
         	String gender = sexes[sexChoices.getSelectedIndex()];
@@ -655,6 +660,7 @@ public class frontend extends JPanel implements ActionListener {
     	   
         	// Create a Character
         	character = CreateCharacter.main(race, gender);
+        	displaySheet(character);
         	character = CharacterFunctions.ShallyaMercy(character);
         	character.AddCareer(myCareer, true);
         	

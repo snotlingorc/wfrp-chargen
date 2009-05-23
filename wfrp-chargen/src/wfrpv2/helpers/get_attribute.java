@@ -294,5 +294,14 @@ public class get_attribute {
 		Firstname = Firstname.concat(Lastname);
 		return (Firstname);
 	}
+
+	/**
+	 * @param int
+	 * @return name of attribute in the int place
+	 */
+	public static String convert(int i) {
+		String[] attribute = {"WS", "BS", "S", "T", "Ag", "Int", "WP", "Fel", "A", "W", "SB", "TB", "M", "Mag", "IP", "FP"};
+		return attribute[i];
+	}
 	
 }

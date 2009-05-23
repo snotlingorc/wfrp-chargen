@@ -8,9 +8,12 @@ import java.io.FilterInputStream;
 import java.io.IOException;
 import java.util.Random;
 
+import misc.intsStrings;
+
 import rpg.dieRoller.dieRoller;
 import wfrpv2.dataTypes.Character;
 import wfrpv2.dataTypes.Race;
+import wfrpv2.gui.guiHelpers;
 
 
 
@@ -288,13 +291,44 @@ public class CharacterFunctions {
 		return Data;
 	}
 
-
+	/**
+	 * @param characer
+	 * @return character with Shallya's Mercy added
+	 */
 	public static Character ShallyaMercy(Character character) {
-		// Prompt if they want to use Shallya's Mercy
+		// Prompt for which skill to change (compare with existing skills) also prompt for none 
+		//  - in case a house rule does not allow Shallya's Mercy
 		// if they do
 		//    Prompt the user for which skill to replace
 		// otherwise return unchanged
 		//
+		
+		// open race Profile and get the abilities - add 11 to the front part
+		String race = character.race;
+		int[] myStats = Race.getMercyStats(race);
+		
+		// compare with character's abilities
+	    for (int x=0; x <myStats.length; x++) {
+	    	if (myStats[x] > character.starting_profile[x]) {
+	    	} else {
+	    		myStats[x] = 0;
+	    	}
+	    }
+	    //send he myStats array to a gui to
+	    Object foo = guiHelpers.promptForSM(myStats);
+	    if (foo.equals(null)) {
+	    	// No Mercy for you!
+	    } else {
+	    	// convert attribute name back to a number and add  the value to that spot
+	    	String[] tempString = null;
+	    	tempString = ((String) foo).split(" ");
+	    	int location = guiHelpers.lookupAttrib(tempString[1]);
+	    	character.current_profile[location] = intsStrings.toInt(tempString[3]);
+	    	character.starting_profile[location] = intsStrings.toInt(tempString[3]);	
+	    }
+	    
+		// display only those that are less then the average number
+		
 		// TODO
 		return character;
 	}
