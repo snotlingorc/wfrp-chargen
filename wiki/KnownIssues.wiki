@@ -11,9 +11,10 @@
 Changes:
 Save/Load now work
 
-Shallya's Mercy and Printing have been stubbed out
+Printing has been stubbed out
   - printing prints to the console window
-  - Mercy will be next
+
+Shallya's Mercy has been added
 
 Talents/Skills are now sorted when a new one is added.
 Talents/Skills now stack correctly
