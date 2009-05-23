@@ -316,7 +316,7 @@ public class CharacterFunctions {
 	    }
 	    //send he myStats array to a gui to
 	    Object foo = guiHelpers.promptForSM(myStats);
-	    if (foo.equals(null)) {
+	    if (foo.equals("nothing")) {
 	    	// No Mercy for you!
 	    } else {
 	    	// convert attribute name back to a number and add  the value to that spot

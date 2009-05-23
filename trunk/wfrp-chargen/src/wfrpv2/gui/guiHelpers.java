@@ -382,17 +382,11 @@ public class guiHelpers {
     	} else {
     		// TODO convert to non-option based window
  
-    		String s = (String)JOptionPane.showInputDialog(
-                    frame,
-                    "Shallya has no Mercy for you!",
-                    "Customized Dialog",
-                    JOptionPane.PLAIN_MESSAGE,
-                    icon,
-                    null,
-                    null);
+    		JOptionPane.showMessageDialog(null,"Shallya has no Mercy for you!",
+    			    "Message Dialog",JOptionPane.PLAIN_MESSAGE);
     	}
 
-		return null;
+		return "nothing";
 	}
 
 	private static int countZeros(int[] array) {
