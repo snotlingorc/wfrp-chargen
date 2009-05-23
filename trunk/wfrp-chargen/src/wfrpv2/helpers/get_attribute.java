@@ -28,7 +28,6 @@ public class get_attribute {
 	public static String RootRoll(String filename) {
 		int die;
 		String result;
-		String return_string;
 		die = dieRoller.main(100);
 		
 		// now, let us get the correct directory

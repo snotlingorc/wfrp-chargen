@@ -266,4 +266,21 @@ public class XMLDocument {
             nodeChild.appendChild(text);
         }
     }
+
+	public int getNodes(String string) {
+		//do a XPathAPI.selectNodeList(doc, "/Character/skills") - returns a NodeList object
+		//do a getLength() 
+		//nodelist should have an "item(1)" method or there abouts - just setup a for loop
+		int foo = 0;
+		try {
+			NodeList nodeList = XPathAPI.selectNodeList(doc, string);
+			foo = nodeList.getLength();
+		} catch (TransformerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return foo;
+		
+	}
+
 }

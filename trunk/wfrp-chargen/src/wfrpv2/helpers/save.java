@@ -4,7 +4,6 @@
 package wfrpv2.helpers;
 import rpg.XMLFile.XMLDocument;
 import wfrpv2.dataTypes.Character;
-import rpg.dieRoller.dieRoller;
 import misc.intsStrings;
 
 /**
@@ -15,7 +14,7 @@ import misc.intsStrings;
  */
 public class save {
 
-	public static void main(Character character, String File) throws Exception {
+	public static void main(Character character) throws Exception {
 		XMLDocument XMLCharacter = new XMLDocument("Character");
 		
 		XMLCharacter.setFileName(character.name);

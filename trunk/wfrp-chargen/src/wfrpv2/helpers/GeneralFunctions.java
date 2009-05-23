@@ -1,16 +1,14 @@
 package wfrpv2.helpers;
 
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
 import org.w3c.dom.Element;
 
 import rpg.XMLFile.XMLDocument;
-import rpg.dieRoller.dieRoller;
-import wfrpv2.dataTypes.CareerList;
 import wfrpv2.dataTypes.Character;
-import wfrpv2.dataTypes.Race;
 
 
 
@@ -127,6 +125,26 @@ public class GeneralFunctions {
 		if (myTalent.equals("Very Strong")) {character.addtostat(2, 5); } //S
 		if (myTalent.equals("Warrior Born")) {character.addtostat(0, 5); } //WS
 			
+		return character;
+	}
+
+	public static boolean checkForANY(String value) {
+		if (value.contains("ANY")) {
+			return true;
+		}
+		return false;
+	}
+
+	public static Character sortTalents(Character character) {
+		Collections.sort(character.talents);
+		return character;
+	}
+	public static Character sortSkills(Character character) {
+		Collections.sort(character.skills);
+		return character;
+	}
+	public static Character sortTrappings(Character character) {
+		Collections.sort(character.trappings);
 		return character;
 	}
 

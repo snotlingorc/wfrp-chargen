@@ -3,10 +3,10 @@
  */
 package wfrpv2.helpers;
 import java.io.File;
+
 import wfrpv2.dataTypes.Character;
 
 import rpg.XMLFile.XMLDocument;
-import rpg.dieRoller.dieRoller;
 import misc.intsStrings;
 
 /**
@@ -24,69 +24,61 @@ public class load {
 		XMLCharacter.setFileName(intsStrings.toString(file));
 		XMLCharacter.loadFile(false);
 		
-		character.name = XMLCharacter.getValue("/Character/name");
-		character.race = XMLCharacter.getValue("/Character/race");
-		character.career = XMLCharacter.getValue("/Character/career");
-		
-		//character.career_path = XMLCharacter.getValue("/Character/career_path");
-		
-		character.gender = XMLCharacter.getValue("/Character/sex");
-		character.exp = intsStrings.toInt(XMLCharacter.getValue("/Character/exp"));
-		character.height = intsStrings.toInt(XMLCharacter.getValue("/Character/height"));
-		character.weight = intsStrings.toInt(XMLCharacter.getValue("/Character/weight"));
-		character.age = intsStrings.toInt(XMLCharacter.getValue("/Character/age"));
-		character.haircolor = XMLCharacter.getValue("/Character/haircolor");
-		character.hairtype = XMLCharacter.getValue("/Character/hairtype");
-		character.eyecolor = XMLCharacter.getValue("/Character/eyecolor");
-		character.birthplace = XMLCharacter.getValue("/Character/birthplace");
-		character.starsign = XMLCharacter.getValue("/Character/starsign");
-		character.marks = XMLCharacter.getValue("/Character/marks");
-		character.siblings = intsStrings.toInt(XMLCharacter.getValue("/Character/siblings"));
-		
-		//TODO 
-		//character.skills = XMLCharacter.getValue("/Character/skills");
-		//character.talents = XMLCharacter.getValue("/Character/talents");
-		//character.trappings = XMLCharacter.getValue("/Character/trappings");
-		//character.career_path = XMLCharacter.getValue("/Character/career_path");
-		for (int i=1; i < 20; i++) {
+		character.name = XMLCharacter.getValue("/Character/Name");
+		character.race = XMLCharacter.getValue("/Character/Race");
+		character.career = XMLCharacter.getValue("/Character/Career");
+				
+		character.gender = XMLCharacter.getValue("/Character/Gender");
+		character.exp = intsStrings.toInt(XMLCharacter.getValue("/Character/Exp"));
+		character.height = intsStrings.toInt(XMLCharacter.getValue("/Character/Height"));
+		character.weight = intsStrings.toInt(XMLCharacter.getValue("/Character/Weight"));
+		character.age = intsStrings.toInt(XMLCharacter.getValue("/Character/Age"));
+		character.haircolor = XMLCharacter.getValue("/Character/Haircolor");
+		character.hairtype = XMLCharacter.getValue("/Character/Hairtype");
+		character.eyecolor = XMLCharacter.getValue("/Character/Eyecolor");
+		character.birthplace = XMLCharacter.getValue("/Character/Birthplace");
+		character.starsign = XMLCharacter.getValue("/Character/Starsign");
+		character.marks = XMLCharacter.getValue("/Character/Marks");
+		character.siblings = intsStrings.toInt(XMLCharacter.getValue("/Character/Siblings"));
+				
+		int tTotal = XMLCharacter.getNodes("/Character/talents");
+		System.out.println("total talents "+ tTotal);
+		for (int i=1; i < tTotal+1; i++) {
 			try {
+				System.out.println("found: "+XMLCharacter.getValue("/Character/talents["+i+"]"));
 				character.talents.add(XMLCharacter.getValue("/Character/talents["+i+"]"));
 			} catch (Exception e16) {
 				// TODO Auto-generated catch block
 				e16.printStackTrace();
 			}
-			try {
-				character.trappings.add(XMLCharacter.getValue("/Character/trappings["+i+"]"));
-			} catch (Exception e17) {
-				// TODO Auto-generated catch block
-				e17.printStackTrace();
-			}
+		}
+		int sTotal = XMLCharacter.getNodes("/Character/skills");
+		for (int i=1; i < sTotal+1; i++) {
 			try {
 				character.skills.add(XMLCharacter.getValue("/Character/skills["+i+"]"));
-			} catch (Exception e18) {
+			} catch (Exception e16) {
 				// TODO Auto-generated catch block
-				e18.printStackTrace();
-			}
-			try {
-				character.career_path.add(XMLCharacter.getValue("/Character/career_path["+i+"]"));
-			} catch (Exception e19) {
-				// TODO Auto-generated catch block
-				e19.printStackTrace();
-			}
-			try {
-				character.available_skills.add(XMLCharacter.getValue("/Character/available_skills["+i+"]"));
-			} catch (Exception e19) {
-				// TODO Auto-generated catch block
-				e19.printStackTrace();
-			}
-			try {
-				character.available_talents.add(XMLCharacter.getValue("/Character/available_talents["+i+"]"));
-			} catch (Exception e19) {
-				// TODO Auto-generated catch block
-				e19.printStackTrace();
+				e16.printStackTrace();
 			}
 		}
-		
+		int trTotal = XMLCharacter.getNodes("/Character/trappings");
+		for (int i=1; i < trTotal+1; i++) {
+			try {
+				character.trappings.add(XMLCharacter.getValue("/Character/trappings["+i+"]"));
+			} catch (Exception e16) {
+				// TODO Auto-generated catch block
+				e16.printStackTrace();
+			}
+		}
+		int cTotal = XMLCharacter.getNodes("/Character/career_path");
+		for (int i=1; i < cTotal+1; i++) {
+			try {
+				character.career_path.add(XMLCharacter.getValue("/Character/career_path["+i+"]"));
+			} catch (Exception e16) {
+				// TODO Auto-generated catch block
+				e16.printStackTrace();
+			}
+		}
 		
 		//Profile bits
 		character.starting_profile[0] = intsStrings.toInt(XMLCharacter.getValue("/Character/starting_profile/WS"));
