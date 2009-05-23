@@ -1,6 +1,5 @@
 package wfrpv2.gui;
 
-import java.awt.GridBagConstraints;
 import java.awt.GridLayout;
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,6 +21,7 @@ import wfrpv2.dataTypes.Career;
 import wfrpv2.dataTypes.Character;
 import wfrpv2.helpers.GeneralFunctions;
 import wfrpv2.helpers.IOFunctions;
+import wfrpv2.helpers.get_attribute;
 
 public class guiHelpers {
 	static JComponent characterFrontPanel;
@@ -56,26 +56,18 @@ public class guiHelpers {
     
     /**
 	 * @param attrib
-	 * @return int position of the attrib in the profile.
+	 * @return integer position of the attribute in the profile.
 	 */
-	static int lookupAttrib(String attrib) {
+	public static int lookupAttrib(String attrib) {
 		
 		Career career = new Career();
-		for (int i=0; i < 16; i++) {
-			if (attrib == career.profile[i]) {
+		for (int i=0; i < 16; i++) {			
+			if (attrib.equals(career.profile[i])) {
 				return i;
 			}
 		}
 		return 0;
 	}
-
-
-    
-    private Character loadCharacter() {
-        //Create a file chooser
-//        fc = new JFileChooser();
-		return null;
-    }
 
     /**
 	 * @param character
@@ -110,7 +102,7 @@ public class guiHelpers {
 	private static String table(List skills) {
 		String tablelisting ="";
 		//find how many elements are in the list
-		// foreach element wrap html around.
+		// for each element wrap html around.
 		if (skills.size() > 0) {
 			for ( int i=0; i<skills.size(); i++ ) {
 				String element = (String) skills.get(i);
@@ -210,7 +202,7 @@ public class guiHelpers {
 		charactersheet = charactersheet.replaceAll("_CFEL_", intsStrings.toString(character.current_profile[7+character.talent_bonus[7]]));
 		charactersheet = charactersheet.replaceAll("_CA_", intsStrings.toString(character.current_profile[8+character.talent_bonus[8]]));
 		charactersheet = charactersheet.replaceAll("_CW_", intsStrings.toString(character.current_profile[9+character.talent_bonus[9]]));
-		// make sure SB and TB are caculated
+		// make sure SB and TB are calculated
 		charactersheet = charactersheet.replaceAll("_CSB_", intsStrings.toString(character.current_profile[2]/10));
 		charactersheet = charactersheet.replaceAll("_CTB_", intsStrings.toString(character.current_profile[3]/10));
 		charactersheet = charactersheet.replaceAll("_CM_", intsStrings.toString(character.current_profile[12+character.talent_bonus[12]]));
@@ -259,8 +251,7 @@ public class guiHelpers {
 		JFrame frame = null;
 		Career career = new Career();
 		career = Career.initilizeCareer(myCareer);
-		// TODO
-		// the initialize works -but it displays blank lines as well.
+
 		Object[] possibilities = new Object[16];
 		
 		int j=0;
@@ -274,7 +265,6 @@ public class guiHelpers {
 				if ((value / 5) > character.advance_taken[i] ) {
 					// Beauty, the character can take more in the profile
 					String element = career.profile[i];
-					//element = element.concat(": "+die_roll.toString(value));
 					possibilities[j]=element;
 					j++;
 				}
@@ -292,7 +282,6 @@ public class guiHelpers {
 				if (value > character.advance_taken[i]) {
 					// Beauty, the character can take more in the profile
 					String element = career.profile[i];
-					//element = element.concat(": "+die_roll.toString(value));
 					possibilities[j]=element;
 					j++;
 				}
@@ -358,6 +347,63 @@ public class guiHelpers {
 		}
 
 		return null;
+	}
+
+	public static Object promptForSM(int[] myStats) {
+		Icon icon = null;
+		JFrame frame = null;
+		
+		// find out how many 0's are in the array.. so we know how make to make the number of possibilities
+		int zeros = countZeros(myStats);
+		Object[] possibilities = new Object[8-zeros];
+		int count = 0;
+    	for ( int i=0; i<8; i++ ) {
+    		if (myStats[i] > 0) {
+    			possibilities[count] = "Increase "+ get_attribute.convert(i)+" to "+myStats[i];
+    			count++;
+    		}
+    	}	
+    	// let the Mercy show if they have it
+       	if (count > 0) {
+    		String s = (String)JOptionPane.showInputDialog(
+                frame,
+                "Shallya has Mercy - Choose an attribute to increase :\n",
+                "Customized Dialog",
+                JOptionPane.PLAIN_MESSAGE,
+                icon,
+                possibilities,
+                possibilities[0]);
+		
+    		//If a string was returned, say so.
+    		if ((s != null) && (s.length() > 0)) {
+    			//setLabel("Green eggs and... " + s + "!");
+    			return s;
+    		}
+    	} else {
+    		// TODO convert to non-option based window
+ 
+    		String s = (String)JOptionPane.showInputDialog(
+                    frame,
+                    "Shallya has no Mercy for you!",
+                    "Customized Dialog",
+                    JOptionPane.PLAIN_MESSAGE,
+                    icon,
+                    null,
+                    null);
+    	}
+
+		return null;
+	}
+
+	private static int countZeros(int[] array) {
+		// loop the array and count up the zeros
+		int count=0;
+		for (int i=0; i<array.length; i++) {
+			if (array[i] == 0) {
+				count++;
+			}
+		}
+		return count;
 	}
 
 	

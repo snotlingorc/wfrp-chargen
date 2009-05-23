@@ -212,4 +212,26 @@ public class Race {
 		file = file.concat("/datafiles/profile" + race + ".xml");
 		return file;
 	}
+
+	public static int[] getMercyStats(String race) {
+		int[] profile = { 0, 0, 0, 0, 0, 0, 0, 0 };
+		XMLDocument XMLRace = new XMLDocument("race");
+		String file = openRaceFile(race);
+
+		XMLRace.setFileName(file);
+		XMLRace.loadFile(false);
+		try {
+			profile[0] = 11+dieRoller.DRString(XMLRace.getValue("/Race/Profile/WS"));
+			profile[1] = 11+dieRoller.DRString(XMLRace.getValue("/Race/Profile/BS"));
+			profile[2] = 11+dieRoller.DRString(XMLRace.getValue("/Race/Profile/S"));
+			profile[3] = 11+dieRoller.DRString(XMLRace.getValue("/Race/Profile/T"));
+			profile[4] = 11+dieRoller.DRString(XMLRace.getValue("/Race/Profile/Ag"));
+			profile[5] = 11+dieRoller.DRString(XMLRace.getValue("/Race/Profile/Int"));
+			profile[6] = 11+dieRoller.DRString(XMLRace.getValue("/Race/Profile/WP"));
+			profile[7] = 11+dieRoller.DRString(XMLRace.getValue("/Race/Profile/Fel"));
+		} catch (Exception e1) {
+			//e1.printStackTrace();
+		}
+		return profile;
+	}
 }

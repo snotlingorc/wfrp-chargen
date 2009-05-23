@@ -27,6 +27,7 @@ public class CreateCharacter {
 		// See if the gender is going to be randomized
 		gender = CharacterFunctions.randomGender(gender);
 		myCharacter.gender = gender;
+		myCharacter.career = "Peeon";
 		// getting the main characteristics
 		
 		// Read in the xml file and pull out the right bits
