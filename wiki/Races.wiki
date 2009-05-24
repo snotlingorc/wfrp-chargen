@@ -1,5 +1,4 @@
-#summary One-sentence summary of this page.
-
+#summary Information on creating/edited races
 = Introduction =
 
 Add your content here.
