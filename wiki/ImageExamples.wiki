@@ -2,7 +2,7 @@
 
 Here is an example of the application when you launch it:
 
-[http://groups.google.com/group/wfrp-chargen/web/main_screen.png]
+[http://wfrp-chargen.googlegroups.com/web/main_screen.png?gda=U4waRkEAAACoIOP3vpDzxsyMRWeJ_kuk74JqRolK3QR4dErDRX-R3fKgrYIWGmubSwotssE8kqBTCT_pCLcFTwcI3Sro5jAzlXFeCn-cdYleF-vtiGpWAA]
 
 and the front and back of a character in it's second career:
 
