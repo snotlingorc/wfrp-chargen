@@ -1,5 +1,6 @@
 package wfrpv2.gui;
 
+import java.awt.Container;
 import java.awt.GridLayout;
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,6 +12,7 @@ import java.util.List;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JComponent;
+import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -398,6 +400,24 @@ public class guiHelpers {
 			}
 		}
 		return count;
+	}
+
+	
+	// TODO  convert to a better looking gui
+	public static void showAbout() {
+		String Title = "<h2>WFRP-CharGen version beta r16</h2>";
+		String Website = "http://code.google.com/p/wfrp-chargen/";
+		String Disclaimer = "Warhammer and other Warhammer Fantasy Rople Play (and the Logo's) are " +
+				"(probably registered) trademarks of Games Workshop and/or Green Ronin and/or Black " +
+				"Industries and/or Fantasy Flight Games.  The use of trademarks and materials are not " +
+				"meant as a challange to their rights and is not intended to make or lose any money for " +
+				"anyone. ";
+		
+		String Message = Title + "<br>" + Website + "<hr>" + Disclaimer; 
+		
+		JOptionPane.showMessageDialog(null,Message,
+			    "Message Dialog",JOptionPane.PLAIN_MESSAGE);
+		
 	}
 
 	

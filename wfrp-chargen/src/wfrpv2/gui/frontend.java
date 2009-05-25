@@ -17,8 +17,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
@@ -120,7 +118,7 @@ public class frontend extends JPanel implements ActionListener {
         //Add the widgets.
         //Start with the createPanel
         
-    	ImageIcon warhammerimage = guiHelpers.createImageIcon("wfrplogo.jpg");
+    	ImageIcon warhammerimage = guiHelpers.createImageIcon("wfrplogo.png");
     	warhammerLogo = new JLabel(warhammerimage);
     	c.weightx = 0.5;
     	c.gridx = 0;
@@ -565,6 +563,7 @@ public class frontend extends JPanel implements ActionListener {
     	printCharacter = new JButton("Print");
     	printCharacter.addActionListener(this);
     	about = new JButton("About");
+    	about.addActionListener(this);
     	//
     	generatedCharacter = "Test Character goes in this panel.";
     
@@ -625,6 +624,12 @@ public class frontend extends JPanel implements ActionListener {
 				e.printStackTrace();
 			}
     	}
+    	
+    	// About the application
+    	if (event.getSource() == about) {
+    			guiHelpers.showAbout();
+    	}
+    	
     	
     	// TODO - revisit in new version
        if ("comboBoxChanged".equals(event.getActionCommand())) {
