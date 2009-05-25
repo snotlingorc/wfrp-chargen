@@ -43,6 +43,7 @@ public class GeneralFunctions {
 		}
 		return listOfStuff;
 	}
+	
 
 	public static List checkForRandom(List listOfStuff, String listName, String race) {
 		//Checking for RANDOM in one of the lists
@@ -146,6 +147,27 @@ public class GeneralFunctions {
 	public static Character sortTrappings(Character character) {
 		Collections.sort(character.trappings);
 		return character;
+	}
+
+
+	public static String removeFromOR(String[] ORS, Object toRemove) {
+		String newstring = "";
+		for (int z=0;z<ORS.length; z++) {
+			if (z == 0) {
+				if (!ORS[z].equals(toRemove)){
+					newstring = ORS[z];
+				} 
+			} else {
+				if (!ORS[z].equals(toRemove)) {
+					if (newstring.equals("")) {
+						newstring = ORS[z];
+					} else {
+						newstring = newstring.concat(" OR "+ORS[z]);
+					}
+				}
+			}
+		}
+		return newstring;
 	}
 
 	

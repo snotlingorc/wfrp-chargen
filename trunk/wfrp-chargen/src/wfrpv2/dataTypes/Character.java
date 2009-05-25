@@ -3,6 +3,8 @@ package wfrpv2.dataTypes;
 import java.util.ArrayList;
 import java.util.List;
 
+import wfrpv2.helpers.GeneralFunctions;
+
 /*
  * Created on May 10, 2005
  */
@@ -64,24 +66,37 @@ public class Character {
 
 		}
 		
-		// TODO
+	
 		// check for duplicate skills; no more than 3
-		// this works.. but need to check for OR and compare each one
 		int found=0;
-	//	this.available_skills = myCareer.skills;
 		for (int i=0; i < myCareer.skills.size(); i++) {
 			for (int j=0; j < this.skills.size(); j++) {
 				if (this.skills.get(j).equals(myCareer.skills.get(i))) {
 					found++;
+				} else {
+					String Element = (String) myCareer.skills.get(i);
+					// check for OR and compare each part
+					if (wfrpv2.helpers.GeneralFunctions.checkForOR(Element)) {
+						// if OR found - check each part if found - remove from list
+						String[] ORS = Element.split(" OR ");
+						for (int x =0; x<ORS.length; x++) {
+							if (ORS[x].equals(this.skills.get(j))) {
+								found++;								
+								if (found == 3) {
+									// remove from list
+									// get the length and rebuilt to String with all but x
+									this.available_skills.add(GeneralFunctions.removeFromOR(ORS, this.skills.get(j)));
+								}
+							}
+						}
+					} 
 				}
 			}
 			if (found < 3) {
 				this.available_skills.add(myCareer.skills.get(i));
-				found=0;
-			} else {
-				System.out.println("already have 3 skills in "+myCareer.skills.get(i));
-				found=0;
 			}
+			found=0;
+			
 		}
 		
 		
@@ -90,13 +105,28 @@ public class Character {
 		// loop through the myCareer.talents and see if they are in
 		//  this.talents.  If not, add them to the new array 
 		// this.available_talents
-		// TODO
-		// this works.. but need to check for OR and compare each one
 		boolean match = false;
 		for (int i=0; i < myCareer.talents.size(); i++) {
 			for (int j=0; j < this.talents.size(); j++) {
 				if (this.talents.get(j).equals(myCareer.talents.get(i))) {
 					match = true;
+				} else {  // Check for OR
+					String Element = (String) myCareer.talents.get(i);
+					// check for OR and compare each part
+					if (wfrpv2.helpers.GeneralFunctions.checkForOR(Element)) {
+						// if OR found - check each part if found - remove from list
+						String[] ORS = Element.split(" OR ");
+						for (int x =0; x<ORS.length; x++) {
+							if (ORS[x].equals(this.talents.get(j))) {
+								match = true;								
+								if (match) {
+									// remove from list
+									// get the length and rebuilt to String with all but x
+									this.available_talents.add(GeneralFunctions.removeFromOR(ORS, this.talents.get(j)));
+								}
+							}
+						}
+					} 
 				}
 			}
 			if (!match) {
@@ -105,6 +135,9 @@ public class Character {
 				match = false;
 			}
 		}
+		
+		
+		
 		
 		// if this is the first career, add in all the trappings
 		if (firstTime) {
