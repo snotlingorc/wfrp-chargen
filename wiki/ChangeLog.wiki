@@ -1,5 +1,13 @@
 = Known Issues/Change Log =
 
+== 5/24/2009 ==
+Typo in Demagogue career fixed
+
+Skills/Talents now check inside an OR for a matching skill and does not display if you have 3 of the same Skill or the talent already - Issue 6
+
+Started the About button
+
+
 == 5/23/2009 ==
 r15 release - http://code.google.com/p/wfrp-chargen/downloads/list
 
@@ -16,6 +24,7 @@ Talents/Skills now stack correctly
 
 "ANY" in skills now works - needs a little more testing but the first
 few runs seemed to be ok
+
 
 == 5/5/2009 ==
 
