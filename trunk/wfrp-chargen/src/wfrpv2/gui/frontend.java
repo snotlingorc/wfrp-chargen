@@ -17,6 +17,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
@@ -28,6 +30,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
+import javax.swing.ListCellRenderer;
 import javax.swing.SwingConstants;
 
 import wfrpv2.dataTypes.Career;
@@ -55,7 +58,7 @@ public class frontend extends JPanel implements ActionListener {
 	JTabbedPane rightPane;
 	static JComponent characterFrontPanel;
 	static JComponent characterBackPanel;
-	JButton generateCharacter, saveCharacter, loadCharacter, printCharacter, about;
+	JButton generateCharacter, saveCharacter, loadCharacter, printCharacter, about, edit;
 	JLabel raceLabel, sexLabel, careerLabel, optionalLabel;
 	JLabel blankLabel, purchaseLabel;
 	JLabel warhammerLogo;
@@ -315,7 +318,11 @@ public class frontend extends JPanel implements ActionListener {
     	p.gridwidth = 1;
     	purchasePanel.add(pAttribLabel, p);
     	
+    	ComboBoxRenderer renderer = new ComboBoxRenderer();
+    	renderer.setPreferredSize(new Dimension(80, 15));
+    	
     	pSkills = new JComboBox(blank);
+    	pSkills.setRenderer(renderer);
     	pSkills.setSelectedIndex(0);
     	p.weightx = 0.5;
     	p.gridx = 1;
@@ -326,6 +333,7 @@ public class frontend extends JPanel implements ActionListener {
 
     	
     	pTalents = new JComboBox(blank);
+    	pTalents.setRenderer(renderer);
     	pTalents.setSelectedIndex(0);
     	p.weightx = 0.5;
     	p.gridx = 3;
@@ -335,6 +343,7 @@ public class frontend extends JPanel implements ActionListener {
     	pTalents.addActionListener(pTalentsAction);
     	
     	pTrappings = new JComboBox(blank);
+    	pTrappings.setRenderer(renderer);
     	pTrappings.setSelectedIndex(0);
     	p.weightx = 0.5;
     	p.gridx = 1;
@@ -344,6 +353,7 @@ public class frontend extends JPanel implements ActionListener {
     	pTrappings.addActionListener(pTrappingsAction);
 
     	pCareerExits = new JComboBox(blank);
+    	pCareerExits.setRenderer(renderer);
     	pCareerExits.setSelectedIndex(0);
     	p.weightx = 0.5;
     	p.gridx = 3;
@@ -353,6 +363,7 @@ public class frontend extends JPanel implements ActionListener {
     	pCareerExits.addActionListener(pCareerExitsAction);
  	
     	pCareerChange = new JComboBox(blank);
+    	pCareerChange.setRenderer(renderer);
     	pCareerChange.setSelectedIndex(0);
     	p.weightx = 0.5;
     	p.gridx = 3;
@@ -362,6 +373,7 @@ public class frontend extends JPanel implements ActionListener {
     	pCareerChange.addActionListener(pCareerChangeAction);
  	
     	pAttribChange = new JComboBox(blank);
+    	pAttribChange.setRenderer(renderer);
     	pAttribChange.setSelectedIndex(0);
     	p.weightx = 0.5;
     	p.gridx = 1;
@@ -409,19 +421,20 @@ public class frontend extends JPanel implements ActionListener {
         mainFrame.setVisible(true);
     }
     
-    private static void createAndShowGUI() {
+    //private static void createAndShowGUI() {
         //Make sure we have nice window decorations.
-        JFrame.setDefaultLookAndFeelDecorated(true);
+    //    JFrame.setDefaultLookAndFeelDecorated(true);
 
-        frontend converter = new frontend();
-    }
+    //    frontend converter = new frontend();
+    //}
     
     public static void main(String[] args) {
         //Schedule a job for the event-dispatching thread:
         //creating and showing this application's GUI.
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                createAndShowGUI();
+                //createAndShowGUI();
+                new frontend();
             }
         });
     }
@@ -565,6 +578,9 @@ public class frontend extends JPanel implements ActionListener {
     	about = new JButton("About");
     	about.addActionListener(this);
     	//
+    	//TODO move this guy somewhere else
+    	edit = new JButton("Edit");
+    	edit.addActionListener(this);
     	generatedCharacter = "Test Character goes in this panel.";
     
     	//add the bits to the container
@@ -572,6 +588,7 @@ public class frontend extends JPanel implements ActionListener {
     	buttonPanel.add(loadCharacter);
     	buttonPanel.add(printCharacter);
     	buttonPanel.add(about);
+    	buttonPanel.add(edit);
     	
  ////   	characterFrontPanel = makeTextPanel(generatedCharacter);
     	
@@ -628,6 +645,12 @@ public class frontend extends JPanel implements ActionListener {
     	// About the application
     	if (event.getSource() == about) {
     			guiHelpers.showAbout();
+    	}
+    	
+    	// Edit the characteristics
+    	if (event.getSource() == edit) {
+    			character = guiHelpers.editCharacter(character);
+    			displaySheet(character);
     	}
     	
     	
@@ -697,9 +720,9 @@ public class frontend extends JPanel implements ActionListener {
                 Object mySkill = guiHelpers.promptForOr(value, Type);
                 boolean any = GeneralFunctions.checkForANY((String) mySkill);
                 if (any) { 
-                	character.skills.add(guiHelpers.promptForAny(mySkill, Type));
+                	character.skills.add((String) guiHelpers.promptForAny(mySkill, Type));
                 } else {
-                	character.skills.add(mySkill);
+                	character.skills.add((String) mySkill);
                 }
                 
                 character = wfrpv2.helpers.GeneralFunctions.sortSkills(character);
@@ -718,11 +741,11 @@ public class frontend extends JPanel implements ActionListener {
                  boolean any = GeneralFunctions.checkForANY((String) myTalent);
                  if (any) { 
                 	 Object thisTalent = guiHelpers.promptForAny(myTalent, Type);
-                 	character.talents.add(thisTalent);
+                 	character.talents.add((String) thisTalent);
                      // Check for bonus and apply
                  	character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, thisTalent);
                  } else {
-                	 character.talents.add(myTalent);
+                	 character.talents.add((String) myTalent);
                 	 // Check for bonus and apply
                 	 character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, myTalent);
                  }
@@ -746,6 +769,9 @@ public class frontend extends JPanel implements ActionListener {
 			String value = (String) cb.getSelectedItem();
 			System.out.println("a Carrer exit was selected " + value);
 			// remove current skills/talents/attributes
+			character.available_skills = new ArrayList<String>();
+			character.available_talents = new ArrayList<String>();
+
 			character.AddCareer(value);
 			
 			displaySheet(character);
