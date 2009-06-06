@@ -1,6 +1,9 @@
 package wfrpv2.gui;
 
-import java.awt.Container;
+
+import java.awt.Dimension;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,12 +14,13 @@ import java.util.List;
 
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JComponent;
-import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.SwingConstants;
 
 import misc.intsStrings;
 import wfrpv2.dataTypes.Career;
@@ -101,7 +105,7 @@ public class guiHelpers {
 	 * @param skills
 	 * @return
 	 */
-	private static String table(List skills) {
+	private static String table(List<String> skills) {
 		String tablelisting ="";
 		//find how many elements are in the list
 		// for each element wrap html around.
@@ -405,19 +409,127 @@ public class guiHelpers {
 	
 	// TODO  convert to a better looking gui
 	public static void showAbout() {
-		String Title = "<h2>WFRP-CharGen version beta r16</h2>";
-		String Website = "http://code.google.com/p/wfrp-chargen/";
-		String Disclaimer = "Warhammer and other Warhammer Fantasy Rople Play (and the Logo's) are " +
-				"(probably registered) trademarks of Games Workshop and/or Green Ronin and/or Black " +
-				"Industries and/or Fantasy Flight Games.  The use of trademarks and materials are not " +
-				"meant as a challange to their rights and is not intended to make or lose any money for " +
-				"anyone. ";
+		String Title = "WFRP-CharGen version beta r16\n";
+		String Website = "http://code.google.com/p/wfrp-chargen/ \n";
+		String Disclaimer = "Warhammer and other Warhammer Fantasy Rople Play (and the Logo's) are \n" +
+				"(probably registered) trademarks of Games Workshop and/or Green Ronin and/or Black \n" +
+				"Industries and/or Fantasy Flight Games.  The use of trademarks and materials are not \n" +
+				"meant as a challange to their rights and is not intended to make or lose any money \n" +
+				"for anyone. ";
 		
-		String Message = Title + "<br>" + Website + "<hr>" + Disclaimer; 
+		String Message = Title + "\n" + Website + "\n" + Disclaimer; 
 		
 		JOptionPane.showMessageDialog(null,Message,
 			    "Message Dialog",JOptionPane.PLAIN_MESSAGE);
 		
+	}
+
+	public static Character editCharacter(Character character) {
+		// editable attributes
+		System.out.println("editing character..");
+		String name = character.name;
+		int age = character.age;
+		int height = character.height;
+		int weight = character.weight;
+		String eyecolor = character.eyecolor;
+		String haircolor = character.haircolor;
+		String hairtype = character.hairtype;
+		String birthplace = character.birthplace;
+		String starsign = character.starsign;
+		String marks = character.marks;
+		int siblings = character.siblings;
+		
+		// display GUI to modify the bits
+        JFrame editFrame = new JFrame("Editing "+name+" Characteristics");
+        editFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        editFrame.setSize(new Dimension(120, 140));
+        JPanel editPanel = new JPanel(); //new GridLayout(1, 2, 3, 4));
+        editPanel.setLayout(new GridBagLayout());
+        GridBagConstraints c = new GridBagConstraints();
+        c.fill = GridBagConstraints.HORIZONTAL;
+        
+        JLabel nameLabel = new JLabel("Name", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 1;
+    	c.gridwidth = 1;
+        JLabel ageLabel = new JLabel("Age", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 2;
+    	c.gridwidth = 1;
+        JLabel heightLabel = new JLabel("Height", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 3;
+    	c.gridwidth = 1;
+        JLabel weightLabel = new JLabel("Weight", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 4;
+    	c.gridwidth = 1;
+        JLabel haircolorLabel = new JLabel("Hair Color", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 5;
+    	c.gridwidth = 1;
+        JLabel hairtypeLabel = new JLabel("Hair Type", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 6;
+    	c.gridwidth = 1;
+        JLabel eyecolorLabel = new JLabel("Eye Color", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 7;
+    	c.gridwidth = 1;
+        JLabel bpLabel = new JLabel("Birthplace", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 8;
+    	c.gridwidth = 1;
+        JLabel ssLabel = new JLabel("Star Sign", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 9;
+    	c.gridwidth = 1;
+        JLabel marksLabel = new JLabel("Marks", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 10;
+    	c.gridwidth = 1;
+        JLabel siblingsLabel = new JLabel("Siblings", SwingConstants.LEFT);
+    	c.weightx = 0.5;
+    	c.gridx = 0;
+    	c.gridy = 11;
+    	c.gridwidth = 1;
+    	
+    	editPanel.add(nameLabel, c);
+    	editPanel.add(ageLabel, c);
+    	editPanel.add(heightLabel, c);
+    	editPanel.add(weightLabel, c);
+    	editPanel.add(haircolorLabel, c);
+    	editPanel.add(hairtypeLabel, c);
+    	editPanel.add(eyecolorLabel, c);
+    	editPanel.add(bpLabel, c);
+    	editPanel.add(ssLabel, c);
+    	editPanel.add(marksLabel, c);
+    	editPanel.add(siblingsLabel, c);
+    	
+    	
+    	JButton saveCharacter = new JButton("Save");
+    	saveCharacter.addActionListener(null); //TODO
+    	
+    	editPanel.add(saveCharacter);
+    	
+    	//editFrame.getRootPane().setDefaultButton(save);
+    	editFrame.pack();
+        editFrame.setVisible(true);
+        
+        
+        
+		// TODO Auto-generated method stub
+		return character;
 	}
 
 	
