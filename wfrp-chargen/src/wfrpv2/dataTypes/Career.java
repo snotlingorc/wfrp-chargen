@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import rpg.XMLFile.XMLDocument;
-import rpg.dieRoller.dieRoller;
 
 /*
  * Created on May 10, 2005
@@ -23,10 +22,10 @@ public class Career {
 	public String name = "Career Name";
 	public String[] profile = {"WS", "BS", "S", "T", "Ag", "Int", "WP", "Fel", "A", "W", "SB", "TB", "M", "Mag", "IP", "FP"};
 	public int[] advance_scheme = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-	public List skills = new ArrayList();
-	public List talents = new ArrayList();
-	public List trappings = new ArrayList();
-	public List exits = new ArrayList();
+	public List<String> skills = new ArrayList<String>();
+	public List<String> talents = new ArrayList<String>();
+	public List<String> trappings = new ArrayList<String>();
+	public List<String> exits = new ArrayList<String>();
 	
 	public static void main(String[] args) { 
 	}
