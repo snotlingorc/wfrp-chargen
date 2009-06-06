@@ -22,8 +22,8 @@ import org.w3c.dom.Element;
 public class Race {
 
 	public String description = "Race Type";
-	public List career = new ArrayList();
-	public List name = new ArrayList();
+	public List<String> career = new ArrayList<String>();
+	public List<String> name = new ArrayList<String>();
 	public int[] profile = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 	public HashMap<String, String> wounds = new HashMap<String,String>();
 	public HashMap<String, String> fate = new HashMap<String,String>();
@@ -35,9 +35,9 @@ public class Race {
 	public HashMap<String, String> hairstyle = new HashMap<String,String>();
 	public HashMap<String, String> siblings = new HashMap<String,String>();
 	public HashMap<String, String> birthplace = new HashMap<String,String>();
-	public List skills = new ArrayList();
-	public List talents = new ArrayList();
-	public List trappings = new ArrayList();
+	public List<String> skills = new ArrayList<String>();
+	public List<String> talents = new ArrayList<String>();
+	public List<String> trappings = new ArrayList<String>();
 
 	public static void main(String[] args) {
 	}

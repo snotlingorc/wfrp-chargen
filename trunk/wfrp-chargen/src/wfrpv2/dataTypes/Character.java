@@ -36,13 +36,13 @@ public class Character {
 	public int[] advance_scheme = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 	public int[] talent_bonus = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 	public int[] current_profile = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-	public List talents = new ArrayList();
-	public List skills = new ArrayList();
+	public List<String> talents = new ArrayList<String>();
+	public List<String> skills = new ArrayList<String>();
 	public String career = "None";
-	public List career_path = new ArrayList();
-	public List trappings = new ArrayList();
-	public List available_skills = new ArrayList();
-	public List available_talents = new ArrayList();
+	public List<String> career_path = new ArrayList<String>();
+	public List<String> trappings = new ArrayList<String>();
+	public List<String> available_skills = new ArrayList<String>();
+	public List<String> available_talents = new ArrayList<String>();
 	
 	public static void main(String[] args) {
 	}
@@ -93,7 +93,7 @@ public class Character {
 				}
 			}
 			if (found < 3) {
-				this.available_skills.add(myCareer.skills.get(i));
+				this.available_skills.add((String) myCareer.skills.get(i));
 			}
 			found=0;
 			
@@ -130,7 +130,7 @@ public class Character {
 				}
 			}
 			if (!match) {
-				this.available_talents.add(myCareer.talents.get(i));
+				this.available_talents.add((String) myCareer.talents.get(i));
 			} else {
 				match = false;
 			}
@@ -142,7 +142,7 @@ public class Character {
 		// if this is the first career, add in all the trappings
 		if (firstTime) {
 			for (int i=0; i < myCareer.trappings.size(); i++) {
-				this.trappings.add(myCareer.trappings.get(i));
+				this.trappings.add((String) myCareer.trappings.get(i));
 			}
 			
 		}
