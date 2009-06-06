@@ -46,7 +46,7 @@ public class get_attribute {
 	 * Roll on table, read in the data and return the list value
 	 */
 	public static List rootlist(String filename) {
-		List return_string = new ArrayList();
+		List<String> return_string = new ArrayList<String>();
 		// return the information from the file
 		String file = System.getProperty("user.dir");
 		file = file.concat("/dataFiles/");
@@ -125,7 +125,7 @@ public class get_attribute {
 	 * read in all the bits from a file and return it in array form
 	 */
 	public static List RaceList(String race, String file) {
-		List filecontents = new ArrayList();
+		List<String> filecontents = new ArrayList<String>();
 		String filename = System.getProperty("user.dir");
 		filename = filename.concat("/dataFiles/");
 		filename = filename.concat(race);

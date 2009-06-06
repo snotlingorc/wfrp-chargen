@@ -26,7 +26,7 @@ public class GeneralFunctions {
 	// main is when you create the character for the first time
 	
 
-	static List checkForOR(List listOfStuff) {
+	static List<String> checkForOR(List<String> listOfStuff) {
 		//Checking for OR in  a list and picking only one.
 		for (int i=0; i<listOfStuff.size(); i++) {
 			//System.out.println("List item "+i+": "+listOfStuff.get(i));
@@ -45,7 +45,7 @@ public class GeneralFunctions {
 	}
 	
 
-	public static List checkForRandom(List listOfStuff, String listName, String race) {
+	public static List<String> checkForRandom(List<String> listOfStuff, String listName, String race) {
 		//Checking for RANDOM in one of the lists
 		for (int i=0; i<listOfStuff.size(); i++) {
 			String itemElement = (String) listOfStuff.get(i);
