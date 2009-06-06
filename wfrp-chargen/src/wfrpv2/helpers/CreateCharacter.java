@@ -77,7 +77,7 @@ public class CreateCharacter {
 		myCharacter.trappings = myRace.trappings;
 		
 		// Check for RANDOM and OR
-		List tempList = GeneralFunctions.checkForOR(myCharacter.skills);
+		List<String> tempList = GeneralFunctions.checkForOR(myCharacter.skills);
 		myCharacter.skills = tempList;
 		tempList = GeneralFunctions.checkForOR(myCharacter.talents);
 		myCharacter.talents = tempList;
