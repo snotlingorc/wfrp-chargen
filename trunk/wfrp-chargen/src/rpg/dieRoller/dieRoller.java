@@ -14,7 +14,7 @@ public class dieRoller {
 	/**
 	 * Creates a random number between 1 and x
 	 * 
-	 * @param  int maxium number the result could be
+	 * @param  int maximum number the result could be
 	 * @return int number
 	 */
 	public static int main(int x) {
