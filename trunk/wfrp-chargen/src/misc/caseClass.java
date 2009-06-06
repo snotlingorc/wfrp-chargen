@@ -21,7 +21,7 @@ public class caseClass {
 	 */
 	public static boolean isUpper(String myString) {
 		boolean result = false;
-		// true if all characters in myString are uppercase
+		// true if all characters in myString are upper case
 		int length = myString.length();
 		for ( int upperIdx = 0 ; upperIdx < length ; ++upperIdx ) {
 			char ch = myString.charAt( upperIdx );
