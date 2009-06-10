@@ -30,6 +30,7 @@ public class save {
 		}
 		XMLCharacter.setValue("/Character/Gender", character.gender);
 		XMLCharacter.setValue("/Character/Exp", intsStrings.toString(character.exp));
+		XMLCharacter.setValue("/Character/ExpUsed", intsStrings.toString(character.expused));
 		XMLCharacter.setValue("/Character/Height", intsStrings.toString(character.height));
 		XMLCharacter.setValue("/Character/Weight", intsStrings.toString(character.weight));
 		XMLCharacter.setValue("/Character/Age", intsStrings.toString(character.age));

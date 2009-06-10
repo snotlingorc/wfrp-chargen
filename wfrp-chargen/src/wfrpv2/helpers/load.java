@@ -30,6 +30,7 @@ public class load {
 				
 		character.gender = XMLCharacter.getValue("/Character/Gender");
 		character.exp = intsStrings.toInt(XMLCharacter.getValue("/Character/Exp"));
+		character.expused = intsStrings.toInt(XMLCharacter.getValue("/Character/ExpUsed"));
 		character.height = intsStrings.toInt(XMLCharacter.getValue("/Character/Height"));
 		character.weight = intsStrings.toInt(XMLCharacter.getValue("/Character/Weight"));
 		character.age = intsStrings.toInt(XMLCharacter.getValue("/Character/Age"));

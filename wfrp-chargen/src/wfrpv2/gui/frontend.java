@@ -33,6 +33,8 @@ import javax.swing.JTabbedPane;
 import javax.swing.ListCellRenderer;
 import javax.swing.SwingConstants;
 
+import misc.intsStrings;
+
 import wfrpv2.dataTypes.Career;
 import wfrpv2.dataTypes.Character;
 import wfrpv2.helpers.CharacterFunctions;
@@ -304,7 +306,7 @@ public class frontend extends JPanel implements ActionListener {
     	p.gridwidth = 1;
     	purchasePanel.add(pExpChangeLabel, p);
     	
-    	pExpLeftChangeLabel = new JLabel("0");
+    	pExpLeftChangeLabel = new JLabel(intsStrings.toString(character.exp));
     	p.weightx = 0.5;
     	p.gridx = 3;
     	p.gridy = 2;
@@ -556,6 +558,22 @@ public class frontend extends JPanel implements ActionListener {
 				}
 			}    		
     	}
+    	purchasePanel.remove(pExpChangeLabel);
+    	pExpChangeLabel = new JLabel(intsStrings.toString(character.expused));
+    	p.weightx = 0.5;
+    	p.gridx = 1;
+    	p.gridy = 2;
+    	p.gridwidth = 1;
+    	purchasePanel.add(pExpChangeLabel, p);
+    	
+    	purchasePanel.remove(pExpLeftChangeLabel);
+    	pExpLeftChangeLabel = new JLabel(intsStrings.toString(character.exp));
+    	p.weightx = 0.5;
+    	p.gridx = 3;
+    	p.gridy = 2;
+    	p.gridwidth = 1;
+    	purchasePanel.add(pExpLeftChangeLabel, p);
+    	
     	mainFrame.pack();
     	
     	pCareerExits.addActionListener(pCareerExitsAction);
@@ -713,20 +731,31 @@ public class frontend extends JPanel implements ActionListener {
         public void actionPerformed(ActionEvent e) {
                 JComboBox cb = (JComboBox)e.getSource();
                 String value = (String)cb.getSelectedItem();
-                // Check for OR in the still list
-                // prompt and add only that one
-                character.available_skills.remove(value);
-                String Type = "Skill";
-                Object mySkill = guiHelpers.promptForOr(value, Type);
-                boolean any = GeneralFunctions.checkForANY((String) mySkill);
-                if (any) { 
-                	character.skills.add((String) guiHelpers.promptForAny(mySkill, Type));
+                if (value.equals("None")|| value.equals("Select Skills")) {
+               	 // trying to select "None" on the dropdown list.
                 } else {
-                	character.skills.add((String) mySkill);
+                	// reduce the exp of the character
+                	if (character.enoughExp(character.exp,100)) {
+                		character.exp=character.exp-100;
+                		character.expused=character.expused+100;
+		                // Check for OR in the still list
+		                // prompt and add only that one
+		                character.available_skills.remove(value);
+		                String Type = "Skill";
+		                Object mySkill = guiHelpers.promptForOr(value, Type);
+		                boolean any = GeneralFunctions.checkForANY((String) mySkill);
+		                if (any) { 
+		                	character.skills.add((String) guiHelpers.promptForAny(mySkill, Type));
+		                } else {
+		                	character.skills.add((String) mySkill);
+		                }
+		                
+		                character = wfrpv2.helpers.GeneralFunctions.sortSkills(character);
+		                displaySheet(character);
+                	} else {
+		        		guiHelpers.showNotEnoughExp();
+		        	}
                 }
-                
-                character = wfrpv2.helpers.GeneralFunctions.sortSkills(character);
-                displaySheet(character);
 		}
      };
      
@@ -734,24 +763,35 @@ public class frontend extends JPanel implements ActionListener {
         public void actionPerformed(ActionEvent e) {
                  JComboBox cb = (JComboBox)e.getSource();
                  String value = (String)cb.getSelectedItem();
-                 //character.talents.add(value);
-                 String Type = "Talent";
-                 character.available_talents.remove(value);
-                 Object myTalent = guiHelpers.promptForOr(value, Type);
-                 boolean any = GeneralFunctions.checkForANY((String) myTalent);
-                 if (any) { 
-                	 Object thisTalent = guiHelpers.promptForAny(myTalent, Type);
-                 	character.talents.add((String) thisTalent);
-                     // Check for bonus and apply
-                 	character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, thisTalent);
+                 if (value.equals("None") || value.equals("Select Talents")) {
+                	 // trying to select "None" on the dropdown list.
                  } else {
-                	 character.talents.add((String) myTalent);
-                	 // Check for bonus and apply
-                	 character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, myTalent);
+                   	// reduce the exp of the character
+                 	if (character.enoughExp(character.exp,100)) {
+                 		character.exp=character.exp-100;
+                 		character.expused=character.expused+100;
+		                 //character.talents.add(value);
+		                 String Type = "Talent";
+		                 character.available_talents.remove(value);
+		                 Object myTalent = guiHelpers.promptForOr(value, Type);
+		                 boolean any = GeneralFunctions.checkForANY((String) myTalent);
+		                 if (any) { 
+		                	 Object thisTalent = guiHelpers.promptForAny(myTalent, Type);
+		                 	character.talents.add((String) thisTalent);
+		                     // Check for bonus and apply
+		                 	character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, thisTalent);
+		                 } else {
+		                	 character.talents.add((String) myTalent);
+		                	 // Check for bonus and apply
+		                	 character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, myTalent);
+		                 }
+		
+		                 character = wfrpv2.helpers.GeneralFunctions.sortTalents(character);
+		                 displaySheet(character);
+                 	} else {
+		        		guiHelpers.showNotEnoughExp();
+		        	}
                  }
-
-                 character = wfrpv2.helpers.GeneralFunctions.sortTalents(character);
-                 displaySheet(character);
         }
       };
     ActionListener pTrappingsAction = new ActionListener() {
@@ -767,41 +807,76 @@ public class frontend extends JPanel implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			JComboBox cb = (JComboBox) e.getSource();
 			String value = (String) cb.getSelectedItem();
-			System.out.println("a Carrer exit was selected " + value);
-			// remove current skills/talents/attributes
-			character.available_skills = new ArrayList<String>();
-			character.available_talents = new ArrayList<String>();
-
-			character.AddCareer(value);
+			  if (value.equals("Select Exit")) {
+              	 // trying to select "None" on the dropdown list.
+               } else {
+					System.out.println("a Carrer exit was selected " + value);
+		          	// reduce the exp of the character
+		        	if (character.enoughExp(character.exp,100)) {
+		        		character.exp=character.exp-100;
+		        		character.expused=character.expused+100;
+						// remove current skills/talents/attributes
+						character.available_skills = new ArrayList<String>();
+						character.available_talents = new ArrayList<String>();
 			
-			displaySheet(character);
-		}
-	};
+						character.AddCareer(value);
+						
+						displaySheet(character);
+		        	} else {
+		        		guiHelpers.showNotEnoughExp();
+		        	}
+               }
+        	}
+		};
+	
     ActionListener pCareerChangeAction = new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                     JComboBox cb = (JComboBox)e.getSource();
                     String value = (String)cb.getSelectedItem();
-                    System.out.println("a Carrer change was selected"+ value);
+                    if (value.equals("None")|| value.equals("Select Exit")) {
+                      	 // trying to select "None" on the dropdown list.
+                    } else {
+	                    System.out.println("a Carrer change was selected"+ value);
+	                  	// reduce the exp of the character
+	                	if (character.enoughExp(character.exp,200)) {
+	                		character.exp=character.exp-200;
+	                		character.expused=character.expused+200;
+	                		// TODO
+	                	} else {
+			        		guiHelpers.showNotEnoughExp();
+			        	}
+                    }
             }
      	};
     ActionListener pAttribChangeAction = new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                    	String bits = (String) pAttribChange.getSelectedItem();
-                   	if (bits != null) {
-                   		int Modifier = 1;
-                   		
-                   		//Check the number of the index. if it is greater than the 8th, then it is 1s else 5s
-                   		int attribIndex = guiHelpers.lookupAttrib(bits);
-                   		if (attribIndex < 8) {Modifier = 5; }
-        				
-        				character.current_profile[attribIndex] = character.current_profile[attribIndex] + Modifier;
-                   		character.advance_taken[attribIndex]++;
-                   		character.advance_scheme[attribIndex] = character.advance_scheme[attribIndex] - Modifier;
-                   		
-                   		pAttribChange.removeItem(bits);
-                	
-                  		displaySheet(character);
-                   	}
+                   	if (bits.equals("None")|| bits.equals("Select Attributes")) {
+                      	 // trying to select "None" on the dropdown list.
+                       } else {
+                         	// reduce the exp of the character
+                       	if (character.enoughExp(character.exp,100)) {
+                       		character.exp=character.exp-100;
+                       		character.expused=character.expused+100;
+		                   	if (bits != null) {
+		                   		int Modifier = 1;
+		                   		
+		                   		//Check the number of the index. if it is greater than the 8th, then it is 1s else 5s
+		                   		int attribIndex = guiHelpers.lookupAttrib(bits);
+		                   		if (attribIndex < 8) {Modifier = 5; }
+		        				
+		        				character.current_profile[attribIndex] = character.current_profile[attribIndex] + Modifier;
+		                   		character.advance_taken[attribIndex]++;
+		                   		character.advance_scheme[attribIndex] = character.advance_scheme[attribIndex] - Modifier;
+		                   		
+		                   		pAttribChange.removeItem(bits);
+		                	
+		                  		displaySheet(character);
+		                   	}
+                       	} else {
+    		        		guiHelpers.showNotEnoughExp();
+    		        	}
+                       }
             	}
             };
 

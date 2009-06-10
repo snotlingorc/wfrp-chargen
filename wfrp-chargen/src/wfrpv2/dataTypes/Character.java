@@ -3,6 +3,7 @@ package wfrpv2.dataTypes;
 import java.util.ArrayList;
 import java.util.List;
 
+import wfrpv2.gui.guiHelpers;
 import wfrpv2.helpers.GeneralFunctions;
 
 /*
@@ -23,7 +24,8 @@ public class Character {
 	public int age = 0;
 	public int height = 0;
 	public int weight = 0;
-	public int exp = 0;
+	public int exp = 50000;
+	public int expused = 0;
 	public String eyecolor = "Black";
 	public String haircolor = "Black";
 	public String hairtype = "None";
@@ -93,7 +95,25 @@ public class Character {
 				}
 			}
 			if (found < 3) {
-				this.available_skills.add((String) myCareer.skills.get(i));
+				// if this is the first career, add in all the trappings
+				if (firstTime) {
+					
+					// Check for OR in the still list
+	                // prompt and add only that one
+	                String Type = "Skill";
+					Object mySkill = guiHelpers.promptForOr(myCareer.skills.get(i), Type);
+	                boolean any = GeneralFunctions.checkForANY((String) mySkill);
+	                if (any) { 
+	                	this.skills.add((String) guiHelpers.promptForAny(mySkill, Type));
+	                } else {
+	                	this.skills.add((String) mySkill);
+	                }
+	                
+	                //this = wfrpv2.helpers.GeneralFunctions.sortSkills(this);
+				} 
+				else {
+					this.available_skills.add((String) myCareer.skills.get(i));
+				}
 			}
 			found=0;
 			
@@ -130,7 +150,24 @@ public class Character {
 				}
 			}
 			if (!match) {
-				this.available_talents.add((String) myCareer.talents.get(i));
+				// if this is the first career, add in all the trappings
+				if (firstTime) {
+					// Check for OR in the still list
+	                // prompt and add only that one
+	                String Type = "Talent";
+					Object myTalent = guiHelpers.promptForOr(myCareer.talents.get(i), Type);
+	                boolean any = GeneralFunctions.checkForANY((String) myTalent);
+	                if (any) { 
+	                	this.talents.add((String) guiHelpers.promptForAny(myTalent, Type));
+	                } else {
+	                	this.talents.add((String) myTalent);
+	                }
+	                
+	                //this = wfrpv2.helpers.GeneralFunctions.sortSkills(this);
+					} 
+				else {
+					this.available_talents.add((String) myCareer.talents.get(i));
+				}
 			} else {
 				match = false;
 			}
@@ -149,12 +186,22 @@ public class Character {
 	}
 
 	public void AddCareer(String career) {
-		AddCareer(career, true);
+		AddCareer(career, false);
 	}
 		
 
 	public void addtostat(int j, int i) {
 		this.talent_bonus[j]=i;
+	}
+
+
+	public boolean enoughExp(int exp, int amount) {
+		int total = exp-amount;
+		if (total < 0) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 
 }

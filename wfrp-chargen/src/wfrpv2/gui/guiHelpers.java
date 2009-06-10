@@ -441,7 +441,8 @@ public class guiHelpers {
 		
 		// display GUI to modify the bits
         JFrame editFrame = new JFrame("Editing "+name+" Characteristics");
-        editFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        editFrame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        //editFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         editFrame.setSize(new Dimension(120, 140));
         JPanel editPanel = new JPanel(); //new GridLayout(1, 2, 3, 4));
         editPanel.setLayout(new GridBagLayout());
@@ -453,67 +454,66 @@ public class guiHelpers {
     	c.gridx = 0;
     	c.gridy = 1;
     	c.gridwidth = 1;
+    	editPanel.add(nameLabel, c);
         JLabel ageLabel = new JLabel("Age", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 2;
     	c.gridwidth = 1;
+    	editPanel.add(ageLabel, c);
         JLabel heightLabel = new JLabel("Height", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 3;
     	c.gridwidth = 1;
+    	editPanel.add(heightLabel, c);
         JLabel weightLabel = new JLabel("Weight", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 4;
     	c.gridwidth = 1;
+    	editPanel.add(weightLabel, c);
         JLabel haircolorLabel = new JLabel("Hair Color", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 5;
     	c.gridwidth = 1;
+    	editPanel.add(haircolorLabel, c);
         JLabel hairtypeLabel = new JLabel("Hair Type", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 6;
     	c.gridwidth = 1;
+    	editPanel.add(hairtypeLabel, c);
         JLabel eyecolorLabel = new JLabel("Eye Color", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 7;
     	c.gridwidth = 1;
+    	editPanel.add(eyecolorLabel, c);
         JLabel bpLabel = new JLabel("Birthplace", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 8;
     	c.gridwidth = 1;
+    	editPanel.add(bpLabel, c);
         JLabel ssLabel = new JLabel("Star Sign", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 9;
     	c.gridwidth = 1;
+    	editPanel.add(ssLabel, c);
         JLabel marksLabel = new JLabel("Marks", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 10;
     	c.gridwidth = 1;
+    	editPanel.add(marksLabel, c);
         JLabel siblingsLabel = new JLabel("Siblings", SwingConstants.LEFT);
     	c.weightx = 0.5;
     	c.gridx = 0;
     	c.gridy = 11;
     	c.gridwidth = 1;
-    	
-    	editPanel.add(nameLabel, c);
-    	editPanel.add(ageLabel, c);
-    	editPanel.add(heightLabel, c);
-    	editPanel.add(weightLabel, c);
-    	editPanel.add(haircolorLabel, c);
-    	editPanel.add(hairtypeLabel, c);
-    	editPanel.add(eyecolorLabel, c);
-    	editPanel.add(bpLabel, c);
-    	editPanel.add(ssLabel, c);
-    	editPanel.add(marksLabel, c);
     	editPanel.add(siblingsLabel, c);
     	
     	
@@ -521,7 +521,7 @@ public class guiHelpers {
     	saveCharacter.addActionListener(null); //TODO
     	
     	editPanel.add(saveCharacter);
-    	
+    	editFrame.getContentPane().add(editPanel);
     	//editFrame.getRootPane().setDefaultButton(save);
     	editFrame.pack();
         editFrame.setVisible(true);
@@ -530,6 +530,12 @@ public class guiHelpers {
         
 		// TODO Auto-generated method stub
 		return character;
+	}
+
+	public static void showNotEnoughExp() {
+		String Message = "You do not have enough Exp"; 
+		JOptionPane.showMessageDialog(null,Message,
+			    "Message Dialog",JOptionPane.PLAIN_MESSAGE);
 	}
 
 	
