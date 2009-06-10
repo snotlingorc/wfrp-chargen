@@ -1,5 +1,19 @@
 = Known Issues/Change Log =
 
+== 6/10/2009 ==
+ * cleaned up the about screen
+ * added an edit button
+ * dropdown list for skills/talents no longer resize depending
+   on the length of the item.  Mouseovers show what is all inside
+ * a character now gets the skills/talents of the first career
+ * bug - where if you select "none" or "select skill" - they get added to
+   the skills/talents/profile
+ * added exp tracking left and total used
+   - character XML has been modified - old characters will not work
+   unless <ExpUsed>SOME AMOUNT</ExpUsed> is added to the <Character> section
+   - starting characters with 50,000 exp until something is written to
+   allow the player to edit the exp field.
+
 == 5/24/2009 ==
 Typo in Demagogue career fixed
 
