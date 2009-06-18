@@ -47,7 +47,7 @@ public class load {
 			try {
 				character.talents.add(XMLCharacter.getValue("/Character/talents["+i+"]"));
 			} catch (Exception e16) {
-				// TODO Auto-generated catch block
+				System.out.println("Error is character XML file, talents");
 				e16.printStackTrace();
 			}
 		}
@@ -56,7 +56,7 @@ public class load {
 			try {
 				character.skills.add(XMLCharacter.getValue("/Character/skills["+i+"]"));
 			} catch (Exception e16) {
-				// TODO Auto-generated catch block
+				System.out.println("Error is character XML file, skills");
 				e16.printStackTrace();
 			}
 		}
@@ -65,7 +65,7 @@ public class load {
 			try {
 				character.trappings.add(XMLCharacter.getValue("/Character/trappings["+i+"]"));
 			} catch (Exception e16) {
-				// TODO Auto-generated catch block
+				System.out.println("Error is character XML file, trappings");
 				e16.printStackTrace();
 			}
 		}
@@ -74,7 +74,7 @@ public class load {
 			try {
 				character.career_path.add(XMLCharacter.getValue("/Character/career_path["+i+"]"));
 			} catch (Exception e16) {
-				// TODO Auto-generated catch block
+				System.out.println("Error is character XML file, career_path");
 				e16.printStackTrace();
 			}
 		}
@@ -87,7 +87,7 @@ public class load {
 
 				character.available_skills.add(XMLCharacter.getValue("/Character/available_skills["+i+"]"));
 			} catch (Exception e16) {
-				// TODO Auto-generated catch block
+				System.out.println("Error is character XML file, available_skills");
 				e16.printStackTrace();
 			}
 		}
@@ -96,7 +96,7 @@ public class load {
 			try {
 				character.available_talents.add(XMLCharacter.getValue("/Character/available_talents["+i+"]"));
 			} catch (Exception e16) {
-				// TODO Auto-generated catch block
+				System.out.println("Error is character XML file, available_talents");
 				e16.printStackTrace();
 			}
 		}

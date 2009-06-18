@@ -18,6 +18,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
@@ -448,9 +449,6 @@ public class frontend extends JPanel implements ActionListener {
 	 * also create and write the purchase display panel
 	 */
     public void displaySheet(Character character) {
-    	//System.out.println("Character:" +character.name);
- 
-    	//TODO - need to finish
     	try {
 			characterFrontPanel = guiHelpers.makeTextPanel(guiHelpers.update_sheet_front(character));
 		} catch (IOException e1) 
@@ -523,9 +521,8 @@ public class frontend extends JPanel implements ActionListener {
 		}
     	pCareerExits.setSelectedIndex(0);
     	
-    	//TODO make it say none of the text below
     	pAttribChange.addItem("Select Attributes");
-		
+		int attribCount=0;
     	// do the primary ones first..
     	for ( int i=0; i<8; i++ ) {
 			int value = career.advance_scheme[i];
@@ -538,6 +535,7 @@ public class frontend extends JPanel implements ActionListener {
 					String element = career.profile[i];
 					//element = element.concat(": "+die_roll.toString(value));
 					pAttribChange.addItem(element);
+					attribCount++;
 				}
 			}
 			
@@ -555,9 +553,15 @@ public class frontend extends JPanel implements ActionListener {
 					String element = career.profile[i];
 					//element = element.concat(": "+die_roll.toString(value));
 					pAttribChange.addItem(element);
+					attribCount++;
 				}
 			}    		
     	}
+   		if  (attribCount == 0) {
+   			pAttribChange.removeItem("Select Attributes");
+   			pAttribChange.addItem("None");
+   		}
+   		
     	purchasePanel.remove(pExpChangeLabel);
     	pExpChangeLabel = new JLabel(intsStrings.toString(character.expused));
     	p.weightx = 0.5;
@@ -622,7 +626,7 @@ public class frontend extends JPanel implements ActionListener {
     		try {
 				save.main(character);
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
+				System.out.println("Error saving character");
 				e.printStackTrace();
 			}
     	}
@@ -639,7 +643,7 @@ public class frontend extends JPanel implements ActionListener {
                 try {
 					character = load.main(file);
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
+					System.out.println("Error loading character");
 					e.printStackTrace();
 				}
 				//now that we have the character, we need to 
@@ -650,12 +654,11 @@ public class frontend extends JPanel implements ActionListener {
     	}
     	
     	// Printing a Character
-    	// TODO - revisit in new  version
     	if (event.getSource() == printCharacter) {
     		try {
 				print.main(character);
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
+				System.out.println("Error printing character");
 				e.printStackTrace();
 			}
     	}
@@ -669,10 +672,9 @@ public class frontend extends JPanel implements ActionListener {
     	if (event.getSource() == edit) {
     			character = guiHelpers.editCharacter(character);
     			displaySheet(character);
+    			System.out.println("oops");
     	}
     	
-    	
-    	// TODO - revisit in new version
        if ("comboBoxChanged".equals(event.getActionCommand())) {
   
             //Update the career table
@@ -710,6 +712,9 @@ public class frontend extends JPanel implements ActionListener {
         	character = CharacterFunctions.ShallyaMercy(character);
         	character.AddCareer(myCareer, true);
         	
+        	for (int i=0; i<character.talents.size(); i++) {
+    			character = wfrpv2.helpers.GeneralFunctions.checkForTalentBonus(character, character.talents.get(i));
+    		}
         	//load the current career profile
         	displaySheet(character);
         	// check to see if this is the first time.. if so, take the free advance
@@ -725,14 +730,14 @@ public class frontend extends JPanel implements ActionListener {
     
     
     
-//The various actions that happen when buttons are pressed.
+//The various actions that happen when drop downs are selected.
     
     ActionListener pSkillsAction = new ActionListener() {
         public void actionPerformed(ActionEvent e) {
                 JComboBox cb = (JComboBox)e.getSource();
                 String value = (String)cb.getSelectedItem();
                 if (value.equals("None")|| value.equals("Select Skills")) {
-               	 // trying to select "None" on the dropdown list.
+               	 // trying to select "None" on the drop down list.
                 } else {
                 	// reduce the exp of the character
                 	if (character.enoughExp(character.exp,100)) {
@@ -841,7 +846,7 @@ public class frontend extends JPanel implements ActionListener {
 	                	if (character.enoughExp(character.exp,200)) {
 	                		character.exp=character.exp-200;
 	                		character.expused=character.expused+200;
-	                		// TODO
+	                		// TODO - list all careers for the race
 	                	} else {
 			        		guiHelpers.showNotEnoughExp();
 			        	}
@@ -870,7 +875,7 @@ public class frontend extends JPanel implements ActionListener {
 		                   		character.advance_scheme[attribIndex] = character.advance_scheme[attribIndex] - Modifier;
 		                   		
 		                   		pAttribChange.removeItem(bits);
-		                	
+		                   		
 		                  		displaySheet(character);
 		                   	}
                        	} else {

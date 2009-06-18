@@ -183,13 +183,12 @@ public class CharacterFunctions {
 		}
 		String result = myRace.birthplace.get(misc.intsStrings.toString(die));
 		
-		//TODO - Check for birthplace of another race
+		//Check for birthplace of another race
 		// example if result is "HUMAN" load the human profile and select a
 		// birthplace from that.
 		if (misc.caseClass.isUpper(result)) {
 			// Convert the result to initialcaps and the rest lower
 			String racialProfile = misc.caseClass.initialCaps(result);
-			System.out.println("going to look at profile: "+racialProfile);
 			
 			// load the profile
 			Race backgroundRace = new Race();

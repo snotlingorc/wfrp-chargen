@@ -11,7 +11,7 @@ import wfrpv2.dataTypes.Character;
  * Prints the character to standard out. Used for testing.
  */
 public class print {
-
+//TODO need to implement 
 	public static void main(Character character) {
 		System.out.println("Character printing...");
 		System.out.println("Name: "+ character.name);
