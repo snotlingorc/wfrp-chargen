@@ -87,7 +87,11 @@ public class Character {
 								if (found == 3) {
 									// remove from list
 									// get the length and rebuilt to String with all but x
-									this.available_skills.add(GeneralFunctions.removeFromOR(ORS, this.skills.get(j)));
+							//		if (firstTime) {
+							//			this.skills.add(GeneralFunctions.removeFromOR(ORS, this.skills.get(j)));
+							//		} else {
+										this.available_skills.add(GeneralFunctions.removeFromOR(ORS, this.skills.get(j)));
+							//		}
 								}
 							}
 						}
@@ -136,13 +140,21 @@ public class Character {
 					if (wfrpv2.helpers.GeneralFunctions.checkForOR(Element)) {
 						// if OR found - check each part if found - remove from list
 						String[] ORS = Element.split(" OR ");
+						System.out.println("Checking for OR");
 						for (int x =0; x<ORS.length; x++) {
+							System.out.println(ORS[x]+" vs "+ this.talents.get(j));
 							if (ORS[x].equals(this.talents.get(j))) {
+								System.out.println(ORS[x] +"matched");
 								match = true;								
 								if (match) {
 									// remove from list
 									// get the length and rebuilt to String with all but x
-									this.available_talents.add(GeneralFunctions.removeFromOR(ORS, this.talents.get(j)));
+									if (firstTime) {
+										System.out.println("something "+ ORS[x] +" full "+ this.talents.get(j));
+										//this.talents.add(GeneralFunctions.removeFromOR(ORS, this.talents.get(j)));
+									} else {
+										this.available_talents.add(GeneralFunctions.removeFromOR(ORS, this.talents.get(j)));
+									}
 								}
 							}
 						}

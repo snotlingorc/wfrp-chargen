@@ -1,10 +1,16 @@
 package wfrpv2.gui;
 
 
+import java.applet.Applet;
+import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,6 +21,7 @@ import java.util.List;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -28,6 +35,7 @@ import wfrpv2.dataTypes.Character;
 import wfrpv2.helpers.GeneralFunctions;
 import wfrpv2.helpers.IOFunctions;
 import wfrpv2.helpers.get_attribute;
+import wfrpv2.helpers.save;
 
 public class guiHelpers {
 	static JComponent characterFrontPanel;
@@ -386,8 +394,6 @@ public class guiHelpers {
     			return s;
     		}
     	} else {
-    		// TODO convert to non-option based window
- 
     		JOptionPane.showMessageDialog(null,"Shallya has no Mercy for you!",
     			    "Message Dialog",JOptionPane.PLAIN_MESSAGE);
     	}
@@ -424,10 +430,10 @@ public class guiHelpers {
 		
 	}
 
-	public static Character editCharacter(Character character) {
+	public static Character editCharacter(final Character character) {
 		// editable attributes
 		System.out.println("editing character..");
-		String name = character.name;
+		final String name = character.name;
 		int age = character.age;
 		int height = character.height;
 		int weight = character.weight;
@@ -439,98 +445,220 @@ public class guiHelpers {
 		String marks = character.marks;
 		int siblings = character.siblings;
 		
-		// display GUI to modify the bits
-        JFrame editFrame = new JFrame("Editing "+name+" Characteristics");
-        editFrame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-        //editFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        editFrame.setSize(new Dimension(120, 140));
-        JPanel editPanel = new JPanel(); //new GridLayout(1, 2, 3, 4));
-        editPanel.setLayout(new GridBagLayout());
-        GridBagConstraints c = new GridBagConstraints();
-        c.fill = GridBagConstraints.HORIZONTAL;
+        Label Label;
+       
         
-        JLabel nameLabel = new JLabel("Name", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 1;
-    	c.gridwidth = 1;
-    	editPanel.add(nameLabel, c);
-        JLabel ageLabel = new JLabel("Age", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 2;
-    	c.gridwidth = 1;
-    	editPanel.add(ageLabel, c);
-        JLabel heightLabel = new JLabel("Height", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 3;
-    	c.gridwidth = 1;
-    	editPanel.add(heightLabel, c);
-        JLabel weightLabel = new JLabel("Weight", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 4;
-    	c.gridwidth = 1;
-    	editPanel.add(weightLabel, c);
-        JLabel haircolorLabel = new JLabel("Hair Color", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 5;
-    	c.gridwidth = 1;
-    	editPanel.add(haircolorLabel, c);
-        JLabel hairtypeLabel = new JLabel("Hair Type", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 6;
-    	c.gridwidth = 1;
-    	editPanel.add(hairtypeLabel, c);
-        JLabel eyecolorLabel = new JLabel("Eye Color", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 7;
-    	c.gridwidth = 1;
-    	editPanel.add(eyecolorLabel, c);
-        JLabel bpLabel = new JLabel("Birthplace", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 8;
-    	c.gridwidth = 1;
-    	editPanel.add(bpLabel, c);
-        JLabel ssLabel = new JLabel("Star Sign", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 9;
-    	c.gridwidth = 1;
-    	editPanel.add(ssLabel, c);
-        JLabel marksLabel = new JLabel("Marks", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 10;
-    	c.gridwidth = 1;
-    	editPanel.add(marksLabel, c);
-        JLabel siblingsLabel = new JLabel("Siblings", SwingConstants.LEFT);
-    	c.weightx = 0.5;
-    	c.gridx = 0;
-    	c.gridy = 11;
-    	c.gridwidth = 1;
-    	editPanel.add(siblingsLabel, c);
-    	
+		// display GUI to modify the bits
+        final JFrame editFrame = new JFrame("Editing "+name+" Characteristics");
+        //editFrame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);  // does nothing when x is pressed
+        //editFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // kills both windows
+        editFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        editFrame.setSize(new Dimension(120, 140));
+        //JPanel editPanel = new JPanel(); //new GridLayout(1, 2, 3, 4));
+        //editPanel.setLayout(new GridBagLayout());
+        //GridBagConstraints c = new GridBagConstraints();
+        //c.fill = GridBagConstraints.HORIZONTAL;
+        GridBagLayout gridbag = new GridBagLayout();
+        
+        GridBagConstraints constraints = new GridBagConstraints();
+        
+        editFrame.setLayout(gridbag);
+        
+        //  Name
+		Label = new Label("Name: ");
+		final TextField nameField = new TextField(40);
+		nameField.setText(name);
+        constraints.gridwidth = 1;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.fill = GridBagConstraints.HORIZONTAL;
+        gridbag.setConstraints(nameField, constraints);
+        editFrame.add(nameField);
+        
+	    //  Name
+		Label = new Label("Age: ");
+		final TextField ageField = new TextField(3);
+		ageField.setText(intsStrings.toString(age));
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(ageField, constraints);
+        editFrame.add(ageField);
+        
+    //  Height
+		Label = new Label("Height: ");
+		final TextField heightField = new TextField(5);
+		heightField.setText(intsStrings.toString(height));
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(heightField, constraints);
+        editFrame.add(heightField);
+        
+    //  Weight
+		Label = new Label("Weight: ");
+		final TextField weightField = new TextField(5);
+		weightField.setText(intsStrings.toString(weight));
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(weightField, constraints);
+        editFrame.add(weightField);
+        
+        //  eyecolor
+		Label = new Label("Eyecolor: ");
+		final TextField eyeField = new TextField(10);
+		eyeField.setText(eyecolor);
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(eyeField, constraints);
+        editFrame.add(eyeField);
+        
+        //  haircolor
+		Label = new Label("Hair Color: ");
+		final TextField hairField = new TextField(10);
+		hairField.setText(haircolor);
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(hairField, constraints);
+        editFrame.add(hairField);
+        
+        //  hairstyle
+		Label = new Label("Hair Style: ");
+		final TextField hairstyleField = new TextField(20);
+		hairstyleField.setText(hairtype);
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(hairstyleField, constraints);
+        editFrame.add(hairstyleField);
+        
+        //  Birthplace
+		Label = new Label("Birthplace: ");
+		final TextField birthField = new TextField(20);
+		birthField.setText(birthplace);
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(birthField, constraints);
+        editFrame.add(birthField);
+        
+        //  starsign
+		Label = new Label("Star Sign: ");
+		final TextField starField = new TextField(20);
+		starField.setText(starsign);
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(starField, constraints);
+        editFrame.add(starField);
+        
+        //  Marks
+		Label = new Label("Marks: ");
+		final TextField marksField = new TextField(20);
+        constraints.gridwidth = 1;
+        marksField.setText(marks);
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(marksField, constraints);
+        editFrame.add(marksField);
+        
+        //  siblings
+		Label = new Label("Siblings: ");
+		final TextField siblingsField = new TextField(3);
+		siblingsField.setText(intsStrings.toString(siblings));
+        constraints.gridwidth = 1;
+        constraints.fill = GridBagConstraints.NONE;
+        constraints.weightx = 0.0;
+        gridbag.setConstraints(Label, constraints);
+        editFrame.add(Label);
+        constraints.gridwidth = GridBagConstraints.REMAINDER;
+        constraints.weightx = 1.0;
+        gridbag.setConstraints(siblingsField, constraints);
+        editFrame.add(siblingsField);
     	
     	JButton saveCharacter = new JButton("Save");
-    	saveCharacter.addActionListener(null); //TODO
+    	ActionListener editAction = new ActionListener() {
+    		public void actionPerformed(ActionEvent event) {  
+
+    	    	System.out.println("new name: "+nameField.getText());
+    	    	System.out.println("new name: "+ageField.getText());
+    	    	System.out.println("new name: "+heightField.getText());
+    	    	System.out.println("new name: "+weightField.getText());
+    	    	System.out.println("new name: "+eyeField.getText());
+    	    	System.out.println("new name: "+hairField.getText());
+    	    	System.out.println("new name: "+hairstyleField.getText());
+    	    	System.out.println("new name: "+birthField.getText());
+    	    	System.out.println("new name: "+starField.getText());
+    	    	System.out.println("new name: "+marksField.getText());
+    	    	System.out.println("new name: "+siblingsField.getText());
+    	    	
+    	    	character.name = nameField.getText();
+    	    	character.age = intsStrings.toInt(ageField.getText());
+    	    	character.height = intsStrings.toInt(heightField.getText());
+    	    	character.weight = intsStrings.toInt(weightField.getText());
+    	    	character.eyecolor = eyeField.getText();
+    	    	character.haircolor = hairField.getText();
+    	    	character.hairtype = hairstyleField.getText();
+    	    	character.birthplace = birthField.getText();
+    	    	character.starsign = starField.getText();
+    	    	character.marks = marksField.getText();
+    	    	character.siblings = intsStrings.toInt(siblingsField.getText());
+    	    	
+    	    	editFrame.dispose();
+    		}
+    	};
     	
-    	editPanel.add(saveCharacter);
-    	editFrame.getContentPane().add(editPanel);
+		saveCharacter.addActionListener(editAction); //TODO
+    	
+    	editFrame.add(saveCharacter);
+    	//editFrame.getContentPane().add(editPanel);
     	//editFrame.getRootPane().setDefaultButton(save);
     	editFrame.pack();
         editFrame.setVisible(true);
-        
-        
-        
-		// TODO Auto-generated method stub
+       
 		return character;
 	}
+	
 
 	public static void showNotEnoughExp() {
 		String Message = "You do not have enough Exp"; 
