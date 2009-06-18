@@ -1,5 +1,12 @@
 = Known Issues/Change Log =
 
+== 6/18/2009 ==
+ * When all advances are taken, it now says "None" instead of "Select Attribute".
+ * removed debug output when birthplace is determined.
+ * cleaned up some error checking output.
+ * edit screen for characteristics - now displays all the edit-able stuff 
+    - new Bug - saved data does not display until something else is selected
+
 == 6/10/2009 ==
  * cleaned up the about screen
  * added an edit button
@@ -10,7 +17,7 @@
    the skills/talents/profile
  * added exp tracking left and total used
    - character XML has been modified - old characters will not work
-   unless <ExpUsed>SOME AMOUNT</ExpUsed> is added to the <Character> section
+   unless  <ExpUsed>SOME AMOUNT</ExpUsed> is added to the <Character> section
    - starting characters with 50,000 exp until something is written to
    allow the player to edit the exp field.
 
