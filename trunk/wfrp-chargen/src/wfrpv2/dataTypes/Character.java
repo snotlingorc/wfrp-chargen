@@ -52,7 +52,7 @@ public class Character {
 	
 	public void AddCareer(String career, boolean firstTime) {
 		// Load the career from the files
-		System.out.println("adding career "+career+" to "+this.name+"...");
+		//System.out.println("adding career "+career+" to "+this.name+"...");
 		Career myCareer = new Career();
 		myCareer = Career.initilizeCareer(career);
 		this.career = career;
@@ -112,8 +112,6 @@ public class Character {
 	                } else {
 	                	this.skills.add((String) mySkill);
 	                }
-	                
-	                //this = wfrpv2.helpers.GeneralFunctions.sortSkills(this);
 				} 
 				else {
 					this.available_skills.add((String) myCareer.skills.get(i));
@@ -140,17 +138,17 @@ public class Character {
 					if (wfrpv2.helpers.GeneralFunctions.checkForOR(Element)) {
 						// if OR found - check each part if found - remove from list
 						String[] ORS = Element.split(" OR ");
-						System.out.println("Checking for OR");
+						//System.out.println("Checking for OR");
 						for (int x =0; x<ORS.length; x++) {
-							System.out.println(ORS[x]+" vs "+ this.talents.get(j));
+							//System.out.println(ORS[x]+" vs "+ this.talents.get(j));
 							if (ORS[x].equals(this.talents.get(j))) {
-								System.out.println(ORS[x] +"matched");
+								//System.out.println(ORS[x] +"matched");
 								match = true;								
 								if (match) {
 									// remove from list
 									// get the length and rebuilt to String with all but x
 									if (firstTime) {
-										System.out.println("something "+ ORS[x] +" full "+ this.talents.get(j));
+										//System.out.println("something "+ ORS[x] +" full "+ this.talents.get(j));
 										//this.talents.add(GeneralFunctions.removeFromOR(ORS, this.talents.get(j)));
 									} else {
 										this.available_talents.add(GeneralFunctions.removeFromOR(ORS, this.talents.get(j)));
