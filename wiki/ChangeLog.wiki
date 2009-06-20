@@ -1,5 +1,10 @@
 = Known Issues/Change Log =
 
+== 6/20/2009 ==
+r36 release - http://code.google.com/p/wfrp-chargen/downloads/list
+ * editing characteristics now displays correctly when save is pressed. 
+ * editing is disabled until a pc is generated
+
 == 6/18/2009 ==
  * When all advances are taken, it now says "None" instead of "Select Attribute".
  * removed debug output when birthplace is determined.
