@@ -1,5 +1,11 @@
 = Known Issues/Change Log =
 
+== 6/21/2009 ==
+r38 released - http://code.google.com/p/wfrp-chargen/downloads/list
+ * editing panel now contains a way to enter experience points
+ * default character is now set back to 0 (from 50000) since you can edit it now
+ * compiled using java 1.5 since java 6 is not available for 32bit Macs
+
 == 6/20/2009 ==
 r36 release - http://code.google.com/p/wfrp-chargen/downloads/list
  * editing characteristics now displays correctly when save is pressed. 
