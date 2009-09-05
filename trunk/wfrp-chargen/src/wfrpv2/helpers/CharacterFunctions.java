@@ -36,7 +36,7 @@ public class CharacterFunctions {
 	static String genName(Race myRace, String gender) {
 		// read the name types from the xml and create the name
 		String file = System.getProperty("user.dir");
-		file = file.concat("/datafiles/Names/");
+		file = file.concat("/dataFiles/Names/");
 		file = file.concat(myRace.description);
 		String myName = "";
 		for (int i=0; i<myRace.name.size(); i++) {

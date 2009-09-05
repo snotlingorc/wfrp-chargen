@@ -265,7 +265,7 @@ public class frontend extends JPanel implements ActionListener {
     	p.gridwidth = 1;
     	purchasePanel.add(pMoneyLabel, p);
     	
-    	pExpLabel = new JLabel("Exp.Total");
+    	pExpLabel = new JLabel("Exp.Used");
     	p.weightx = 0.5;
     	p.gridx = 0;
     	p.gridy = 2;
@@ -563,6 +563,8 @@ public class frontend extends JPanel implements ActionListener {
    		}
    		
     	purchasePanel.remove(pExpChangeLabel);
+    	purchasePanel.validate();
+    	mainFrame.pack();
     	pExpChangeLabel = new JLabel(intsStrings.toString(character.expused));
     	p.weightx = 0.5;
     	p.gridx = 1;
@@ -571,12 +573,16 @@ public class frontend extends JPanel implements ActionListener {
     	purchasePanel.add(pExpChangeLabel, p);
     	
     	purchasePanel.remove(pExpLeftChangeLabel);
+    	purchasePanel.validate();
+    	mainFrame.pack();
     	pExpLeftChangeLabel = new JLabel(intsStrings.toString(character.exp));
     	p.weightx = 0.5;
     	p.gridx = 3;
     	p.gridy = 2;
     	p.gridwidth = 1;
     	purchasePanel.add(pExpLeftChangeLabel, p);
+    	
+    	purchasePanel.validate();
     	
     	mainFrame.pack();
     	
@@ -701,7 +707,7 @@ public class frontend extends JPanel implements ActionListener {
             gridbag.setConstraints(nameField, constraints);
             editFrame.add(nameField);
             
-    	    //  Name
+    	    //  Age
     		Label = new Label("Age: ");
     		final TextField ageField = new TextField(3);
     		ageField.setText(intsStrings.toString(character.age));
@@ -841,6 +847,20 @@ public class frontend extends JPanel implements ActionListener {
             gridbag.setConstraints(siblingsField, constraints);
             editFrame.add(siblingsField);
         	
+            //  Experience
+    		Label = new Label("Current Exp: ");
+    		final TextField expField = new TextField(3);
+    		expField.setText(intsStrings.toString(character.exp));
+            constraints.gridwidth = 1;
+            constraints.fill = GridBagConstraints.NONE;
+            constraints.weightx = 0.0;
+            gridbag.setConstraints(Label, constraints);
+            editFrame.add(Label);
+            constraints.gridwidth = GridBagConstraints.REMAINDER;
+            constraints.weightx = 1.0;
+            gridbag.setConstraints(expField, constraints);
+            editFrame.add(expField);
+            
         	JButton saveCharacter = new JButton("Save");
         	ActionListener editAction = new ActionListener() {
         		public void actionPerformed(ActionEvent event) {        	    	
@@ -855,6 +875,7 @@ public class frontend extends JPanel implements ActionListener {
         	    	character.starsign = starField.getText();
         	    	character.marks = marksField.getText();
         	    	character.siblings = intsStrings.toInt(siblingsField.getText());
+        	    	character.exp = intsStrings.toInt(expField.getText());
         	    	
         	    	editFrame.dispose();
         	    	displaySheet(character);

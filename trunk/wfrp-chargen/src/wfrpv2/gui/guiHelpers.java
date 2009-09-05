@@ -415,7 +415,7 @@ public class guiHelpers {
 	
 	// TODO  convert to a better looking gui
 	public static void showAbout() {
-		String Title = "WFRP-CharGen version beta r36\n";
+		String Title = "WFRP-CharGen version beta r38\n";
 		String Website = "http://code.google.com/p/wfrp-chargen/ \n";
 		String Disclaimer = "Warhammer and other Warhammer Fantasy Rople Play (and the Logo's) are \n" +
 				"(probably registered) trademarks of Games Workshop and/or Green Ronin and/or Black \n" +

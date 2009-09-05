@@ -35,7 +35,7 @@ public class Career {
 
 		XMLDocument XMLCareer = new XMLDocument("career");
 		String file = System.getProperty("user.dir");
-		file = file.concat("/datafiles/Career/"+ career + ".xml");
+		file = file.concat("/dataFiles/Career/"+ career + ".xml");
 
 		//System.out.println("Looking for file: " + file);
 		XMLCareer.setFileName(file);
