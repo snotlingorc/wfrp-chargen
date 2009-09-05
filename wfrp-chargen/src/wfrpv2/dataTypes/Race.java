@@ -209,7 +209,7 @@ public class Race {
 
 	public static String openRaceFile(String race) {
 		String file = System.getProperty("user.dir");
-		file = file.concat("/datafiles/profile" + race + ".xml");
+		file = file.concat("/dataFiles/profile" + race + ".xml");
 		return file;
 	}
 

@@ -24,7 +24,7 @@ public class Character {
 	public int age = 0;
 	public int height = 0;
 	public int weight = 0;
-	public int exp = 50000;
+	public int exp = 0;
 	public int expused = 0;
 	public String eyecolor = "Black";
 	public String haircolor = "Black";
