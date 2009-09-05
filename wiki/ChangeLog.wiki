@@ -1,5 +1,8 @@
 = Known Issues/Change Log =
 
+== 9/05/2009 ==
+ * fixed case issue with datafiles vs dataFiles (bug 14)
+
 == 6/21/2009 ==
 r38 released - http://code.google.com/p/wfrp-chargen/downloads/list
  * editing panel now contains a way to enter experience points
