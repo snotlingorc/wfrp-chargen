@@ -1,0 +1,9 @@
+#summary Addons for the Generator.
+
+= Addons =
+
+The Generator can support multiple kind of addons. The most common would be additional Races and Careers.
+
+
+= Races =
+ * Gnome Race has been added.  Information about the Gnomes is pulled from [http://www.greenronin.com/freeport/2007/11/grim_and_perilous_freeport.php Green Ronin]
