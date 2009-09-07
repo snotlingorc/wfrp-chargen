@@ -1,5 +1,9 @@
 = Known Issues/Change Log =
 
+== 9/06/2009 ==
+ * Names are no longer dependent on the gender in the file name.
+ * Names support multi elements, like Element1+Eelement2 equals a firstname.
+
 == 9/05/2009 ==
  * fixed case issue with datafiles vs dataFiles (bug 14)
 
