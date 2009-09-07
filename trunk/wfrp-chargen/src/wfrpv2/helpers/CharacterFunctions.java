@@ -3,6 +3,7 @@ package wfrpv2.helpers;
 
 import java.io.DataInput;
 import java.io.DataInputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilterInputStream;
 import java.io.IOException;
@@ -40,8 +41,49 @@ public class CharacterFunctions {
 		file = file.concat(myRace.description);
 		String myName = "";
 		for (int i=0; i<myRace.name.size(); i++) {
-			String NewFile = file.concat("."+gender+"."+myRace.name.get(i));
-			myName = myName+""+RandomLine(NewFile)+" ";
+			//TODO Name generation
+			// Read the name element and see if it has a ":" in it.
+			// if it does need to read elements for each : section
+			// Need to see if the gender+name exists as a file, else try name file (no gender)
+			// this will remove the duplicate entry.  If neither exists, no name is returned.
+			String namePart=myRace.name.get(i);
+			//now check for a : 
+			if (namePart.contains(":")) {
+				System.out.println("has a : ");
+				//Name has subparts
+				String[] Element = namePart.split(":");
+				for (int j=0; j<Element.length; j++) {
+					//get a name for each element part
+					File f = new File(file.concat("."+Element[j]));
+					if (f.exists()) {
+						String NewFile = f.toString();
+						myName = myName+""+RandomLine(NewFile);
+					} else { // try with the gender
+						f = new File(file.concat("."+gender+"."+Element[j]));
+						if (f.exists()) {
+							String NewFile = f.toString();
+							myName = myName+""+RandomLine(NewFile);	
+						} else { // nothing
+							System.out.println("No name file found.");
+						}
+					}
+				}   
+			} else {
+				//Name only has one element - get it
+				File f = new File(file.concat("."+namePart));
+				if (f.exists()) {
+					String NewFile = f.toString();
+					myName = myName+""+RandomLine(NewFile)+" ";
+				} else { // try with gender
+					f = new File(file.concat("."+gender+"."+namePart));
+					if (f.exists()) {
+						String NewFile = f.toString();
+						myName = myName+""+RandomLine(NewFile)+" ";
+					} else { // no name
+						System.out.println("No name file found.");
+					}
+				}
+			}
 		}
 		return myName.trim();
 	}
