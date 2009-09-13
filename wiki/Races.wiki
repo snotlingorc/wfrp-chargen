@@ -179,3 +179,30 @@ in this case, if you where to roll a d100 and got between 17 and 23, the weight 
 == A New Race ==
 To add a new race, simple use the file above and change to match your race.  Save the file
 in dataFiles under the name profileRace.xml  (repace the word "Race" with yours, example for an Orc character; profileOrc.xml).  The generator will look for it and list it as one of the races on the dropdown list.
+
+== Names ==
+Names can be in the form
+{{{
+  <Name>Firstname</Name>
+  <Name>Lastname</Name>
+}}}
+or something like
+{{{
+  <Name>Element1:Element2</Name>
+}}}
+
+With will take a name from the Element1 file, add it with a name from the element2 file and put them together.  
+
+The name files need to be called Race.Gender.Element1  or  Race.Element1
+
+The elves for example, have a more complex name:
+{{{
+  <Name>Element1:Connector:Element2</Name>
+}}}
+and has five files to support this name:
+ * Elf.Female.Element1
+ * Elf.Female.Element2
+ * Elf.Male.Element1
+ * Elf.Male.Element2
+ * Elf.Connector
+
