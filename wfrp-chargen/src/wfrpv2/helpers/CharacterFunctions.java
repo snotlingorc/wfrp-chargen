@@ -68,6 +68,7 @@ public class CharacterFunctions {
 						}
 					}
 				}   
+				myName = myName+" ";
 			} else {
 				//Name only has one element - get it
 				File f = new File(file.concat("."+namePart));
