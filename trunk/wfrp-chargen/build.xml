@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<!--
+Author: Mathew Anderson
+www.snotling.org
+
+
+This is the build script for warhammer pc generation.
+-->
+<project name="WFRP-CharGen" default="all.dist">
+        <description>
+                Build Script for warhammer character generation
+        </description>
+
+        <!-- =======================  ============================== -->
+        <property name="version" value="r38" />
+		<property name="base.dir" value="." />
+		<property name="src.dir" value="src" />
+        <property name="build.dir" value="build" />
+        <property name="dist.dir" value="dist" />
+		<property name="data.dir" value="dataFiles" />
+        <property name="jarfile" value="${build.dir}/wfrp-chargen.jar" />
+
+    <path id="project.class.path">
+            <pathelement path="${classpath}" />
+          <!--  <fileset dir="D:\\Program Files\\Java\\xalan-j_2_6_0\\bin\\"> -->
+    	  <fileset dir="${base.dir}">
+                <include name="**/lib/xercesImpl.jar" />
+            	<include name="**/lib/xalan.jar" />
+    	  		<include name="**/lib/xml-apis.jar" />
+    	  		<include name="**/lib/apache.jar" />
+            </fileset>
+            <pathelement location="${build.dir}" /> 
+    </path>
+
+	<property name="jar-all" location="lib" />
+	<fileset id="jars" dir="${jar-all}">
+	     <include name="*.jar" />
+	</fileset>
+	<path id="cp"> <fileset refid="jars" /> </path>
+    <pathconvert property="classpath" refid="cp"
+                 pathsep=" " dirsep="/">
+      <map from="${jar-all}" to="lib" />
+    </pathconvert>
+
+
+
+    <!-- =======================  ============================== -->
+
+    <target name="all.init">
+        <mkdir dir="${build.dir}" />
+        <mkdir dir="${dist.dir}" />
+    </target>
+
+    <!-- =======================  ============================== -->
+
+    <target name="all.compile" depends="all.init" description="Runs javac">
+        <javac srcdir="${src.dir}"
+               destdir="${build.dir}"
+               classpathref="project.class.path" 
+        	   executable="c:\Program Files\Java\jdk1.5.0_18\bin\javac.exe" />
+    </target>
+
+    <!-- =======================  ============================== -->
+
+    <target name="all.archive-mac"
+        depends="all.compile"
+        description="creates a jar file">
+
+	  <jar destfile="${jarfile}" 
+	      basedir="${build.dir}">
+	  	<include name="**/*.class"/>
+	  	<fileset dir="${base.dir}/lib"/>
+
+		<manifest>
+		      <attribute name="Main-Class" value="wfrpv2.gui.frontend"/>
+			<!--  <attribute name="Class-Path" value="${classpath}"/> -->
+
+		</manifest>
+	 </jar>
+   </target>
+
+    <target name="all.archive"
+        depends="all.compile"
+        description="creates a jar file">
+
+	  <jar destfile="${jarfile}" 
+	      basedir="${build.dir}">
+	  	<include name="**/*.class"/>
+	  	<include name="**/*.jar"/>
+
+		<manifest>
+		    <attribute name="Main-Class" value="wfrpv2.gui.frontend"/>
+			<attribute name="Class-Path" value="${classpath}"/>
+
+		</manifest>
+	 </jar>
+   </target>
+<!-- =======================  ============================== -->
+
+<target name="all.dist-mac" depends="all.archive">
+    <copy file="${jarfile}" todir="${dist.dir}" />
+    <copy todir="${dist.dir}/${data.dir}/">
+            <fileset dir="${base.dir}/${data.dir}/" />
+    </copy>
+   <!--	<copy todir="${dist.dir}/lib/">
+    	    <fileset dir="${base.dir}/lib/" />
+    </copy> -->
+	
+	  <zip destfile="${dist.dir}/wfrp-chargen-mac-${version}.zip"
+	       basedir="${dist.dir}"
+	  />
+</target>
+	
+	<target name="all.dist" depends="all.archive">
+	    <copy file="${jarfile}" todir="${dist.dir}" />
+	    <copy todir="${dist.dir}/${data.dir}/">
+	            <fileset dir="${base.dir}/${data.dir}/" />
+	    </copy>
+	   <copy todir="${dist.dir}/lib/">
+	    	    <fileset dir="${base.dir}/lib/" />
+	    </copy>
+		
+		  <zip destfile="${dist.dir}/wfrp-chargen-${version}.zip"
+		       basedir="${dist.dir}"
+		  />
+	</target>
+
+<!-- =======================  ============================== -->
+
+	    <target name="addon-Gnomes"
+	        depends=""
+	        description="creates the Gnome addon pack">
+	    	<zip destfile="${dist.dir}/wfrp-chargen-addon-gnomes.zip"
+	    		       basedir="${base.dir}/addons/Gnomes"
+	    	/>
+	   </target>
+	
+    <target name="addon-Ogre"
+        depends=""
+        description="creates the Ogre addon pack">
+    	<zip destfile="${dist.dir}/wfrp-chargen-addon-ogres.zip"
+    		       basedir="${base.dir}/addons/Ogres"
+    	/>
+   </target>
+<!-- =======================  ============================== -->
+<target name="all.clean" description="removes tmp files and dirs">
+    <delete dir="${build.dir}" />
+    <delete dir="dist" />
+    <delete file="${zipfile.path}" />
+    <delete file="${war}" />
+</target>
+
+</project>
