@@ -1,0 +1,9 @@
+Here is an example of the application when you launch it:
+
+http://wfrp-chargen.googlegroups.com/web/main_screen.png?gda=U4waRkEAAACoIOP3vpDzxsyMRWeJ_kuk74JqRolK3QR4dErDRX-R3fKgrYIWGmubSwotssE8kqBTCT_pCLcFTwcI3Sro5jAzlXFeCn-cdYleF-vtiGpWAA
+
+and the front and back of a character in it's second career:
+
+![http://groups.google.com/group/wfrp-chargen/web/front.png](http://groups.google.com/group/wfrp-chargen/web/front.png)
+
+![http://groups.google.com/group/wfrp-chargen/web/back.png](http://groups.google.com/group/wfrp-chargen/web/back.png)

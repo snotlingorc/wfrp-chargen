@@ -1,0 +1,86 @@
+# Known Issues/Change Log #
+
+## 9/13/2009 ##
+  * Dwarf and Elf names are checked in with the new format.
+
+## 9/06/2009 ##
+  * Names are no longer dependent on the gender in the file name.
+  * Names support multi elements, like Element1+Eelement2 equals a firstname.
+
+## 9/05/2009 ##
+  * fixed case issue with datafiles vs dataFiles ([bug 14](https://code.google.com/p/wfrp-chargen/issues/detail?id=4))
+
+## 6/21/2009 ##
+[r38](https://code.google.com/p/wfrp-chargen/source/detail?r=38) released - http://code.google.com/p/wfrp-chargen/downloads/list
+  * editing panel now contains a way to enter experience points
+  * default character is now set back to 0 (from 50000) since you can edit it now
+  * compiled using java 1.5 since java 6 is not available for 32bit Macs
+
+## 6/20/2009 ##
+[r36](https://code.google.com/p/wfrp-chargen/source/detail?r=36) release - http://code.google.com/p/wfrp-chargen/downloads/list
+  * editing characteristics now displays correctly when save is pressed.
+  * editing is disabled until a pc is generated
+
+## 6/18/2009 ##
+  * When all advances are taken, it now says "None" instead of "Select Attribute".
+  * removed debug output when birthplace is determined.
+  * cleaned up some error checking output.
+  * edit screen for characteristics - now displays all the edit-able stuff
+> > - new Bug - saved data does not display until something else is selected
+
+## 6/10/2009 ##
+  * cleaned up the about screen
+  * added an edit button
+  * dropdown list for skills/talents no longer resize depending
+> > on the length of the item.  Mouseovers show what is all inside
+  * a character now gets the skills/talents of the first career
+  * bug - where if you select "none" or "select skill" - they get added to
+> > the skills/talents/profile
+  * added exp tracking left and total used
+> > - character XML has been modified - old characters will not work
+> > unless  
+
+&lt;ExpUsed&gt;
+
+SOME AMOUNT
+
+&lt;/ExpUsed&gt;
+
+ is added to the 
+
+&lt;Character&gt;
+
+ section
+> > - starting characters with 50,000 exp until something is written to
+> > allow the player to edit the exp field.
+
+## 5/24/2009 ##
+Typo in Demagogue career fixed
+
+Skills/Talents now check inside an OR for a matching skill and does not display if you have 3 of the same Skill or the talent already - [Issue 6](https://code.google.com/p/wfrp-chargen/issues/detail?id=6)
+
+Started the About button
+
+
+## 5/23/2009 ##
+[r15](https://code.google.com/p/wfrp-chargen/source/detail?r=15) release - http://code.google.com/p/wfrp-chargen/downloads/list
+
+Changes:
+Save/Load now work
+
+Printing has been stubbed out
+
+> - printing prints to the console window
+
+Shallya's Mercy has been added
+
+Talents/Skills are now sorted when a new one is added.
+Talents/Skills now stack correctly
+
+"ANY" in skills now works - needs a little more testing but the first
+few runs seemed to be ok
+
+
+## 5/5/2009 ##
+
+  * Wounds/Fate are not caculated - Issue number 3 - Fixed Checkin 17 on 5/5/2009
